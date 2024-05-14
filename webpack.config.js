@@ -21,7 +21,7 @@ module.exports = (env, {mode}) => {
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: pathData =>
-        pathData.chunk.name === 'ovp' || pathData.chunk.name === 'ott' ? 'playkit-[name]-provider.js' : 'playkit-[name]-service.js',
+        pathData.chunk.name === 'ovp' || pathData.chunk.name === 'ott' ? 'playchi-[name]-provider.js' : 'playchi-[name]-service.js',
       libraryTarget: 'umd',
       clean: true
     },

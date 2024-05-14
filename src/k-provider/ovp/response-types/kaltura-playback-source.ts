@@ -1,8 +1,8 @@
-import {KalturaDrmPlaybackPluginData} from '../../common/response-types/kaltura-drm-playback-plugin-data';
+import {TasvirchiDrmPlaybackPluginData} from '../../common/response-types/tasvirchi-drm-playback-plugin-data';
 
-export type OVPKalturaPlaybackSource = KalturaPlaybackSource;
+export type OVPTasvirchiPlaybackSource = TasvirchiPlaybackSource;
 
-export class KalturaPlaybackSource {
+export class TasvirchiPlaybackSource {
   /**
    * @member - source format according to delivery profile streamer type (applehttp, mpegdash etc.)
    * @type {string}
@@ -30,9 +30,9 @@ export class KalturaPlaybackSource {
   public flavorIds: string;
   /**
    * @member - drm data object containing relevant license url ,scheme name and certificate
-   * @type {Array<KalturaDrmPlaybackPluginData>}
+   * @type {Array<TasvirchiDrmPlaybackPluginData>}
    */
-  public drm: Array<KalturaDrmPlaybackPluginData> = [];
+  public drm: Array<TasvirchiDrmPlaybackPluginData> = [];
 
   /**
    * @constructor
@@ -45,7 +45,7 @@ export class KalturaPlaybackSource {
     this.protocols = source.protocols;
     this.flavorIds = source.flavorIds;
     if (source.drm) {
-      source.drm.map(drm => this.drm.push(new KalturaDrmPlaybackPluginData(drm)));
+      source.drm.map(drm => this.drm.push(new TasvirchiDrmPlaybackPluginData(drm)));
     }
   }
 

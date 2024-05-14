@@ -1,7 +1,7 @@
 import getLogger from '../../util/logger';
 import OVPConfiguration from './config';
 import OVPProviderParser from './provider-parser';
-import {KalturaMediaEntry} from './response-types';
+import {TasvirchiMediaEntry} from './response-types';
 import OVPMediaEntryLoader from './loaders/media-entry-loader';
 import OVPSessionLoader from './loaders/session-loader';
 import OVPDataLoaderManager from './loaders/data-loader-manager';
@@ -47,25 +47,25 @@ export default class OVPProvider extends BaseProvider<OVPProviderMediaInfoObject
    * @returns {Promise<ProviderMediaConfigObject>} - The provider media config
    */
   public getMediaConfig(mediaInfo: OVPProviderMediaInfoObject): Promise<ProviderMediaConfigObject> {
-    if (mediaInfo.ks) {
-      this.ks = mediaInfo.ks;
+    if (mediaInfo.ts) {
+      this.ts = mediaInfo.ts;
       this._isAnonymous = false;
     }
     if (this.widgetId !== this.defaultWidgetId) {
       this._isAnonymous = false;
     }
-    this._dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, this.ks, this._networkRetryConfig);
+    this._dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, this.ts, this._networkRetryConfig);
     return new Promise((resolve, reject) => {
       const entryId = mediaInfo.entryId;
       const referenceId = mediaInfo.referenceId;
       if (entryId || referenceId) {
-        let ks: string = this.ks;
-        if (!ks) {
-          ks = '{1:result:ks}';
+        let ts: string = this.ts;
+        if (!ts) {
+          ts = '{1:result:ts}';
           this._dataLoader.add(OVPSessionLoader, {widgetId: this.widgetId});
         }
         const redirectFromEntryId = this._getEntryRedirectFilter(mediaInfo);
-        this._dataLoader.add(OVPMediaEntryLoader, {entryId, ks, redirectFromEntryId, referenceId});
+        this._dataLoader.add(OVPMediaEntryLoader, {entryId, ts, redirectFromEntryId, referenceId});
         return this._dataLoader.fetchData().then(
           response => {
             try {
@@ -85,18 +85,18 @@ export default class OVPProvider extends BaseProvider<OVPProviderMediaInfoObject
     });
   }
 
-  public doRequest(loaders: Array<RequestLoader>, ks?: string, requestsMustSucceed?: boolean): Promise<any> {
-    const theKs: string = ks || this.ks;
-    const dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, theKs, this._networkRetryConfig);
+  public doRequest(loaders: Array<RequestLoader>, ts?: string, requestsMustSucceed?: boolean): Promise<any> {
+    const theTs: string = ts || this.ts;
+    const dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, theTs, this._networkRetryConfig);
 
     return new Promise((resolve, reject) => {
-      if (!theKs) {
+      if (!theTs) {
         dataLoader.add(OVPSessionLoader, {widgetId: this.widgetId});
       }
       loaders.forEach((loaderRequest: RequestLoader) => {
         // eslint-disable-next-line  @typescript-eslint/ban-ts-comment
         // @ts-ignore
-        dataLoader.add(loaderRequest.loader, loaderRequest.params, theKs || '{1:result:ks}');
+        dataLoader.add(loaderRequest.loader, loaderRequest.params, theTs || '{1:result:ts}');
       });
       return dataLoader.fetchData(requestsMustSucceed).then(
         response => {
@@ -146,13 +146,13 @@ export default class OVPProvider extends BaseProvider<OVPProviderMediaInfoObject
       if (data.has(OVPSessionLoader.id)) {
         const sessionLoader = data.get(OVPSessionLoader.id);
         if (sessionLoader && sessionLoader.response) {
-          mediaConfig.session.ks = sessionLoader.response;
+          mediaConfig.session.ts = sessionLoader.response;
           if (this.widgetId !== this.defaultWidgetId) {
-            this.ks = mediaConfig.session.ks!;
+            this.ts = mediaConfig.session.ts!;
           }
         }
       } else {
-        mediaConfig.session.ks = this.ks;
+        mediaConfig.session.ts = this.ts;
       }
       if (data.has(OVPMediaEntryLoader.id)) {
         const mediaLoader = data.get(OVPMediaEntryLoader.id);
@@ -164,11 +164,11 @@ export default class OVPProvider extends BaseProvider<OVPProviderMediaInfoObject
               messages: OVPProviderParser.getErrorMessages(response)
             });
           }
-          const mediaEntry = OVPProviderParser.getMediaEntry(this.isAnonymous ? '' : this.ks, this.partnerId, this.uiConfId, response);
+          const mediaEntry = OVPProviderParser.getMediaEntry(this.isAnonymous ? '' : this.ts, this.partnerId, this.uiConfId, response);
           Object.assign(mediaConfig.sources, this._getSourcesObject(mediaEntry));
           this._verifyMediaStatus(mediaEntry);
           this._verifyHasSources(mediaConfig.sources);
-          const bumper = OVPProviderParser.getBumper(response, this.isAnonymous ? '' : this.ks, this.partnerId);
+          const bumper = OVPProviderParser.getBumper(response, this.isAnonymous ? '' : this.ts, this.partnerId);
           if (bumper) {
             Object.assign(mediaConfig.plugins, {bumper});
           }
@@ -180,12 +180,12 @@ export default class OVPProvider extends BaseProvider<OVPProviderMediaInfoObject
   }
 
   /**
-   * Checks if media is ready for playback (not being imported or converted)
+   * Chects if media is ready for playback (not being imported or converted)
    * @param {MediaEntry} mediaEntry - the media entry info
    * @returns {void}
    */
   private _verifyMediaStatus(mediaEntry: MediaEntry): void {
-    if ([KalturaMediaEntry.EntryStatus.IMPORT, KalturaMediaEntry.EntryStatus.PRECONVERT].includes(mediaEntry.status!)) {
+    if ([TasvirchiMediaEntry.EntryStatus.IMPORT, TasvirchiMediaEntry.EntryStatus.PRECONVERT].includes(mediaEntry.status!)) {
       throw new Error(Error.Severity.CRITICAL, Error.Category.SERVICE, Error.Code.MEDIA_STATUS_NOT_READY, {
         messages: `Status of entry id ${mediaEntry.id} is ${mediaEntry.status} and is still being imported or converted`,
         data: {status}
@@ -198,23 +198,23 @@ export default class OVPProvider extends BaseProvider<OVPProviderMediaInfoObject
    * @returns {Promise<ProviderPlaylistObject>} - The provider playlist config
    */
   public getPlaylistConfig(playlistInfo: ProviderPlaylistInfoObject): Promise<ProviderPlaylistObject> {
-    if (playlistInfo.ks) {
-      this.ks = playlistInfo.ks;
+    if (playlistInfo.ts) {
+      this.ts = playlistInfo.ts;
       this._isAnonymous = false;
     }
     if (this.widgetId !== this.defaultWidgetId) {
       this._isAnonymous = false;
     }
-    this._dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, this.ks, this._networkRetryConfig);
+    this._dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, this.ts, this._networkRetryConfig);
     return new Promise((resolve, reject) => {
       const playlistId = playlistInfo.playlistId;
       if (playlistId) {
-        let ks: string = this.ks;
-        if (!ks) {
-          ks = '{1:result:ks}';
+        let ts: string = this.ts;
+        if (!ts) {
+          ts = '{1:result:ts}';
           this._dataLoader.add(OVPSessionLoader, {widgetId: this.widgetId});
         }
-        this._dataLoader.add(OVPPlaylistLoader, {playlistId, ks});
+        this._dataLoader.add(OVPPlaylistLoader, {playlistId, ts});
         this._dataLoader.fetchData().then(
           response => {
             resolve(this._parsePlaylistDataFromResponse(response));
@@ -254,24 +254,24 @@ export default class OVPProvider extends BaseProvider<OVPProviderMediaInfoObject
    * @returns {Promise<ProviderPlaylistObject>} - The provider playlist config
    */
   public getEntryListConfig(entryListInfo: ProviderEntryListObject): Promise<ProviderPlaylistObject> {
-    if (entryListInfo.ks) {
-      this.ks = entryListInfo.ks;
+    if (entryListInfo.ts) {
+      this.ts = entryListInfo.ts;
       this._isAnonymous = false;
     }
     if (this.widgetId !== this.defaultWidgetId) {
       this._isAnonymous = false;
     }
-    this._dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, this.ks, this._networkRetryConfig);
+    this._dataLoader = new OVPDataLoaderManager(this.playerVersion, this.partnerId, this.ts, this._networkRetryConfig);
     return new Promise((resolve, reject) => {
       const entries = entryListInfo.entries;
       if (entries && entries.length) {
-        let ks: string = this.ks;
-        if (!ks) {
-          ks = '{1:result:ks}';
+        let ts: string = this.ts;
+        if (!ts) {
+          ts = '{1:result:ts}';
           this._dataLoader.add(OVPSessionLoader, {widgetId: this.widgetId});
         }
         const redirectFromEntryId = this._getEntryRedirectFilter(entryListInfo);
-        this._dataLoader.add(OVPEntryListLoader, {entries, ks, redirectFromEntryId});
+        this._dataLoader.add(OVPEntryListLoader, {entries, ts, redirectFromEntryId});
         this._dataLoader.fetchData(false).then(
           response => {
             resolve(this._parseEntryListDataFromResponse(response));

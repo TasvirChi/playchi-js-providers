@@ -1,7 +1,7 @@
 import RequestBuilder from '../../../util/request-builder';
 import OVPConfiguration from '../config';
 import OVPBaseEntryService from '../services/base-entry-service';
-import {KalturaBaseEntryListResponse} from '../response-types/kaltura-base-entry-list-response';
+import {TasvirchiBaseEntryListResponse} from '../response-types/tasvirchi-base-entry-list-response';
 import {ILoader} from '../../../types';
 
 export default class OVPEntryListLoader implements ILoader {
@@ -31,9 +31,9 @@ export default class OVPEntryListLoader implements ILoader {
   }
 
   public set response(response: any) {
-    let mediaEntryResponse: KalturaBaseEntryListResponse;
+    let mediaEntryResponse: TasvirchiBaseEntryListResponse;
     response.forEach(item => {
-      mediaEntryResponse = new KalturaBaseEntryListResponse(item.data);
+      mediaEntryResponse = new TasvirchiBaseEntryListResponse(item.data);
       this._response.playlistItems.entries.push(mediaEntryResponse.entries[0]);
     });
   }
@@ -53,7 +53,7 @@ export default class OVPEntryListLoader implements ILoader {
     const config = OVPConfiguration.get();
     const requests: Array<RequestBuilder> = [];
     params.entries.forEach(entry => {
-      requests.push(OVPBaseEntryService.list(config.serviceUrl, params.ks, entry.entryId || entry, params.redirectFromEntryId, entry.referenceId));
+      requests.push(OVPBaseEntryService.list(config.serviceUrl, params.ts, entry.entryId || entry, params.redirectFromEntryId, entry.referenceId));
     });
     return requests;
   }

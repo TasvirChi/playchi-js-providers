@@ -8,7 +8,7 @@ Configuration parameters are provided upon instantiation of the provider instanc
 var config = {
   // Configuration here
 };
-var provider = new playkit.providers.ovp.Provider(config);
+var provider = new playchi.providers.ovp.Provider(config);
 ```
 
 #### Cloud TV
@@ -17,7 +17,7 @@ var provider = new playkit.providers.ovp.Provider(config);
 var config = {
   // Configuration here
 };
-var provider = new playkit.providers.ott.Provider(config);
+var provider = new playchi.providers.ott.Provider(config);
 ```
 
 ### Configuration Structure
@@ -26,13 +26,13 @@ var provider = new playkit.providers.ott.Provider(config);
 {
   partnerId: number,
   logger?: LoggerType, // optional
-  ks: string, // optional
+  ts: string, // optional
   uiConfId: number, // optional
   env: ProviderEnvConfigObject, // optional
   networkRetryParameters: ProviderNetworkRetryParameters, // optional
   filterOptions: ProviderFilterOptionsObject, // optional
   ignoreServerConfig: boolean, // optional
-  loadThumbnailWithKs: boolean // optional
+  loadThumbnailWithTs: boolean // optional
 }
 ```
 
@@ -70,13 +70,13 @@ var provider = new playkit.providers.ott.Provider(config);
 
 ##
 
-> ### config.ks
+> ### config.ts
 >
 > ##### Type: `string`
 >
 > ##### Default: `''`
 >
-> ##### Description: Defines the customer's unique KS.
+> ##### Description: Defines the customer's unique TS.
 
 ##
 
@@ -109,8 +109,8 @@ var provider = new playkit.providers.ott.Provider(config);
 >
 > ```js
 > {
->  serviceUrl: "//www.kaltura.com/api_v3",
->  cdnUrl: "//cdnapisec.kaltura.com",
+>  serviceUrl: "//www.tasvirchi.com/api_v3",
+>  cdnUrl: "//cdnapisec.tasvirchi.com",
 >  useApiCaptions: true,
 >  replaceHostOnlyManifestUrls: false
 > }
@@ -120,8 +120,8 @@ var provider = new playkit.providers.ott.Provider(config);
 >
 > ```js
 > {
->  serviceUrl: "//api-preprod.ott.kaltura.com/v4_6/api_v3",
->  cdnUrl: "//api-preprod.ott.kaltura.com/v4_7"
+>  serviceUrl: "//api-preprod.ott.tasvirchi.com/v4_6/api_v3",
+>  cdnUrl: "//api-preprod.ott.tasvirchi.com/v4_7"
 > }
 > ```
 >
@@ -215,10 +215,10 @@ var provider = new playkit.providers.ott.Provider(config);
 
 > ##
 >
-> ### config.loadThumbnailWithKs
+> ### config.loadThumbnailWithTs
 >
 > ##### Type: `boolean`
 >
 > ##### Default: `false`
 >
-> ##### Description: Defines whether to add KS to OVP thumbnail API request or not.>
+> ##### Description: Defines whether to add TS to OVP thumbnail API request or not.>

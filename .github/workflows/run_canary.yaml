@@ -9,8 +9,8 @@ on:
 
 jobs:
   canary:
-    if: ${{ github.actor != 'PlaykitJs-Bot' }}
-    uses: kaltura/playkit-js-common/.github/workflows/canary_dependency.yaml@master
+    if: ${{ github.actor != 'PlaychiJs-Bot' }}
+    uses: tasvirchi/playchi-js-common/.github/workflows/canary_dependency.yaml@master
     secrets: inherit
     with:
       node-version: '20.x'

@@ -9,12 +9,12 @@ export default class OTTBookmarkService extends OTTService {
    * Creates an instance of RequestBuilder for session.startWidgetSession
    * @function add
    * @param {string} serviceUrl - The service url
-   * @param {string} ks - The ks
+   * @param {string} ts - The ts
    * @param {Object} bookmark - The udid
    * @returns {RequestBuilder} - The request builder
    * @static
    */
-  public static add(serviceUrl: string, ks: string, bookmark: any): RequestBuilder {
+  public static add(serviceUrl: string, ts: string, bookmark: any): RequestBuilder {
     const headers: Map<string, string> = new Map();
     headers.set('Content-Type', 'application/json');
     const request = new RequestBuilder(headers);
@@ -23,7 +23,7 @@ export default class OTTBookmarkService extends OTTService {
     request.method = 'POST';
     request.url = request.getUrl(serviceUrl);
     const playerData: any = {
-      objectType: 'KalturaBookmarkPlayerData',
+      objectType: 'TasvirchiBookmarkPlayerData',
       action: bookmark.playerData.action,
       averageBitrate: bookmark.playerData.averageBitrate,
       totalBitrate: bookmark.playerData.totalBitrate,
@@ -31,7 +31,7 @@ export default class OTTBookmarkService extends OTTService {
       fileId: bookmark.playerData.fileId
     };
     const bookmarkServiceParams: any = {
-      objectType: 'KalturaBookmark',
+      objectType: 'TasvirchiBookmark',
       type: bookmark.type,
       context: bookmark.context,
       id: bookmark.id,
@@ -41,7 +41,7 @@ export default class OTTBookmarkService extends OTTService {
     if (bookmark.programId) bookmarkServiceParams.programId = bookmark.programId;
     const config = OTTConfiguration.get();
     const serviceParams = config.serviceParams;
-    Object.assign(serviceParams, {bookmark: bookmarkServiceParams, ks: ks});
+    Object.assign(serviceParams, {bookmark: bookmarkServiceParams, ts: ts});
     request.params = JSON.stringify(serviceParams);
     return request;
   }

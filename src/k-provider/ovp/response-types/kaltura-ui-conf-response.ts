@@ -1,6 +1,6 @@
 import ServiceResult from '../../common/base-service-result';
 
-export class KalturaUIConfResponse extends ServiceResult {
+export class TasvirchiUIConfResponse extends ServiceResult {
   public static Type: {[type: string]: number} = {
     PLAYER: 1,
     CONTRIBUTION_WIZARD: 2,
@@ -8,20 +8,20 @@ export class KalturaUIConfResponse extends ServiceResult {
     ADVANCED_EDITOR: 4,
     PLAYLIST: 5,
     APP_STUDIO: 6,
-    KRECORD: 7,
+    TRECORD: 7,
     PLAYER_V3: 8,
-    KMC_ACCOUNT: 9,
-    KMC_ANALYTICS: 10,
-    KMC_CONTENT: 11,
-    KMC_DASHBOARD: 12,
-    KMC_LOGIN: 13,
+    TMC_ACCOUNT: 9,
+    TMC_ANALYTICS: 10,
+    TMC_CONTENT: 11,
+    TMC_DASHBOARD: 12,
+    TMC_LOGIN: 13,
     PLAYER_SL: 14,
     CLIENTSIDE_ENCODER: 15,
-    KMC_GENERAL: 16,
-    KMC_ROLES_AND_PERMISSIONS: 17,
+    TMC_GENERAL: 16,
+    TMC_ROLES_AND_PERMISSIONS: 17,
     CLIPPER: 18,
-    KSR: 19,
-    KUPLOAD: 20,
+    TSR: 19,
+    TUPLOAD: 20,
     WEBCASTING: 21
   };
 

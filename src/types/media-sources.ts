@@ -1,7 +1,7 @@
 import {ImageSource} from '../entities/image-source';
 import {DocumentSource} from '../entities/document-source';
 import {ProviderMediaSourceObject} from './media-source';
-import {PKExternalCaptionObject} from './external-caption-object';
+import {PCExternalCaptionObject} from './external-caption-object';
 
 export type ProviderMediaSourcesObject = {
   progressive: Array<ProviderMediaSourceObject>;
@@ -9,5 +9,5 @@ export type ProviderMediaSourcesObject = {
   hls: Array<ProviderMediaSourceObject>;
   image: Array<ImageSource>;
   document: Array<DocumentSource>;
-  captions?: Array<PKExternalCaptionObject>;
+  captions?: Array<PCExternalCaptionObject>;
 };

@@ -2,7 +2,7 @@ import MediaSource from './media-source';
 import {MediaFormat} from './media-format';
 import {ImageSource} from './image-source';
 import {DocumentSource} from './document-source';
-import {PKExternalCaptionObject, ProviderMediaFormatType, ProviderMediaSourcesObject} from '../types';
+import {PCExternalCaptionObject, ProviderMediaFormatType, ProviderMediaSourcesObject} from '../types';
 
 export default class MediaSources {
   /**
@@ -25,7 +25,7 @@ export default class MediaSources {
   public hls: Array<MediaSource>;
   public image: Array<ImageSource>;
   public document: Array<DocumentSource>;
-  public captions?: Array<PKExternalCaptionObject>;
+  public captions?: Array<PCExternalCaptionObject>;
 
   /**
    * @constructor

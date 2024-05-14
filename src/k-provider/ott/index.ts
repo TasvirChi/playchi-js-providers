@@ -1,6 +1,6 @@
 import OTTProvider from './provider';
-import KalturaPlaybackContext from './response-types/kaltura-playback-context';
-import KalturaAsset from './response-types/kaltura-asset';
+import TasvirchiPlaybackContext from './response-types/tasvirchi-playback-context';
+import TasvirchiAsset from './response-types/tasvirchi-asset';
 
 declare let __VERSION__: string;
 declare let __NAME__: string;
@@ -8,7 +8,7 @@ declare let __NAME__: string;
 const NAME = __NAME__ + '-ott';
 const VERSION = __VERSION__;
 
-const ContextType = KalturaPlaybackContext.Type;
-const MediaType = KalturaAsset.Type;
+const ContextType = TasvirchiPlaybackContext.Type;
+const MediaType = TasvirchiAsset.Type;
 
 export {OTTProvider as Provider, ContextType, MediaType, NAME, VERSION};

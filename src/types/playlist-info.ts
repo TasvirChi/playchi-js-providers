@@ -1,4 +1,4 @@
 export type ProviderPlaylistInfoObject = {
   playlistId: string;
-  ks?: string;
+  ts?: string;
 };

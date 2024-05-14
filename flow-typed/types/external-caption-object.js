@@ -1,5 +1,5 @@
 // @flow
-declare type PKExternalCaptionObject = {
+declare type PCExternalCaptionObject = {
   url: string,
   label: string,
   language: string,

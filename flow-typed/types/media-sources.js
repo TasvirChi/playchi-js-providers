@@ -6,5 +6,5 @@ declare type ProviderMediaSourcesObject = {
   dash: Array<ProviderMediaSourceObject>,
   hls: Array<ProviderMediaSourceObject>,
   image: Array<ImageSource>,
-  captions?: Array<PKExternalCaptionObject>
+  captions?: Array<PCExternalCaptionObject>
 };

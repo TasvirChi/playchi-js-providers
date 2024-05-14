@@ -1,14 +1,14 @@
 import OVPProviderParser from '../../../../src/k-provider/ovp/provider-parser';
-import {KalturaPlaybackContext} from '../../../../src/k-provider/ovp/response-types/kaltura-playback-context';
+import {TasvirchiPlaybackContext} from '../../../../src/k-provider/ovp/response-types/tasvirchi-playback-context';
 import {
-  kalturaDashSource,
-  kalturaProgressiveSourceNotSecured,
-  kalturaProgressiveSourceSecured,
-  kalturaProgressiveMultiProtocol,
-  kalturaProgressiveSourceFlavorAssets,
-  kalturaDashSourceFlavorAssets,
-  kalturaSourceProtocolMismatch,
-  kalturaSourceProtocolMismatchFlavorAssets
+  tasvirchiDashSource,
+  tasvirchiProgressiveSourceNotSecured,
+  tasvirchiProgressiveSourceSecured,
+  tasvirchiProgressiveMultiProtocol,
+  tasvirchiProgressiveSourceFlavorAssets,
+  tasvirchiDashSourceFlavorAssets,
+  tasvirchiSourceProtocolMismatch,
+  tasvirchiSourceProtocolMismatchFlavorAssets
 } from './playback-sources-data';
 import {youtubeMediaEntryResult, youtubeMediaEntryData, liveMediaEntryData} from './provider-parser-data';
 
@@ -24,28 +24,28 @@ describe('provider parser', function () {
   });
   describe('_parseAdaptiveSource', () => {
     it('should return a valid adaptive source for a valid input', () => {
-      const context = new KalturaPlaybackContext({});
-      context.flavorAssets = kalturaDashSourceFlavorAssets;
-      const adaptiveSource = OVPProviderParser._parseAdaptiveSource(kalturaDashSource, context, 'myKS', '4321', 1234, 1234);
+      const context = new TasvirchiPlaybackContext({});
+      context.flavorAssets = tasvirchiDashSourceFlavorAssets;
+      const adaptiveSource = OVPProviderParser._parseAdaptiveSource(tasvirchiDashSource, context, 'myTS', '4321', 1234, 1234);
       adaptiveSource.should.exist;
       adaptiveSource.id.should.equal('1234_911,mpegdash');
       adaptiveSource.mimetype.should.equal('application/dash+xml');
       adaptiveSource.url.should.be.a('string');
     });
     it('should return null if play url is empty', () => {
-      const context = new KalturaPlaybackContext({});
-      context.flavorAssets = kalturaSourceProtocolMismatchFlavorAssets;
-      const adaptiveSource = OVPProviderParser._parseAdaptiveSource(kalturaSourceProtocolMismatch, context, 'myKS', 4321, 1234, 1234);
+      const context = new TasvirchiPlaybackContext({});
+      context.flavorAssets = tasvirchiSourceProtocolMismatchFlavorAssets;
+      const adaptiveSource = OVPProviderParser._parseAdaptiveSource(tasvirchiSourceProtocolMismatch, context, 'myTS', 4321, 1234, 1234);
       (adaptiveSource === null).should.be.true;
     });
   });
   describe('_parseProgressiveSource', () => {
     it('should return a valid progressive sources when getting separate http/s', () => {
-      const context = new KalturaPlaybackContext({});
-      context.flavorAssets = kalturaProgressiveSourceFlavorAssets;
+      const context = new TasvirchiPlaybackContext({});
+      context.flavorAssets = tasvirchiProgressiveSourceFlavorAssets;
       const progressiveSource = OVPProviderParser._getParsedSources(
-        [kalturaProgressiveSourceNotSecured, kalturaProgressiveSourceSecured],
-        'myKS',
+        [tasvirchiProgressiveSourceNotSecured, tasvirchiProgressiveSourceSecured],
+        'myTS',
         1234,
         1234,
         {
@@ -57,11 +57,11 @@ describe('provider parser', function () {
       progressiveSource.progressive[0].id.should.equal('0_5407xm9j19951,url');
     });
     it('should return a valid progressive source for a valid input', () => {
-      const context = new KalturaPlaybackContext({});
-      context.flavorAssets = kalturaProgressiveSourceFlavorAssets;
+      const context = new TasvirchiPlaybackContext({});
+      context.flavorAssets = tasvirchiProgressiveSourceFlavorAssets;
       const progressiveSource = OVPProviderParser._getParsedSources(
-        [kalturaProgressiveMultiProtocol],
-        'myKS',
+        [tasvirchiProgressiveMultiProtocol],
+        'myTS',
         1234,
         1234,
         {

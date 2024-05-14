@@ -1,6 +1,6 @@
 {
-  "name": "@playkit-js/playkit-js-providers/bookmark-service",
-  "main": "../dist/playkit-bookmark-service.js",
+  "name": "@playchi-js/playchi-js-providers/bookmark-service",
+  "main": "../dist/playchi-bookmark-service.js",
   "types": "../dist/bookmark-service.d.ts",
   "sideEffects": false
 }

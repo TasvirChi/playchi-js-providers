@@ -6,4 +6,4 @@ coverage
 lib
 api-extractor/report/
 api-extractor/report-temp/
-api-extractor/playkit-js-providers.api.json
+api-extractor/playchi-js-providers.api.json

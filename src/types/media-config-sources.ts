@@ -1,7 +1,7 @@
 import {ImageSource} from '../entities/image-source';
 import {DocumentSource} from '../entities/document-source';
 import {ProviderMediaConfigMetadataObject} from './media-config-metadata';
-import {PKExternalCaptionObject} from './external-caption-object';
+import {PCExternalCaptionObject} from './external-caption-object';
 import {ProviderMediaSourceObject} from './media-source';
 
 export type ProviderMediaConfigSourcesObject = {
@@ -17,6 +17,6 @@ export type ProviderMediaConfigSourcesObject = {
   dvr: boolean;
   vr?: any;
   metadata: ProviderMediaConfigMetadataObject;
-  captions?: Array<PKExternalCaptionObject>;
+  captions?: Array<PCExternalCaptionObject>;
   downloadUrl?: string;
 };

@@ -9,12 +9,12 @@ export default class OVPPlaylistService extends OVPService {
    * Creates an instance of RequestBuilder for playlist.getPlaybackContext
    * @function getPlaybackContext
    * @param {string} serviceUrl The service base URL
-   * @param {string} ks The ks
+   * @param {string} ts The ts
    * @param {string} playlistId The playlist ID
    * @returns {RequestBuilder} The request builder
    * @static
    */
-  public static execute(serviceUrl: string, ks: string, playlistId: string): RequestBuilder {
+  public static execute(serviceUrl: string, ts: string, playlistId: string): RequestBuilder {
     const headers: Map<string, string> = new Map();
     headers.set('Content-Type', 'application/json');
     const request = new RequestBuilder(headers);
@@ -24,7 +24,7 @@ export default class OVPPlaylistService extends OVPService {
     request.url = request.getUrl(serviceUrl);
     request.tag = `${SERVICE_NAME}-execute`;
     request.params = {
-      ks: ks,
+      ts: ts,
       id: playlistId,
       responseProfile: new BaseEntryResponseProfile()
     };
@@ -35,12 +35,12 @@ export default class OVPPlaylistService extends OVPService {
    * Creates an instance of RequestBuilder for playlist.list
    * @function list
    * @param {string} serviceUrl The base URL
-   * @param {string} ks The ks
+   * @param {string} ts The ts
    * @param {string} playlistId The playlist ID
    * @returns {RequestBuilder} The request builder
    * @static
    */
-  public static get(serviceUrl: string, ks: string, playlistId: string): RequestBuilder {
+  public static get(serviceUrl: string, ts: string, playlistId: string): RequestBuilder {
     const headers: Map<string, string> = new Map();
     headers.set('Content-Type', 'application/json');
     const request = new RequestBuilder(headers);
@@ -50,7 +50,7 @@ export default class OVPPlaylistService extends OVPService {
     request.url = request.getUrl(serviceUrl);
     request.tag = `${SERVICE_NAME}-get`;
     request.params = {
-      ks: ks,
+      ts: ts,
       id: playlistId,
       responseProfile: {
         fields: 'id,name,description,thumbnailUrl',
@@ -64,12 +64,12 @@ export default class OVPPlaylistService extends OVPService {
    * gets latest played entry ID
    * @function list
    * @param {string} serviceUrl The base URL
-   * @param {string} ks The ks
+   * @param {string} ts The ts
    * @param {string} playlistId The playlist ID
    * @returns {RequestBuilder} The request builder
    * @static
    */
-  public static getLastEntryId(serviceUrl: string, ks: string, playlistId: string): RequestBuilder {
+  public static getLastEntryId(serviceUrl: string, ts: string, playlistId: string): RequestBuilder {
     const headers: Map<string, string> = new Map();
     headers.set('Content-Type', 'application/json');
     const request = new RequestBuilder(headers);
@@ -79,9 +79,9 @@ export default class OVPPlaylistService extends OVPService {
     request.url = request.getUrl(serviceUrl);
     request.tag = 'userEntry-list';
     request.params = {
-      ks: ks,
+      ts: ts,
       filter: {
-        objectType: 'KalturaViewHistoryUserEntry',
+        objectType: 'TasvirchiViewHistoryUserEntry',
         entryIdEqual: playlistId,
         userIdEqualCurrent: 1
       },

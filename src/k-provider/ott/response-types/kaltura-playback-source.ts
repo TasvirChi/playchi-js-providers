@@ -1,11 +1,11 @@
-import {KalturaDrmPlaybackPluginData} from '../../common/response-types/kaltura-drm-playback-plugin-data';
+import {TasvirchiDrmPlaybackPluginData} from '../../common/response-types/tasvirchi-drm-playback-plugin-data';
 
-export type OTTKalturaPlaybackSource = KalturaPlaybackSource;
+export type OTTTasvirchiPlaybackSource = TasvirchiPlaybackSource;
 
-export default class KalturaPlaybackSource {
+export default class TasvirchiPlaybackSource {
   public format: string;
   public protocols: string;
-  public drm: Array<KalturaDrmPlaybackPluginData> = [];
+  public drm: Array<TasvirchiDrmPlaybackPluginData> = [];
   public adsPolicy: string;
   public adsParam: string;
   public duration: number;
@@ -27,7 +27,7 @@ export default class KalturaPlaybackSource {
     this.fileId = source.id;
     this.protocols = source.protocols;
     if (source.drm) {
-      source.drm.map(drm => this.drm.push(new KalturaDrmPlaybackPluginData(drm)));
+      source.drm.map(drm => this.drm.push(new TasvirchiDrmPlaybackPluginData(drm)));
     }
   }
 

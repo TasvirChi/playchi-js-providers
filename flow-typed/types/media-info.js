@@ -2,7 +2,7 @@
 declare type OVPProviderMediaInfoObject = {
   entryId?: string,
   referenceId?: string,
-  ks?: string
+  ts?: string
 };
 
 declare type OTTProviderMediaInfoObject = OVPProviderMediaInfoObject & {

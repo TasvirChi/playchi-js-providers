@@ -39,10 +39,10 @@ export default class DataLoaderManager {
    * @function
    * @param {Function} loader Loader to add
    * @param {Object} params Loader params
-   * @param {string} ks ks
+   * @param {string} ts ts
    * @returns {void}
    */
-  public add(loader: {new(...params): ILoader, id: string}, params: any, ks?: string): void {
+  public add(loader: {new(...params): ILoader, id: string}, params: any, ts?: string): void {
     const execution_loader = new loader(params);
     if (execution_loader.isValid()) {
       this._loaders.set(loader.id, execution_loader);
@@ -54,7 +54,7 @@ export default class DataLoaderManager {
       // Add requests to multiRequest queue
       requests.forEach(request => {
         request.params = request.params || {};
-        request.params.ks = request.params.ks || ks;
+        request.params.ts = request.params.ts || ts;
         this._multiRequest.add(request);
       });
       // Create range array of current execution_loader requests

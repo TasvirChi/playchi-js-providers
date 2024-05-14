@@ -1,5 +1,5 @@
 import OVPUIConfService from '../services/ui-conf-service';
-import {KalturaUIConfResponse} from '../response-types';
+import {TasvirchiUIConfResponse} from '../response-types';
 import OVPConfiguration from '../config';
 import RequestBuilder from '../../../util/request-builder';
 import {ILoader} from '../../../types';
@@ -22,7 +22,7 @@ export default class OVPUIConfigLoader implements ILoader {
   }
 
   public set response(response: any) {
-    this._response.uiConf = new KalturaUIConfResponse(response[0].data);
+    this._response.uiConf = new TasvirchiUIConfResponse(response[0].data);
   }
 
   public get response(): any {
@@ -56,7 +56,7 @@ export default class OVPUIConfigLoader implements ILoader {
   public buildRequests(params: any): Array<RequestBuilder> {
     const config = OVPConfiguration.get();
     const requests: Array<RequestBuilder> = [];
-    requests.push(OVPUIConfService.get(config.serviceUrl, params.ks, params.uiConfId));
+    requests.push(OVPUIConfService.get(config.serviceUrl, params.ts, params.uiConfId));
     return requests;
   }
 

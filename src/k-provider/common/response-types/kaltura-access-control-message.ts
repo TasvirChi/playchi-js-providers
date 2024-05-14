@@ -1,4 +1,4 @@
-export class KalturaAccessControlMessage {
+export class TasvirchiAccessControlMessage {
   /**
    * @member - The access control message
    * @type {string}

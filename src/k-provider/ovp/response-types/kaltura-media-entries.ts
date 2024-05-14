@@ -1,12 +1,12 @@
 import ServiceResult from '../../common/base-service-result';
-import {KalturaMediaEntry} from './kaltura-media-entry';
+import {TasvirchiMediaEntry} from './tasvirchi-media-entry';
 
-export class KalturaMediaEntries extends ServiceResult {
+export class TasvirchiMediaEntries extends ServiceResult {
   /**
    * @member - The entries
-   * @type {Array<KalturaMediaEntry>}
+   * @type {Array<TasvirchiMediaEntry>}
    */
-  public entries!: Array<KalturaMediaEntry>;
+  public entries!: Array<TasvirchiMediaEntry>;
 
   /**
    * @constructor
@@ -16,7 +16,7 @@ export class KalturaMediaEntries extends ServiceResult {
     super(responseObj);
     if (!this.hasError) {
       this.entries = [];
-      responseObj.map(entry => this.entries.push(new KalturaMediaEntry(entry)));
+      responseObj.map(entry => this.entries.push(new TasvirchiMediaEntry(entry)));
     }
   }
 }

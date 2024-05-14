@@ -1,6 +1,6 @@
 export type ProviderMediaConfigSessionObject = {
   partnerId: number;
   uiConfId?: number;
-  ks?: string;
+  ts?: string;
   isAnonymous?: boolean;
 };

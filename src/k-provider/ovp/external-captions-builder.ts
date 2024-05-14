@@ -1,7 +1,7 @@
-import {addKsToUrl} from './provider-parser';
-import {CaptionType, PKExternalCaptionObject} from '../../types';
+import {addTsToUrl} from './provider-parser';
+import {CaptionType, PCExternalCaptionObject} from '../../types';
 
-const KalturaCaptionType: CaptionType = {
+const TasvirchiCaptionType: CaptionType = {
   SRT: '1',
   DFXP: '2',
   WEBVTT: '3',
@@ -14,15 +14,15 @@ const CaptionsFormatsMap: {[format: string]: string} = {
 };
 
 class ExternalCaptionsBuilder {
-  public static createConfig(captions: Array<any>, ks: string): Array<PKExternalCaptionObject> {
+  public static createConfig(captions: Array<any>, ts: string): Array<PCExternalCaptionObject> {
     return captions.map(caption => {
       let url = caption.url;
       let type = CaptionsFormatsMap[caption.format];
-      if ([KalturaCaptionType.DFXP, KalturaCaptionType.CAP].includes(caption.format)) {
+      if ([TasvirchiCaptionType.DFXP, TasvirchiCaptionType.CAP].includes(caption.format)) {
         url = caption.webVttUrl;
-        type = CaptionsFormatsMap[KalturaCaptionType.WEBVTT];
+        type = CaptionsFormatsMap[TasvirchiCaptionType.WEBVTT];
       }
-      url = addKsToUrl(url, ks);
+      url = addTsToUrl(url, ts);
       return {
         default: !!caption.isDefault,
         type: type,

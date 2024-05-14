@@ -2,10 +2,10 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
   response: {
     result: [
       {
-        ks:
+        ts:
           'djJ8MTk4fHFNlNTFP8NV_WXoPn3CJnQRIJhCe4zD9g5voCHCgHJRanv2ubEBLLl9Gb13CxfBTGWZpTP_pD_fOirT3-L4F0kDIdJRrkShBxjuRI1-0nz2ublJJd48QKzLAqW79y7Lzoj6ngfv1uHGC7xxPtUqcSw=',
         refreshToken: '261623e4a727475a99898a0b7a39febf',
-        objectType: 'KalturaLoginSession'
+        objectType: 'TasvirchiLoginSession'
       },
       {
         catchUpBuffer: 0,
@@ -27,7 +27,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -38,7 +38,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -49,7 +49,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -60,7 +60,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -71,7 +71,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -82,7 +82,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -93,7 +93,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'd3d223391f314cab814d06b8c85682a5_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -104,7 +104,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'd3d223391f314cab814d06b8c85682a5_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -115,7 +115,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'd3d223391f314cab814d06b8c85682a5_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -126,7 +126,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'd3d223391f314cab814d06b8c85682a5_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -137,7 +137,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'd3d223391f314cab814d06b8c85682a5_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -148,7 +148,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'd3d223391f314cab814d06b8c85682a5_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -159,7 +159,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -170,7 +170,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'd3d223391f314cab814d06b8c85682a5_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -181,7 +181,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -192,7 +192,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -203,7 +203,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -214,7 +214,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -225,7 +225,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -236,7 +236,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:1',
@@ -247,7 +247,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: '0d4ddd6656714d4cb0334530a57d1a1a_17',
             isDefault: true,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '4:3',
@@ -258,7 +258,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 0,
             id: 'b379e398d9ef4a31827fa1c10aa10f47_3',
             isDefault: true,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -269,7 +269,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             version: 3,
             id: 'afa4d5c3b56c4476baca9897873d4a34_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           }
         ],
         mediaFiles: [
@@ -278,222 +278,222 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             id: 728179,
             type: 'Mobile_Devices_Main_HD',
             url:
-              'http://cdnapi.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/http/f/a.m3u8',
+              'http://cdnapi.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/http/f/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728180,
             type: 'Mobile_Devices_Main_HD_Dash',
             url:
-              'https://cdnapisec.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/http/f/a.mpd',
+              'https://cdnapisec.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/http/f/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728181,
             type: 'Mobile_Devices_Main_SD_Dash',
-            url: 'http://cdnapi.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/http/f/a.mpd',
+            url: 'http://cdnapi.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/http/f/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728182,
             type: 'Mobile_Devices_Main_SD_FP',
             url:
-              'http://cdnapi.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/http/f/a.m3u8',
+              'http://cdnapi.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/http/f/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728183,
             type: 'Mobile_Devices_Main_HD_FP',
             url:
-              'https://cdnapisec.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/http/f/a.m3u8',
+              'https://cdnapisec.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/http/f/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728184,
             type: 'Web_HD_Dash',
             url:
-              'https://cdnapisec.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/https/f/a.mpd',
+              'https://cdnapisec.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/https/f/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728185,
             type: 'Web_HD_FP',
             url:
-              'https://cdnapisec.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/https/f/a.m3u8',
+              'https://cdnapisec.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/https/f/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728186,
             type: 'Web HD',
             url:
-              'https://cdnapisec.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/https/f/a.m3u8',
+              'https://cdnapisec.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/applehttp/tags/ipadnew/protocol/https/f/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728187,
             type: 'Mobile_Devices_Main_Download',
             url:
-              'https://cdnapisec.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/http/f/a.mpd',
+              'https://cdnapisec.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/mpegdash/tags/dash/protocol/http/f/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 480097,
             id: 728188,
             type: 'Mobile_Devices_Main_SD',
             url:
-              'https://cdnapisec.kaltura.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/url/tags/widevine/protocol/http/f/a.wvm',
+              'https://cdnapisec.tasvirchi.com/p/2091671/sp/209167100/playManifest/entryId/1_tmeqe2n9/format/url/tags/widevine/protocol/http/f/a.wvm',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_9crpi8m5,1_tmeqe2n9_1_r64bcvp1',
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           }
         ],
         metas: {
-          synopsis: {value: '', objectType: 'KalturaMultilingualStringValue'},
-          'Short title': {value: '', objectType: 'KalturaMultilingualStringValue'},
-          Runtime: {value: '92', objectType: 'KalturaMultilingualStringValue'},
-          'Catchup logo URL': {value: '', objectType: 'KalturaMultilingualStringValue'},
-          'App Link': {value: '', objectType: 'KalturaMultilingualStringValue'},
-          Country: {value: '', objectType: 'KalturaMultilingualStringValue'},
-          QUALITY: {value: '', objectType: 'KalturaMultilingualStringValue'},
-          'Epg ID': {value: '', objectType: 'KalturaMultilingualStringValue'},
-          'Release year': {value: 2017, objectType: 'KalturaDoubleValue'},
-          'Catchup allowed': {value: false, objectType: 'KalturaBooleanValue'}
+          synopsis: {value: '', objectType: 'TasvirchiMultilingualStringValue'},
+          'Short title': {value: '', objectType: 'TasvirchiMultilingualStringValue'},
+          Runtime: {value: '92', objectType: 'TasvirchiMultilingualStringValue'},
+          'Catchup logo URL': {value: '', objectType: 'TasvirchiMultilingualStringValue'},
+          'App Link': {value: '', objectType: 'TasvirchiMultilingualStringValue'},
+          Country: {value: '', objectType: 'TasvirchiMultilingualStringValue'},
+          QUALITY: {value: '', objectType: 'TasvirchiMultilingualStringValue'},
+          'Epg ID': {value: '', objectType: 'TasvirchiMultilingualStringValue'},
+          'Release year': {value: 2017, objectType: 'TasvirchiDoubleValue'},
+          'Catchup allowed': {value: false, objectType: 'TasvirchiBooleanValue'}
         },
         tags: {
           Free: {
             objects: [
-              {value: 'nirit', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'nirit', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'nirit',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'nirit', objectType: 'KalturaMultilingualStringValue'}
+              {value: 'nirit', objectType: 'TasvirchiMultilingualStringValue'}
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Genre: {
             objects: [
-              {value: 'Comedy', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'Comedy', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'Comedy',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Comedy', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'Comedy', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'Drama',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Kids', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'Kids', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'Kids',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Kids', objectType: 'KalturaMultilingualStringValue'}
+              {value: 'Kids', objectType: 'TasvirchiMultilingualStringValue'}
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           'Main cast': {
             objects: [
               {
                 value: 'Anna Kendrick',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Anna Kendrick', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'Anna Kendrick', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'Anna Kendrick',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Justin Timberlake', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'Justin Timberlake', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'Justin Timberlake',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Justin Timberlake', objectType: 'KalturaMultilingualStringValue'}
+              {value: 'Justin Timberlake', objectType: 'TasvirchiMultilingualStringValue'}
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Director: {
             objects: [
               {
                 value: 'Walt Dohrn',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Walt Dohrn', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'Walt Dohrn', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'Walt Dohrn',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           'Parental Rating': {
             objects: [
               {
                 value: 'PG',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Parental - 8', objectType: 'KalturaMultilingualStringValue'}
+              {value: 'Parental - 8', objectType: 'TasvirchiMultilingualStringValue'}
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Studio: {
             objects: [
-              {value: 'Pixar', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'Pixar', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'Pixar',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'Pixar', objectType: 'KalturaMultilingualStringValue'}
+              {value: 'Pixar', objectType: 'TasvirchiMultilingualStringValue'}
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Country: {
             objects: [
-              {value: 'USA', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'USA', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'USA',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'USA', objectType: 'KalturaMultilingualStringValue'}
+              {value: 'USA', objectType: 'TasvirchiMultilingualStringValue'}
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           QUALITY: {
             objects: [
-              {value: 'hd', objectType: 'KalturaMultilingualStringValue'},
+              {value: 'hd', objectType: 'TasvirchiMultilingualStringValue'},
               {
                 value: 'hd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
-              {value: 'hd', objectType: 'KalturaMultilingualStringValue'}
+              {value: 'hd', objectType: 'TasvirchiMultilingualStringValue'}
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           }
         },
         startDate: 1484812560,
@@ -502,7 +502,7 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
         enableCatchUp: false,
         enableStartOver: false,
         enableTrickPlay: false,
-        objectType: 'KalturaMediaAsset',
+        objectType: 'TasvirchiMediaAsset',
         epgId: '454032895',
         recordingId: '774036475'
       },
@@ -515,10 +515,10 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             id: 728179,
             type: 'Mobile_Devices_Main_HD',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728179/contextType/PLAYBACK/a.m3u8',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728179/contextType/PLAYBACK/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'mpegdash',
@@ -527,24 +527,24 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
               {
                 scheme: 'PLAYREADY_CENC',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODAiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=ZOLdFeGe54PzgUBAXzQ9GYU1mp4%3d',
-                objectType: 'KalturaDrmPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODAiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=ZOLdFeGe54PzgUBAXzQ9GYU1mp4%3d',
+                objectType: 'TasvirchiDrmPlaybackPluginData'
               },
               {
                 scheme: 'WIDEVINE_CENC',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODAiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=ZOLdFeGe54PzgUBAXzQ9GYU1mp4%3d',
-                objectType: 'KalturaDrmPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODAiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=ZOLdFeGe54PzgUBAXzQ9GYU1mp4%3d',
+                objectType: 'TasvirchiDrmPlaybackPluginData'
               }
             ],
             assetId: 480097,
             id: 728180,
             type: 'Mobile_Devices_Main_HD_Dash',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728180/contextType/PLAYBACK/a.mpd',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728180/contextType/PLAYBACK/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'mpegdash',
@@ -553,24 +553,24 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
               {
                 scheme: 'PLAYREADY_CENC',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODEiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=bMcDzZozJh%2fal%2f%2bOiqthRfpaT2k%3d',
-                objectType: 'KalturaDrmPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODEiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=bMcDzZozJh%2fal%2f%2bOiqthRfpaT2k%3d',
+                objectType: 'TasvirchiDrmPlaybackPluginData'
               },
               {
                 scheme: 'WIDEVINE_CENC',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODEiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=bMcDzZozJh%2fal%2f%2bOiqthRfpaT2k%3d',
-                objectType: 'KalturaDrmPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODEiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=bMcDzZozJh%2fal%2f%2bOiqthRfpaT2k%3d',
+                objectType: 'TasvirchiDrmPlaybackPluginData'
               }
             ],
             assetId: 480097,
             id: 728181,
             type: 'Mobile_Devices_Main_SD_Dash',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728181/contextType/PLAYBACK/a.mpd',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728181/contextType/PLAYBACK/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'applehttp',
@@ -581,18 +581,18 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
                   'MIIE6TCCA9GgAwIBAgIIENeCqzQk/C4wDQYJKoZIhvcNAQEFBQAwfzELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkFwcGxlIEluYy4xJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MTMwMQYDVQQDDCpBcHBsZSBLZXkgU2VydmljZXMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTYwNTIwMTAxNDM1WhcNMTgwNTIxMTAxNDM1WjB8MQswCQYDVQQGEwJVUzEhMB8GA1UECgwYRGFpIFRydXllbiBIaW5oIFZpZXQgTmFtMRMwEQYDVQQLDAo0NkEzVkI4S05FMTUwMwYDVQQDDCxGYWlyUGxheSBTdHJlYW1pbmc6IERhaSBUcnV5ZW4gSGluaCBWaWV0IE5hbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxOpAcmYS8tPhh5Uk8C+0JzWy3CHJeU6odJXziTER49EEZnXHbfmIZpC1J9oMFVg6HTi5qFYgyvE19Iko7g2u0SubbM+WU6NEtzC5Mh5sjA4h3bOLSiC9lbBF9yIQiQ40Slar7EEhJRAJ1yAevMjMbAXU5YZjphamjVc0i3HB5UkCAwEAAaOCAe4wggHqMB0GA1UdDgQWBBQ1657dTf5GhGZap1ODbUTjL4AiPTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFGPkR1TLhXFZRiyDrMxEMWRnAyy+MIHiBgNVHSAEgdowgdcwgdQGCSqGSIb3Y2QFATCBxjCBwwYIKwYBBQUHAgIwgbYMgbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjA1BgNVHR8ELjAsMCqgKKAmhiRodHRwOi8vY3JsLmFwcGxlLmNvbS9rZXlzZXJ2aWNlcy5jcmwwDgYDVR0PAQH/BAQDAgUgMDwGCyqGSIb3Y2QGDQEDAQH/BCoBcTFhMm45bWs4dWRmYWhtaWQwdmYydWh5N25hZmVxZHZoOXZob2c2b3YwMAYLKoZIhvdjZAYNAQQBAf8EHgE3eGRnd3MydWdtNDZxdGxjbGhjY2pka3J2bm56YzANBgkqhkiG9w0BAQUFAAOCAQEAP4VtMfsSO6mNAgK0AfoJgMGQ+1xhMhHYjBQdcudB3qzSznAj/u29LGPlsQW+jRB0VZJM5jBtP9n1kElo8IBnD7h1iTnHgd1v+MIGqcI+S+g5Ga+h0LmPNObHBuFVDGFqRXKv5LWI6KZ+7KNNSo4p8v7WV2JfYGDRoTtk4sA5GGw8Kyb2DNC+0+YBoZjW78Tu9fM6RanDmfMjFWpe2jQ9q9uBirOWkcVmwpNud/N61Vz3RAhmYuqYUE21R/1mLr+dBYZ54WLsI3za+bBQe3QjpYtJvJnEJIBDzXHia8Alo9KhNOGxMeexJhQXx0KM6XH2DVUf6KMrr5cH7bIdwbSCAQ==',
                 scheme: 'FAIRPLAY',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODIiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NyIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxOTh9&signature=Ch65ih3S1%2bIXVl7mZywrIRnSpSg%3d',
-                objectType: 'KalturaFairPlayPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODIiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NyIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxOTh9&signature=Ch65ih3S1%2bIXVl7mZywrIRnSpSg%3d',
+                objectType: 'TasvirchiFairPlayPlaybackPluginData'
               }
             ],
             assetId: 480097,
             id: 728182,
             type: 'Mobile_Devices_Main_SD_FP',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728182/contextType/PLAYBACK/a.m3u8',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728182/contextType/PLAYBACK/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'applehttp',
@@ -603,18 +603,18 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
                   'MIIE6TCCA9GgAwIBAgIIENeCqzQk/C4wDQYJKoZIhvcNAQEFBQAwfzELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkFwcGxlIEluYy4xJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MTMwMQYDVQQDDCpBcHBsZSBLZXkgU2VydmljZXMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTYwNTIwMTAxNDM1WhcNMTgwNTIxMTAxNDM1WjB8MQswCQYDVQQGEwJVUzEhMB8GA1UECgwYRGFpIFRydXllbiBIaW5oIFZpZXQgTmFtMRMwEQYDVQQLDAo0NkEzVkI4S05FMTUwMwYDVQQDDCxGYWlyUGxheSBTdHJlYW1pbmc6IERhaSBUcnV5ZW4gSGluaCBWaWV0IE5hbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxOpAcmYS8tPhh5Uk8C+0JzWy3CHJeU6odJXziTER49EEZnXHbfmIZpC1J9oMFVg6HTi5qFYgyvE19Iko7g2u0SubbM+WU6NEtzC5Mh5sjA4h3bOLSiC9lbBF9yIQiQ40Slar7EEhJRAJ1yAevMjMbAXU5YZjphamjVc0i3HB5UkCAwEAAaOCAe4wggHqMB0GA1UdDgQWBBQ1657dTf5GhGZap1ODbUTjL4AiPTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFGPkR1TLhXFZRiyDrMxEMWRnAyy+MIHiBgNVHSAEgdowgdcwgdQGCSqGSIb3Y2QFATCBxjCBwwYIKwYBBQUHAgIwgbYMgbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjA1BgNVHR8ELjAsMCqgKKAmhiRodHRwOi8vY3JsLmFwcGxlLmNvbS9rZXlzZXJ2aWNlcy5jcmwwDgYDVR0PAQH/BAQDAgUgMDwGCyqGSIb3Y2QGDQEDAQH/BCoBcTFhMm45bWs4dWRmYWhtaWQwdmYydWh5N25hZmVxZHZoOXZob2c2b3YwMAYLKoZIhvdjZAYNAQQBAf8EHgE3eGRnd3MydWdtNDZxdGxjbGhjY2pka3J2bm56YzANBgkqhkiG9w0BAQUFAAOCAQEAP4VtMfsSO6mNAgK0AfoJgMGQ+1xhMhHYjBQdcudB3qzSznAj/u29LGPlsQW+jRB0VZJM5jBtP9n1kElo8IBnD7h1iTnHgd1v+MIGqcI+S+g5Ga+h0LmPNObHBuFVDGFqRXKv5LWI6KZ+7KNNSo4p8v7WV2JfYGDRoTtk4sA5GGw8Kyb2DNC+0+YBoZjW78Tu9fM6RanDmfMjFWpe2jQ9q9uBirOWkcVmwpNud/N61Vz3RAhmYuqYUE21R/1mLr+dBYZ54WLsI3za+bBQe3QjpYtJvJnEJIBDzXHia8Alo9KhNOGxMeexJhQXx0KM6XH2DVUf6KMrr5cH7bIdwbSCAQ==',
                 scheme: 'FAIRPLAY',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODMiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NyIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxOTh9&signature=lighwi6L3K093M%2fBKJeKX%2fpwaQA%3d',
-                objectType: 'KalturaFairPlayPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODMiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NyIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxOTh9&signature=lighwi6L3K093M%2fBKJeKX%2fpwaQA%3d',
+                objectType: 'TasvirchiFairPlayPlaybackPluginData'
               }
             ],
             assetId: 480097,
             id: 728183,
             type: 'Mobile_Devices_Main_HD_FP',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728183/contextType/PLAYBACK/a.m3u8',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728183/contextType/PLAYBACK/a.m3u8',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'mpegdash',
@@ -623,24 +623,24 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
               {
                 scheme: 'PLAYREADY_CENC',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODQiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=0k74fJhSENT3e9P%2fBOVVkM8PI6E%3d',
-                objectType: 'KalturaDrmPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODQiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=0k74fJhSENT3e9P%2fBOVVkM8PI6E%3d',
+                objectType: 'TasvirchiDrmPlaybackPluginData'
               },
               {
                 scheme: 'WIDEVINE_CENC',
                 licenseURL:
-                  'https://ny-udrm-stg.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODQiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=0k74fJhSENT3e9P%2fBOVVkM8PI6E%3d',
-                objectType: 'KalturaDrmPlaybackPluginData'
+                  'https://ny-udrm-stg.tasvirchi.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwOi8vYXBpLXByZXByb2Qub3R0LmthbHR1cmEuY29tL3Y0XzYvYXBpX3YzL3NlcnZpY2UvYXNzZXRGaWxlL2FjdGlvbi9nZXRDb250ZXh0P2tzPWRqSjhNVGs0ZkhGTmxOVEZQOE5WX1dYb1BuM0NKblFSSUpoQ2U0ekQ5ZzV2b0NIQ2dISlJhbnYydWJFQkxMbDlHYjEzQ3hmQlRHV1pwVFBfcERfZk9pclQzLUw0RjBrRElkSlJya1NoQnhqdVJJMS0wbnoydWJsSkpkNDhRS3pMQXFXNzl5N0x6b2o2bmdmdjF1SEdDN3h4UHRVcWNTdz0mY29udGV4dFR5cGU9bm9uZSZpZD03MjgxODQiLCJhY2NvdW50X2lkIjoyMDkxNjcxLCJjb250ZW50X2lkIjoiMV90bWVxZTJuOV8xX3V3bHphbHN6LDFfdG1lcWUybjlfMV9ob2lqMHo3NywxX3RtZXFlMm45XzFfbTF5Y3oxY3giLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRrNGZIRk5sTlRGUDhOVl9XWG9QbjNDSm5RUklKaENlNHpEOWc1dm9DSENnSEpSYW52MnViRUJMTGw5R2IxM0N4ZkJUR1dacFRQX3BEX2ZPaXJUMy1MNEYwa0RJZEpScmtTaEJ4anVSSTEtMG56MnVibEpKZDQ4UUt6TEFxVzc5eTdMem9qNm5nZnYxdUhHQzd4eFB0VXFjU3c9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTk4fQ%3d%3d&signature=0k74fJhSENT3e9P%2fBOVVkM8PI6E%3d',
+                objectType: 'TasvirchiDrmPlaybackPluginData'
               }
             ],
             assetId: 480097,
             id: 728184,
             type: 'Web_HD_Dash',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728184/contextType/PLAYBACK/a.mpd',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728184/contextType/PLAYBACK/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'applehttp',
@@ -649,10 +649,10 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             id: 728187,
             type: 'Mobile_Devices_Main_Download',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728187/contextType/PLAYBACK/a.mpd',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728187/contextType/PLAYBACK/a.mpd',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_uwlzalsz,1_tmeqe2n9_1_hoij0z77,1_tmeqe2n9_1_m1ycz1cx',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'applehttp',
@@ -661,14 +661,14 @@ const AnonymousEntryWithoutUIConfWithDrmData = {
             id: 728188,
             type: 'Mobile_Devices_Main_SD',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728188/contextType/PLAYBACK/a.wvm',
+              'http://api-preprod.ott.tasvirchi.com/v4_6/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/480097/assetType/media/assetFileId/728188/contextType/PLAYBACK/a.wvm',
             duration: 123000,
             externalId: '1_tmeqe2n9_1_9crpi8m5,1_tmeqe2n9_1_r64bcvp1',
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           }
         ],
-        messages: [{message: 'OK', code: 'OK', objectType: 'KalturaAccessControlMessage'}],
-        objectType: 'KalturaPlaybackContext'
+        messages: [{message: 'OK', code: 'OK', objectType: 'TasvirchiAccessControlMessage'}],
+        objectType: 'TasvirchiPlaybackContext'
       }
     ],
     executionTime: 0.7283435
@@ -679,10 +679,10 @@ const LiveEntryNoDrmData = {
   response: {
     result: [
       {
-        ks:
+        ts:
           'djJ8MTk4fEiDJqfTA_nqary8_jB-U-W0ne3JNVaZW5JmZDufdRcmcTGy3pAquXoMvFbANe6h63lEhxCo7mMZTsMTP5k4QDmOq99dRsPEsHUwOknv_9wvR_J2pbNzdXmlZ4JlYgO0ZcUr9_7tsZhqrHRfIcgrSj4=',
         refreshToken: 'b07f74dfe6584790b272eb742577369b',
-        objectType: 'KalturaLoginSession'
+        objectType: 'TasvirchiLoginSession'
       },
       {
         externalIds: '1073',
@@ -704,7 +704,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -715,7 +715,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -726,7 +726,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -737,7 +737,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -748,7 +748,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -759,7 +759,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -770,7 +770,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -781,7 +781,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -792,7 +792,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -803,7 +803,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -814,7 +814,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -825,7 +825,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -836,7 +836,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -847,7 +847,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -858,7 +858,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -869,7 +869,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -880,7 +880,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -891,7 +891,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -902,7 +902,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -913,7 +913,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -924,7 +924,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -935,7 +935,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -946,7 +946,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:1',
@@ -957,7 +957,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_17',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '4:3',
@@ -968,7 +968,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_3',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -979,7 +979,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -990,7 +990,7 @@ const LiveEntryNoDrmData = {
             version: 0,
             id: '6c5a2e51f3354e75b2e4fe8a5f8dab33_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           }
         ],
         mediaFiles: [
@@ -999,68 +999,68 @@ const LiveEntryNoDrmData = {
             id: 552351,
             type: 'Mobile_Devices_Main_SD',
             url:
-              'http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8',
+              'http://cdnapi.tasvirchi.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8',
             duration: 0,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 276507,
             id: 552352,
             type: 'Mobile_Devices_Main_HD',
             url:
-              'http://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8',
+              'http://cdnapi.tasvirchi.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8',
             duration: 0,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           }
         ],
         metas: {
           synopsis: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Short title': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Runtime: {
             value: '220',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup logo URL': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'App Link': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Country: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           QUALITY: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Epg ID': {
             value: '1073',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Channel number': {
             value: 19,
-            objectType: 'KalturaDoubleValue'
+            objectType: 'TasvirchiDoubleValue'
           },
           'Epg guid ID': {
             value: 1073,
-            objectType: 'KalturaDoubleValue'
+            objectType: 'TasvirchiDoubleValue'
           },
           'Catchup allowed': {
             value: false,
-            objectType: 'KalturaBooleanValue'
+            objectType: 'TasvirchiBooleanValue'
           }
         },
         tags: {
@@ -1068,50 +1068,50 @@ const LiveEntryNoDrmData = {
             objects: [
               {
                 value: 'yes',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'no',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Genre: {
             objects: [
               {
                 value: 'History',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           'Parental Rating': {
             objects: [
               {
                 value: 'PG',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           QUALITY: {
             objects: [
               {
                 value: 'hd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Source: {
             objects: [
               {
                 value: 'Web3',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           }
         },
         startDate: 946684800,
@@ -1121,7 +1121,7 @@ const LiveEntryNoDrmData = {
         enableCatchUp: true,
         enableStartOver: true,
         enableTrickPlay: true,
-        objectType: 'KalturaMediaAsset'
+        objectType: 'TasvirchiMediaAsset'
       },
       {
         sources: [
@@ -1133,11 +1133,11 @@ const LiveEntryNoDrmData = {
             id: 552351,
             type: 'Mobile_Devices_Main_SD',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_7/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/276507/assetType/media/assetFileId/552351/contextType/PLAYBACK/a.m3u8',
+              'http://api-preprod.ott.tasvirchi.com/v4_7/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/276507/assetType/media/assetFileId/552351/contextType/PLAYBACK/a.m3u8',
             duration: 0,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             format: 'applehttp',
@@ -1147,21 +1147,21 @@ const LiveEntryNoDrmData = {
             id: 552352,
             type: 'Mobile_Devices_Main_HD',
             url:
-              'http://api-preprod.ott.kaltura.com/v4_7/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/276507/assetType/media/assetFileId/552352/contextType/PLAYBACK/a.m3u8',
+              'http://api-preprod.ott.tasvirchi.com/v4_7/api_v3/service/assetFile/action/playManifest/partnerId/198/assetId/276507/assetType/media/assetFileId/552352/contextType/PLAYBACK/a.m3u8',
             duration: 0,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           }
         ],
         messages: [
           {
             message: 'OK',
             code: 'OK',
-            objectType: 'KalturaAccessControlMessage'
+            objectType: 'TasvirchiAccessControlMessage'
           }
         ],
-        objectType: 'KalturaPlaybackContext'
+        objectType: 'TasvirchiPlaybackContext'
       }
     ],
     executionTime: 0.3984844
@@ -1172,10 +1172,10 @@ const BlockActionEntry = {
   response: {
     result: [
       {
-        ks:
+        ts:
           'djJ8MTk4fEiDJqfTA_nqary8_jB-U-W0ne3JNVaZW5JmZDufdRcmcTGy3pAquXoMvFbANe6h63lEhxCo7mMZTsMTP5k4QDmOq99dRsPEsHUwOknv_9wvR_J2pbNzdXmlZ4JlYgO0ZcUr9_7tsZhqrHRfIcgrSj4=',
         refreshToken: 'b07f74dfe6584790b272eb742577369b',
-        objectType: 'KalturaLoginSession'
+        objectType: 'TasvirchiLoginSession'
       },
       {
         externalIds: '1234',
@@ -1197,26 +1197,26 @@ const BlockActionEntry = {
         enableCatchUp: true,
         enableStartOver: true,
         enableTrickPlay: true,
-        objectType: 'KalturaMediaAsset'
+        objectType: 'TasvirchiMediaAsset'
       },
       {
         sources: [],
-        actions: [{type: 'BLOCK', objectType: 'KalturaAccessControlBlockAction'}],
-        messages: [{message: 'Concurrency limitation', code: 'ConcurrencyLimitation', objectType: 'KalturaAccessControlMessage'}],
-        objectType: 'KalturaPlaybackContext'
+        actions: [{type: 'BLOCK', objectType: 'TasvirchiAccessControlBlockAction'}],
+        messages: [{message: 'Concurrency limitation', code: 'ConcurrencyLimitation', objectType: 'TasvirchiAccessControlMessage'}],
+        objectType: 'TasvirchiPlaybackContext'
       }
     ],
     executionTime: 0.2346709
   }
 };
 
-const InvalidKSFormat = {
+const InvalidTSFormat = {
   response: {
     result: {
       error: {
         code: '500015',
-        message: 'Invalid KS format',
-        objectType: 'KalturaAPIException'
+        message: 'Invalid TS format',
+        objectType: 'TasvirchiAPIException'
       }
     }
   }
@@ -1226,10 +1226,10 @@ const PlaylistByEntryList = {
   response: {
     result: [
       {
-        ks:
+        ts:
           'djJ8MTk4fBa3rps5BV6SgJ-skY9XtHSse9q1Z_b6bwviDj24wpk1LPtaUrslmRUQI96GJ9Rqf-T8s2Jx1Xx60QlFWcJj9GutrjgWSb0kIBgFfLG8Wv_2-fAm1QgjgDXYDs2FidSs7UvT1fsgpPyzu27T_H1FY9I=',
         refreshToken: 'd0ee0f31b3ed4f9eaff93ae03d9bcdf5',
-        objectType: 'KalturaLoginSession'
+        objectType: 'TasvirchiLoginSession'
       },
       {
         catchUpBuffer: 0,
@@ -1251,7 +1251,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1262,7 +1262,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1273,7 +1273,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1284,7 +1284,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1295,7 +1295,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1306,7 +1306,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1317,7 +1317,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1328,7 +1328,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1339,7 +1339,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1350,7 +1350,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1361,7 +1361,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1372,7 +1372,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1383,7 +1383,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1394,7 +1394,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1405,7 +1405,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1416,7 +1416,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1427,7 +1427,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1438,7 +1438,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1449,7 +1449,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1460,7 +1460,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1471,7 +1471,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1482,7 +1482,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1493,7 +1493,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:1',
@@ -1504,7 +1504,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_17',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '4:3',
@@ -1515,7 +1515,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_3',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1526,7 +1526,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1537,7 +1537,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           }
         ],
         mediaFiles: [
@@ -1545,89 +1545,89 @@ const PlaylistByEntryList = {
             assetId: 259153,
             id: 393231,
             type: 'Web trailer',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 393232,
             type: 'Web SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 398401,
             type: 'Mobile_Devices_Main_HD_FP',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 398402,
             type: 'Mobile_Devices_Trailer',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 804398,
             type: 'Mobile_Devices_Main_SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_tzhsuqij/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_tzhsuqij/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 0,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           }
         ],
         metas: {
           synopsis: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Short title': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Runtime: {
             value: '114',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup logo URL': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'App Link': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Country: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           QUALITY: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Epg ID': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup allowed': {
             value: false,
-            objectType: 'KalturaBooleanValue'
+            objectType: 'TasvirchiBooleanValue'
           }
         },
         tags: {
@@ -1635,54 +1635,54 @@ const PlaylistByEntryList = {
             objects: [
               {
                 value: 'yes',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'no',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Genre: {
             objects: [
               {
                 value: 'Documentary',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           'Parental Rating': {
             objects: [
               {
                 value: 'PG',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           QUALITY: {
             objects: [
               {
                 value: 'sd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'hd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Source: {
             objects: [
               {
                 value: 'Web3',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           }
         },
         startDate: 946684800,
@@ -1691,7 +1691,7 @@ const PlaylistByEntryList = {
         enableCatchUp: false,
         enableStartOver: false,
         enableTrickPlay: false,
-        objectType: 'KalturaMediaAsset'
+        objectType: 'TasvirchiMediaAsset'
       },
       {
         catchUpBuffer: 0,
@@ -1713,7 +1713,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1724,7 +1724,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1735,7 +1735,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1746,7 +1746,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1757,7 +1757,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1768,7 +1768,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1779,7 +1779,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1790,7 +1790,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1801,7 +1801,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1812,7 +1812,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1823,7 +1823,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1834,7 +1834,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1845,7 +1845,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1856,7 +1856,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1867,7 +1867,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -1878,7 +1878,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1889,7 +1889,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1900,7 +1900,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1911,7 +1911,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1922,7 +1922,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1933,7 +1933,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1944,7 +1944,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1955,7 +1955,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:1',
@@ -1966,7 +1966,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_17',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '4:3',
@@ -1977,7 +1977,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_3',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -1988,7 +1988,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -1999,7 +1999,7 @@ const PlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           }
         ],
         mediaFiles: [
@@ -2007,73 +2007,73 @@ const PlaylistByEntryList = {
             assetId: 258459,
             id: 391842,
             type: 'Web SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 258459,
             id: 397011,
             type: 'Mobile_Devices_Main_SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 258459,
             id: 397012,
             type: 'Mobile_Devices_Trailer',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_fuuycq1y/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_fuuycq1y/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           }
         ],
         metas: {
           synopsis: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Short title': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Runtime: {
             value: '101',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup logo URL': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'App Link': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Country: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           QUALITY: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Epg ID': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           tags: {
             value: '360',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup allowed': {
             value: false,
-            objectType: 'KalturaBooleanValue'
+            objectType: 'TasvirchiBooleanValue'
           }
         },
         tags: {
@@ -2081,62 +2081,62 @@ const PlaylistByEntryList = {
             objects: [
               {
                 value: 'yes',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'no',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Genre: {
             objects: [
               {
                 value: 'Action',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'Thriller',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           'Parental Rating': {
             objects: [
               {
                 value: 'G',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'PG',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           QUALITY: {
             objects: [
               {
                 value: 'hd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'sd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Source: {
             objects: [
               {
                 value: 'Web3',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           }
         },
         startDate: 946684800,
@@ -2145,7 +2145,7 @@ const PlaylistByEntryList = {
         enableCatchUp: false,
         enableStartOver: false,
         enableTrickPlay: false,
-        objectType: 'KalturaMediaAsset'
+        objectType: 'TasvirchiMediaAsset'
       }
     ],
     executionTime: 1.15160215
@@ -2156,7 +2156,7 @@ const AnonymousPlaylistByEntryList = {
   response: {
     result: [
       {
-        objectType: 'KalturaMediaAsset',
+        objectType: 'TasvirchiMediaAsset',
         catchUpBuffer: 0,
         trickPlayBuffer: 0,
         enableRecordingPlaybackNonEntitledChannel: false,
@@ -2176,7 +2176,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2187,7 +2187,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2198,7 +2198,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2209,7 +2209,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2220,7 +2220,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2231,7 +2231,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2242,7 +2242,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2253,7 +2253,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2264,7 +2264,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2275,7 +2275,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2286,7 +2286,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2297,7 +2297,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2308,7 +2308,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2319,7 +2319,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2330,7 +2330,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2341,7 +2341,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2352,7 +2352,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2363,7 +2363,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2374,7 +2374,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2385,7 +2385,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2396,7 +2396,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2407,7 +2407,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2418,7 +2418,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:1',
@@ -2429,7 +2429,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_17',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '4:3',
@@ -2440,7 +2440,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_3',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2451,7 +2451,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2462,7 +2462,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: 'a77c3f7b5d084d59b6e5363a3087fc2e_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           }
         ],
         mediaFiles: [
@@ -2470,89 +2470,89 @@ const AnonymousPlaylistByEntryList = {
             assetId: 259153,
             id: 393231,
             type: 'Web trailer',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 393232,
             type: 'Web SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 398401,
             type: 'Mobile_Devices_Main_HD_FP',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_i8pie276/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 398402,
             type: 'Mobile_Devices_Trailer',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_5cpvfprf/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 259153,
             id: 804398,
             type: 'Mobile_Devices_Main_SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_tzhsuqij/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_tzhsuqij/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 0,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           }
         ],
         metas: {
           synopsis: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Short title': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Runtime: {
             value: '114',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup logo URL': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'App Link': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Country: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           QUALITY: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Epg ID': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup allowed': {
             value: false,
-            objectType: 'KalturaBooleanValue'
+            objectType: 'TasvirchiBooleanValue'
           }
         },
         tags: {
@@ -2560,54 +2560,54 @@ const AnonymousPlaylistByEntryList = {
             objects: [
               {
                 value: 'yes',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'no',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Genre: {
             objects: [
               {
                 value: 'Documentary',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           'Parental Rating': {
             objects: [
               {
                 value: 'PG',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           QUALITY: {
             objects: [
               {
                 value: 'sd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'hd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Source: {
             objects: [
               {
                 value: 'Web3',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           }
         },
         startDate: 946684800,
@@ -2618,7 +2618,7 @@ const AnonymousPlaylistByEntryList = {
         enableTrickPlay: false
       },
       {
-        objectType: 'KalturaMediaAsset',
+        objectType: 'TasvirchiMediaAsset',
         catchUpBuffer: 0,
         trickPlayBuffer: 0,
         enableRecordingPlaybackNonEntitledChannel: false,
@@ -2638,7 +2638,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2649,7 +2649,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2660,7 +2660,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2671,7 +2671,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2682,7 +2682,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2693,7 +2693,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2704,7 +2704,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2715,7 +2715,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2726,7 +2726,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2737,7 +2737,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2748,7 +2748,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2759,7 +2759,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2770,7 +2770,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2781,7 +2781,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2792,7 +2792,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:3',
@@ -2803,7 +2803,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_2',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2814,7 +2814,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2825,7 +2825,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2836,7 +2836,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2847,7 +2847,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2858,7 +2858,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2869,7 +2869,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2880,7 +2880,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '2:1',
@@ -2891,7 +2891,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_17',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '4:3',
@@ -2902,7 +2902,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_3',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '16:9',
@@ -2913,7 +2913,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_1',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           },
           {
             ratio: '1:1',
@@ -2924,7 +2924,7 @@ const AnonymousPlaylistByEntryList = {
             version: 0,
             id: '9ffec13301184334acf6b491ce035ee9_12',
             isDefault: false,
-            objectType: 'KalturaMediaImage'
+            objectType: 'TasvirchiMediaImage'
           }
         ],
         mediaFiles: [
@@ -2932,73 +2932,73 @@ const AnonymousPlaylistByEntryList = {
             assetId: 258459,
             id: 391842,
             type: 'Web SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/mbr/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 258459,
             id: 397011,
             type: 'Mobile_Devices_Main_SD',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_mphei4ku/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           },
           {
             assetId: 258459,
             id: 397012,
             type: 'Mobile_Devices_Trailer',
-            url: 'http://cdnapi.kaltura.com/p/1774581/sp/177458100/playManifest/entryId/1_fuuycq1y/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
+            url: 'http://cdnapi.tasvirchi.com/p/1774581/sp/177458100/playManifest/entryId/1_fuuycq1y/format/applehttp/tags/ipad/protocol/http/f/a.m3u8',
             duration: 1000,
             externalId: '',
             fileSize: 0,
-            objectType: 'KalturaMediaFile'
+            objectType: 'TasvirchiMediaFile'
           }
         ],
         metas: {
           synopsis: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Short title': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Runtime: {
             value: '101',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup logo URL': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'App Link': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           Country: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           QUALITY: {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Epg ID': {
             value: '',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           tags: {
             value: '360',
-            objectType: 'KalturaMultilingualStringValue'
+            objectType: 'TasvirchiMultilingualStringValue'
           },
           'Catchup allowed': {
             value: false,
-            objectType: 'KalturaBooleanValue'
+            objectType: 'TasvirchiBooleanValue'
           }
         },
         tags: {
@@ -3006,62 +3006,62 @@ const AnonymousPlaylistByEntryList = {
             objects: [
               {
                 value: 'yes',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'no',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Genre: {
             objects: [
               {
                 value: 'Action',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'Thriller',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           'Parental Rating': {
             objects: [
               {
                 value: 'G',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'PG',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           QUALITY: {
             objects: [
               {
                 value: 'hd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               },
               {
                 value: 'sd',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           },
           Source: {
             objects: [
               {
                 value: 'Web3',
-                objectType: 'KalturaMultilingualStringValue'
+                objectType: 'TasvirchiMultilingualStringValue'
               }
             ],
-            objectType: 'KalturaMultilingualStringValueArray'
+            objectType: 'TasvirchiMultilingualStringValueArray'
           }
         },
         startDate: 946684800,
@@ -3080,7 +3080,7 @@ const EntryWithBumper = {
   response: {
     result: [
       {
-        objectType: 'KalturaMediaAsset',
+        objectType: 'TasvirchiMediaAsset',
         createDate: 1559544691,
         description: 'avichay VOD',
         enableCatchUp: false,
@@ -3104,20 +3104,20 @@ const EntryWithBumper = {
         typeDescription: 'Episode'
       },
       {
-        objectType: 'KalturaPlaybackContext',
+        objectType: 'TasvirchiPlaybackContext',
         actions: [],
-        messages: [{objectType: 'KalturaAccessControlMessage', code: 'OK', message: 'OK'}],
+        messages: [{objectType: 'TasvirchiAccessControlMessage', code: 'OK', message: 'OK'}],
         playbackCaptions: [],
         plugins: [
           {
-            objectType: 'KalturaBumpersPlaybackPluginData',
+            objectType: 'TasvirchiBumpersPlaybackPluginData',
             streamertype: 'progressive',
             url: 'bumper_url.mp4'
           }
         ],
         sources: [
           {
-            objectType: 'KalturaPlaybackSource',
+            objectType: 'TasvirchiPlaybackSource',
             assetId: 324284,
             duration: 60,
             externalId: 'DASH_WIDEVINE_90a80eff-c6e9-4ff7-b15f-1538384786b0',
@@ -3126,7 +3126,7 @@ const EntryWithBumper = {
             url: 'dash_url',
             drm: [
               {
-                objectType: 'KalturaCustomDrmPlaybackPluginData',
+                objectType: 'TasvirchiCustomDrmPlaybackPluginData',
                 licenseURL: 'license_url',
                 scheme: 'WIDEVINE_CENC'
               }
@@ -3143,7 +3143,7 @@ const EntryWithBumper = {
 };
 
 const MediaLiveAssetData = {
-  objectType: 'KalturaLiveAsset',
+  objectType: 'TasvirchiLiveAsset',
   createDate: 1594310672,
   description: 'ESPNU - Columbus Local.',
   endDate: 32472151200,
@@ -3151,26 +3151,26 @@ const MediaLiveAssetData = {
   id: 2106875,
   images: [
     {
-      objectType: 'KalturaMediaImage',
+      objectType: 'TasvirchiMediaImage',
       id: '0cd2243873f04cf090e3211defbeddd1',
       isDefault: false,
       ratio: '1x1',
-      url: 'https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3207/entry_id/0cd2243873f04cf090e3211defbeddd1/version/0',
+      url: 'https://images.frs1.ott.tasvirchi.com/service.svc/GetImage/p/3207/entry_id/0cd2243873f04cf090e3211defbeddd1/version/0',
       version: 0
     },
     {
-      objectType: 'KalturaMediaImage',
+      objectType: 'TasvirchiMediaImage',
       id: 'f2b785a9d4ad486f96b4ac5c0f6df5fe',
       isDefault: false,
       ratio: '16x9',
-      url: 'https://images.frs1.ott.kaltura.com/service.svc/GetImage/p/3207/entry_id/f2b785a9d4ad486f96b4ac5c0f6df5fe/version/0',
+      url: 'https://images.frs1.ott.tasvirchi.com/service.svc/GetImage/p/3207/entry_id/f2b785a9d4ad486f96b4ac5c0f6df5fe/version/0',
       version: 0
     }
   ],
   indexStatus: 'Ok',
   mediaFiles: [
     {
-      objectType: 'KalturaMediaFile',
+      objectType: 'TasvirchiMediaFile',
       additionalData: '',
       alternativeCdnAdapaterProfileId: 0,
       altExternalId: '',
@@ -3194,7 +3194,7 @@ const MediaLiveAssetData = {
       url: 'https://01-ucdn-3201-preprod.tv.cetin.cz/bpk-tv/cetin_1_hd_3011/output0/manifest.mpd?accountId=3201'
     },
     {
-      objectType: 'KalturaMediaFile',
+      objectType: 'TasvirchiMediaFile',
       additionalData: '',
       alternativeCdnAdapaterProfileId: 0,
       altExternalId: '',
@@ -3220,27 +3220,27 @@ const MediaLiveAssetData = {
   ],
   metas: {
     ChannelNumber: {
-      objectType: 'KalturaDoubleValue',
+      objectType: 'TasvirchiDoubleValue',
       value: 3
     },
     Downloadable: {
-      objectType: 'KalturaBooleanValue',
+      objectType: 'TasvirchiBooleanValue',
       value: false
     },
     Adult: {
-      objectType: 'KalturaBooleanValue',
+      objectType: 'TasvirchiBooleanValue',
       value: true
     },
     RepresentPackage: {
-      objectType: 'KalturaBooleanValue',
+      objectType: 'TasvirchiBooleanValue',
       value: false
     },
     CatalogStartDateTime: {
-      objectType: 'KalturaLongValue',
+      objectType: 'TasvirchiLongValue',
       value: 1594294440
     },
     PlaybackEndDateTime: {
-      objectType: 'KalturaLongValue',
+      objectType: 'TasvirchiLongValue',
       value: 32472151200
     }
   },
@@ -3249,19 +3249,19 @@ const MediaLiveAssetData = {
   startDate: 1594294440,
   tags: {
     Genre: {
-      objectType: 'KalturaMultilingualStringValueArray',
+      objectType: 'TasvirchiMultilingualStringValueArray',
       objects: [
         {
-          objectType: 'KalturaMultilingualStringValue',
+          objectType: 'TasvirchiMultilingualStringValue',
           value: 'sport'
         }
       ]
     },
     ParentalRating: {
-      objectType: 'KalturaMultilingualStringValueArray',
+      objectType: 'TasvirchiMultilingualStringValueArray',
       objects: [
         {
-          objectType: 'KalturaMultilingualStringValue',
+          objectType: 'TasvirchiMultilingualStringValue',
           value: '0'
         }
       ]
@@ -3298,7 +3298,7 @@ export {
   AnonymousEntryWithoutUIConfWithDrmData,
   LiveEntryNoDrmData,
   BlockActionEntry,
-  InvalidKSFormat,
+  InvalidTSFormat,
   PlaylistByEntryList,
   AnonymousPlaylistByEntryList,
   EntryWithBumper,

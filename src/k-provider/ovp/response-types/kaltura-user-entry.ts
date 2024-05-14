@@ -1,4 +1,4 @@
-export class KalturaUserEntry {
+export class TasvirchiUserEntry {
   /**
    * @member - The last played playlist entry
    * @type {string}

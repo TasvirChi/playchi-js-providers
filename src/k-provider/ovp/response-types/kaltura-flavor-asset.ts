@@ -1,4 +1,4 @@
-export class KalturaFlavorAsset {
+export class TasvirchiFlavorAsset {
   public static Status: {[status: string]: number} = {
     ERROR: -1,
     QUEUED: 0,
@@ -54,7 +54,7 @@ export class KalturaFlavorAsset {
    */
   public isOriginal: boolean;
   /**
-   * @member - True if this Flavor Asset is playable in KDP
+   * @member - True if this Flavor Asset is playable in TDP
    * @type {boolean}
    */
   public isWeb: boolean;

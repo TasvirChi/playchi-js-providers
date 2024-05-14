@@ -6,7 +6,7 @@ import {ProviderEntryListObject, ProviderMediaConfigObject, ProviderPlaylistInfo
 export default class BaseProvider<MI> {
   private _partnerId: number;
   private _widgetId?: string;
-  private _ks: string;
+  private _ts: string;
   private _uiConfId?: number;
   public _dataLoader!: DataLoaderManager;
   private _playerVersion: string;
@@ -34,12 +34,12 @@ export default class BaseProvider<MI> {
     return this._uiConfId;
   }
 
-  public get ks(): string {
-    return this._ks;
+  public get ts(): string {
+    return this._ts;
   }
 
-  public set ks(value: string) {
-    this._ks = value;
+  public set ts(value: string) {
+    this._ts = value;
   }
 
   public get playerVersion(): string {
@@ -55,8 +55,8 @@ export default class BaseProvider<MI> {
     this._partnerId = options.partnerId;
     this._widgetId = options.widgetId;
     this._uiConfId = options.uiConfId;
-    this._isAnonymous = !options.ks;
-    this._ks = options.ks || '';
+    this._isAnonymous = !options.ts;
+    this._ts = options.ts || '';
     this._playerVersion = playerVersion;
   }
 

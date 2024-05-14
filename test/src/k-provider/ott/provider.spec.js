@@ -3,8 +3,8 @@ import * as BE_DATA from './be-data';
 import * as MEDIA_CONFIG_DATA from './media-config-data';
 import {MultiRequestResult} from '../../../../src/k-provider/common/multi-request-builder';
 import MultiRequestBuilder from '../../../../src/k-provider/common/multi-request-builder';
-import KalturaAsset from '../../../../src/k-provider/ott/response-types/kaltura-asset';
-import KalturaPlaybackContext from '../../../../src/k-provider/ott/response-types/kaltura-playback-context';
+import TasvirchiAsset from '../../../../src/k-provider/ott/response-types/tasvirchi-asset';
+import TasvirchiPlaybackContext from '../../../../src/k-provider/ott/response-types/tasvirchi-playback-context';
 import OTTAssetLoader from '../../../../src/k-provider/ott/loaders/asset-loader';
 import Error from '../../../../src/util/error/error';
 import OTTConfiguration from '../../../../src/k-provider/ott/config';
@@ -82,7 +82,7 @@ describe('OTTProvider.partnerId:198', function () {
       .getMediaConfig({
         entryId: 480097,
         formats: ['Mobile_Devices_Main_HD_FP', 'Mobile_Devices_Main_SD_FP'],
-        mediaType: KalturaAsset.Type.RECORDING
+        mediaType: TasvirchiAsset.Type.RECORDING
       })
       .then(
         mediaConfig => {
@@ -105,7 +105,7 @@ describe('OTTProvider.partnerId:198', function () {
         resolve({response: new MultiRequestResult(BE_DATA.LiveEntryNoDrmData.response)});
       });
     });
-    provider.getMediaConfig({entryId: 276507, contextType: KalturaPlaybackContext.Type.START_OVER, mediaType: KalturaAsset.Type.EPG}).then(
+    provider.getMediaConfig({entryId: 276507, contextType: TasvirchiPlaybackContext.Type.START_OVER, mediaType: TasvirchiAsset.Type.EPG}).then(
       mediaConfig => {
         try {
           mediaConfig.should.deep.equal(MEDIA_CONFIG_DATA.LiveEntryNoDrm);
@@ -161,14 +161,14 @@ describe('OTTProvider.partnerId:198', function () {
     );
   });
 
-  it('should return error for invalid KS format', done => {
+  it('should return error for invalid TS format', done => {
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise((resolve, reject) => {
         reject(
           new Error(Error.Severity.CRITICAL, Error.Category.NETWORK, Error.Code.MULTIREQUEST_API_ERROR, {
             url: 'serviceurl',
             headers: [],
-            results: new MultiRequestResult(BE_DATA.InvalidKSFormat.response).results
+            results: new MultiRequestResult(BE_DATA.InvalidTSFormat.response).results
           })
         );
       });
@@ -192,7 +192,7 @@ describe('OTTProvider.partnerId:198', function () {
               {
                 error: {
                   code: '500015',
-                  message: 'Invalid KS format'
+                  message: 'Invalid TS format'
                 },
                 hasError: true
               }
@@ -227,11 +227,11 @@ describe('OTTProvider.partnerId:198', function () {
   it('should pass adapterData on the playback context object', done => {
     const adapterDataConfig = {
       supported_files: {
-        objectType: 'KalturaStringValue',
+        objectType: 'TasvirchiStringValue',
         value: 'HLS_FPS'
       },
       supported_codec: {
-        objectType: 'KalturaStringValue',
+        objectType: 'TasvirchiStringValue',
         value: 'HEVC'
       }
     };
@@ -250,7 +250,7 @@ describe('OTTProvider.partnerId:198', function () {
 describe('getEntryListConfig', function () {
   let provider, sandbox;
   const partnerId = 198;
-  const ks =
+  const ts =
     'djJ8MTk4fCkf82moylM8rVli2azka7KoJea3ITlM8Vh3_dYGU722OoJWDCS7_Pp8cqm1z6QtZAfqjGr36SjPr2GbuNKy1ejIDs7KLFpWd_VCEKKtOcwzaJ11FopaSEspI-uJMGFTvS0AmIBE1f137G36MYjOlMc=';
   const playerVersion = '1.2.3';
 
@@ -289,13 +289,13 @@ describe('getEntryListConfig', function () {
     );
   });
 
-  it('should load a playlist by entry list - with KS', done => {
+  it('should load a playlist by entry list - with TS', done => {
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
         resolve({response: new MultiRequestResult(BE_DATA.AnonymousPlaylistByEntryList.response)});
       });
     });
-    provider.getEntryListConfig({entries: ['259153', {entryId: '258459'}], ks}).then(
+    provider.getEntryListConfig({entries: ['259153', {entryId: '258459'}], ts}).then(
       entryListConfig => {
         try {
           entryListConfig.id.should.equal('');
@@ -319,13 +319,13 @@ describe('getEntryListConfig', function () {
       return new Promise(resolve => {
         resolve({
           response: new MultiRequestResult({
-            result: [...BE_DATA.AnonymousPlaylistByEntryList.response.result, BE_DATA.InvalidKSFormat.response.result.error]
+            result: [...BE_DATA.AnonymousPlaylistByEntryList.response.result, BE_DATA.InvalidTSFormat.response.result.error]
           })
         });
       });
     });
 
-    provider.getEntryListConfig({entries: ['259153', {entryId: '258459'}], ks}).then(
+    provider.getEntryListConfig({entries: ['259153', {entryId: '258459'}], ts}).then(
       entryListConfig => {
         try {
           entryListConfig.id.should.equal('');
@@ -348,7 +348,7 @@ describe('getEntryListConfig', function () {
 describe('getEntryWithBumper', function () {
   let provider, sandbox;
   const partnerId = 147;
-  const ks = 'ks';
+  const ts = 'ts';
   const playerVersion = '1.2.3';
 
   beforeEach(() => {
@@ -367,7 +367,7 @@ describe('getEntryWithBumper', function () {
         resolve({response: new MultiRequestResult(BE_DATA.EntryWithBumper.response)});
       });
     });
-    provider.getMediaConfig({entryId: '324284', fileIds: '630312', ks}).then(
+    provider.getMediaConfig({entryId: '324284', fileIds: '630312', ts}).then(
       mediaConfig => {
         try {
           mediaConfig.should.deep.equal(MEDIA_CONFIG_DATA.EntryWithBumper);

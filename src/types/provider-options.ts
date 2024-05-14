@@ -7,11 +7,11 @@ export type ProviderOptionsObject = {
   partnerId: number;
   widgetId?: string;
   logger?: LoggerType;
-  ks?: string;
+  ts?: string;
   uiConfId?: number;
   env?: ProviderEnvConfigObject;
   networkRetryParameters?: ProviderNetworkRetryParameters;
   filterOptions?: ProviderFilterOptionsObject;
   ignoreServerConfig?: boolean;
-  loadThumbnailWithKs?: boolean;
+  loadThumbnailWithTs?: boolean;
 };

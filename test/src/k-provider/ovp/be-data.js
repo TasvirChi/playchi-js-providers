@@ -3,16 +3,16 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
   response: [
     {
       partnerId: 1082342,
-      ks:
+      ts:
         'OGM0ZWM0Y2IwOWI5ZjM0MDcyZmQ3YmYxNzBiMGEwNGYxNWQ0ZTcyOXwxMDgyMzQyOzEwODIzNDI7MTQ5MDExNTg5MzswOzE0OTAwMjk0OTMuMTY3ODswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://cdnapi.kaltura.com/p/1082342/sp/108234200/playManifest/entryId/1_rsrdfext/format/url/protocol/http',
+          dataUrl: 'http://cdnapi.tasvirchi.com/p/1082342/sp/108234200/playManifest/entryId/1_rsrdfext/format/url/protocol/http',
           flavorParamsIds: '0,487041,487051,487061,487071,487081,487091',
           duration: 55,
           msDuration: 55047,
@@ -22,13 +22,13 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -38,9 +38,9 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10081/protocol/https/format/url/name/a.mov',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10081/protocol/https/format/url/name/a.mov',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 10101,
@@ -48,9 +48,9 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10101/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10101/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 10091,
@@ -58,9 +58,9 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10091/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10091/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11241,
@@ -68,9 +68,9 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11241/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11241/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11611,
@@ -78,9 +78,9 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11611/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11611/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11261,
@@ -88,9 +88,9 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11261/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11261/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11251,
@@ -98,9 +98,9 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11251/protocol/https/format/sl/a.ism',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11251/protocol/https/format/sl/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       flavorAssets: [
@@ -126,7 +126,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777079,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487051,
@@ -150,7 +150,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777079,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487061,
@@ -174,7 +174,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777064,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487071,
@@ -198,7 +198,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777080,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487081,
@@ -222,7 +222,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777115,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487091,
@@ -246,7 +246,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           createdAt: 1484777023,
           updatedAt: 1484777325,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 0,
@@ -270,7 +270,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           createdAt: 1484776914,
           updatedAt: 1484777022,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [],
@@ -278,10 +278,10 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
         {
           message: "Out of scheduling\nWe're sorry, this content is currently unavailable.",
           code: 'SCHEDULED_RESTRICTED',
-          objectType: 'KalturaAccessControlMessage'
+          objectType: 'TasvirchiAccessControlMessage'
         }
       ],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [
@@ -298,7 +298,7 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           status: 1,
           xml:
             '<?xml version="1.0" encoding="ASCII"?>\n<metadata><OriginalFilename>FO21934-HDTX-SWE.mov</OriginalFilename>\n<Locale>sv_SE</Locale>\n<PropertyCode>FTA-nm</PropertyCode>\n<SiteSection>tv-dc</SiteSection>\n<ContentType>clip</ContentType>\n<BusinessUnit>Disney Channel</BusinessUnit>\n<Origin>IBMS</Origin>\n<PromoType>Show - TV</PromoType>\n<StartDate>1483225200</StartDate>\n<EndDate>1485903600</EndDate>\n<AgeConsent>No Age Consent</AgeConsent></metadata>\n',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         },
         {
           id: 331744121,
@@ -313,11 +313,11 @@ const AnonymousMocEntryWithoutUIConfNoDrmData = {
           status: 1,
           xml:
             '<metadata>\n  <TXID>FO21934-HDTX-SWE</TXID>\n  <ZeroTouchIds>se-dc-lf</ZeroTouchIds>\n  <ScheduleSource>VOD</ScheduleSource>\n  <HLSOnly>android</HLSOnly>\n  <ChannelName>Disney Channel SE</ChannelName>\n</metadata>\n',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         }
       ],
       totalCount: 2,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
@@ -326,16 +326,16 @@ const BlockActionEntry = {
   response: [
     {
       partnerId: 1082342,
-      ks:
+      ts:
         'OGM0ZWM0Y2IwOWI5ZjM0MDcyZmQ3YmYxNzBiMGEwNGYxNWQ0ZTcyOXwxMDgyMzQyOzEwODIzNDI7MTQ5MDExNTg5MzswOzE0OTAwMjk0OTMuMTY3ODswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://cdnapi.kaltura.com/p/1082342/sp/108234200/playManifest/entryId/1_rsrdfext/format/url/protocol/http',
+          dataUrl: 'http://cdnapi.tasvirchi.com/p/1082342/sp/108234200/playManifest/entryId/1_rsrdfext/format/url/protocol/http',
           flavorParamsIds: '0,487041,487051,487061,487071,487081,487091',
           duration: 55,
           msDuration: 55047,
@@ -345,24 +345,24 @@ const BlockActionEntry = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
-      actions: [{type: 1, objectType: 'KalturaAccessControlBlockAction'}],
+      actions: [{type: 1, objectType: 'TasvirchiAccessControlBlockAction'}],
       messages: [
         {
           message: "Un authorized country\nWe're sorry, this content is only available in certain countries.",
           code: 'COUNTRY_RESTRICTED',
-          objectType: 'KalturaAccessControlMessage'
+          objectType: 'TasvirchiAccessControlMessage'
         }
       ],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [
@@ -379,7 +379,7 @@ const BlockActionEntry = {
           status: 1,
           xml:
             '<?xml version="1.0" encoding="ASCII"?>\n<metadata><OriginalFilename>FO21934-HDTX-SWE.mov</OriginalFilename>\n<Locale>sv_SE</Locale>\n<PropertyCode>FTA-nm</PropertyCode>\n<SiteSection>tv-dc</SiteSection>\n<ContentType>clip</ContentType>\n<BusinessUnit>Disney Channel</BusinessUnit>\n<Origin>IBMS</Origin>\n<PromoType>Show - TV</PromoType>\n<StartDate>1483225200</StartDate>\n<EndDate>1485903600</EndDate>\n<AgeConsent>No Age Consent</AgeConsent></metadata>\n',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         },
         {
           id: 331744121,
@@ -394,11 +394,11 @@ const BlockActionEntry = {
           status: 1,
           xml:
             '<metadata>\n  <TXID>FO21934-HDTX-SWE</TXID>\n  <ZeroTouchIds>se-dc-lf</ZeroTouchIds>\n  <ScheduleSource>VOD</ScheduleSource>\n  <HLSOnly>android</HLSOnly>\n  <ChannelName>Disney Channel SE</ChannelName>\n</metadata>\n',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         }
       ],
       totalCount: 2,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
@@ -407,10 +407,10 @@ const AnonymousMocEntryWithRequestHostRegexAction = JSON.parse(JSON.stringify(An
 AnonymousMocEntryWithRequestHostRegexAction.response[2].actions = [
   {
     pattern: '^(https?):\\/\\/([^\\/]+)(\\/)?',
-    replacement: '$1://qa-kes-ebu-01.dev.kaltura.com/kAPI/$2',
+    replacement: '$1://qa-tes-ebu-01.dev.tasvirchi.com/tAPI/$2',
     replacmenServerNodeId: 71,
     type: 7,
-    objectType: 'KalturaAccessControlModifyRequestHostRegexAction'
+    objectType: 'TasvirchiAccessControlModifyRequestHostRegexAction'
   }
 ];
 AnonymousMocEntryWithRequestHostRegexAction.response[2].playbackCaptions = [
@@ -419,11 +419,11 @@ AnonymousMocEntryWithRequestHostRegexAction.response[2].playbackCaptions = [
     format: '2',
     language: 'English',
     webVttUrl:
-      'https://cfvod.kaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt',
-    url: 'https://cfvod.kaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/1_6jfbcdz9/v/11',
+      'https://cfvod.tasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt',
+    url: 'https://cfvod.tasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/1_6jfbcdz9/v/11',
     isDefault: true,
     languageCode: 'en',
-    objectType: 'KalturaCaptionPlaybackPluginData'
+    objectType: 'TasvirchiCaptionPlaybackPluginData'
   }
 ];
 
@@ -433,7 +433,7 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://cdnapi.kaltura.com/p/1068292/sp/106829200/playManifest/entryId/1_rwbj3j0a/format/url/protocol/http',
+          dataUrl: 'http://cdnapi.tasvirchi.com/p/1068292/sp/106829200/playManifest/entryId/1_rwbj3j0a/format/url/protocol/http',
           flavorParamsIds: '0,525091,525101,525111,525121',
           duration: 596,
           msDuration: 596000,
@@ -442,13 +442,13 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -458,17 +458,17 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11311/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11311/protocol/https/format/applehttp/a.m3u8',
           drm: [
             {
               certificate: 'ABCD1234',
               scheme: 'fairplay.FAIRPLAY',
               licenseURL:
-                'https://udrmv3.kaltura.com//fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiTlRBd1pqVmlaV1pqWTJOak5UUmtOR0V5TWpVMU1UZzRPR0UxTm1Vd05EbGpaV0prTXprMU1Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREUzTmpFME5qc3dPekUwT1RBd09EazNORFl1TURJeU5qc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=jl09zYv64OyEfVUt85rlA0WnK1w%3D',
-              objectType: 'KalturaFairPlayPlaybackPluginData'
+                'https://udrmv3.tasvirchi.com//fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiTlRBd1pqVmlaV1pqWTJOak5UUmtOR0V5TWpVMU1UZzRPR0UxTm1Vd05EbGpaV0prTXprMU1Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREUzTmpFME5qc3dPekUwT1RBd09EazNORFl1TURJeU5qc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=jl09zYv64OyEfVUt85rlA0WnK1w%3D',
+              objectType: 'TasvirchiFairPlayPlaybackPluginData'
             }
           ],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11331,
@@ -476,22 +476,22 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11331/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11331/protocol/https/format/mpegdash/manifest.mpd',
           drm: [
             {
               scheme: 'drm.PLAYREADY_CENC',
               licenseURL:
-                'https://udrm.kaltura.com//cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiTlRBd1pqVmlaV1pqWTJOak5UUmtOR0V5TWpVMU1UZzRPR0UxTm1Vd05EbGpaV0prTXprMU1Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREUzTmpFME5qc3dPekUwT1RBd09EazNORFl1TURJeU5qc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=jl09zYv64OyEfVUt85rlA0WnK1w%3D',
-              objectType: 'KalturaDrmPlaybackPluginData'
+                'https://udrm.tasvirchi.com//cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiTlRBd1pqVmlaV1pqWTJOak5UUmtOR0V5TWpVMU1UZzRPR0UxTm1Vd05EbGpaV0prTXprMU1Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREUzTmpFME5qc3dPekUwT1RBd09EazNORFl1TURJeU5qc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=jl09zYv64OyEfVUt85rlA0WnK1w%3D',
+              objectType: 'TasvirchiDrmPlaybackPluginData'
             },
             {
               scheme: 'drm.WIDEVINE_CENC',
               licenseURL:
-                'https://udrm.kaltura.com//cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiTlRBd1pqVmlaV1pqWTJOak5UUmtOR0V5TWpVMU1UZzRPR0UxTm1Vd05EbGpaV0prTXprMU1Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREUzTmpFME5qc3dPekUwT1RBd09EazNORFl1TURJeU5qc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=jl09zYv64OyEfVUt85rlA0WnK1w%3D',
-              objectType: 'KalturaDrmPlaybackPluginData'
+                'https://udrm.tasvirchi.com//cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiTlRBd1pqVmlaV1pqWTJOak5UUmtOR0V5TWpVMU1UZzRPR0UxTm1Vd05EbGpaV0prTXprMU1Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREUzTmpFME5qc3dPekUwT1RBd09EazNORFl1TURJeU5qc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=jl09zYv64OyEfVUt85rlA0WnK1w%3D',
+              objectType: 'TasvirchiDrmPlaybackPluginData'
             }
           ],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11321,
@@ -499,9 +499,9 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11321/protocol/https/format/sl/a.ism',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11321/protocol/https/format/sl/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       flavorAssets: [
@@ -527,7 +527,7 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           createdAt: 1485272387,
           updatedAt: 1485272469,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525101,
@@ -551,7 +551,7 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           createdAt: 1485272387,
           updatedAt: 1485272469,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525111,
@@ -575,7 +575,7 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           createdAt: 1485272388,
           updatedAt: 1485272499,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525121,
@@ -599,7 +599,7 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           createdAt: 1485272388,
           updatedAt: 1485272564,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 0,
@@ -622,46 +622,46 @@ const AnonymousMocEntryWithoutUIConfWithDrmData = {
           createdAt: 1485272298,
           updatedAt: 1485272387,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [
         {
           deliveryProfileIds: '11311,11321,11331',
           type: 5,
-          objectType: 'KalturaAccessControlLimitDeliveryProfilesAction'
+          objectType: 'TasvirchiAccessControlLimitDeliveryProfilesAction'
         },
         {
           policyId: 4081,
           type: 'DRM_POLICY',
-          objectType: 'KalturaAccessControlDrmPolicyAction'
+          objectType: 'TasvirchiAccessControlDrmPolicyAction'
         }
       ],
       messages: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [],
       totalCount: 0,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
 
 const WrongEntryIDWithoutUIConf = {
-  headers: ['x-kaltura: what?!'],
+  headers: ['x-tasvirchi: what?!'],
   response: [
     {
       partnerId: 1068292,
-      ks:
+      ts:
         'NjVjMDdlZmUxY2VlMGI2YWMyYmZjOTczOTA5ZjhjNDIwMTJmODI3MXwxMDY4MjkyOzEwNjgyOTI7MTQ5MDE5MzIyNjswOzE0OTAxMDY4MjYuOTc2NDswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       code: 'INVALID_ENTRY_ID',
       message: 'Invalid entry id ["1_rwbj3j0a55"]',
-      objectType: 'KalturaAPIException',
+      objectType: 'TasvirchiAPIException',
       args: {
         ID: '1_rwbj3j0a55'
       }
@@ -669,7 +669,7 @@ const WrongEntryIDWithoutUIConf = {
     {
       code: 'ENTRY_ID_NOT_FOUND',
       message: 'Entry id "1_rwbj3j0a55" not found',
-      objectType: 'KalturaAPIException',
+      objectType: 'TasvirchiAPIException',
       args: {
         ENTRY_ID: '1_rwbj3j0a55'
       }
@@ -677,7 +677,7 @@ const WrongEntryIDWithoutUIConf = {
     {
       objects: [],
       totalCount: 0,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
@@ -686,16 +686,16 @@ const EntryWithUIConfNoDrmData = {
   response: [
     {
       partnerId: 1082342,
-      ks:
+      ts:
         'YmQ0N2Q0M2QxZTAyMGIzYTY4YzI1ZDk5ZjI1NjhlZWVkOWZmOGViN3wxMDgyMzQyOzEwODIzNDI7MTQ5MDE5NjMwMDswOzE0OTAxMDk5MDAuOTA0NDswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://cdnapi.kaltura.com/p/1082342/sp/108234200/playManifest/entryId/1_rsrdfext/format/url/protocol/http',
+          dataUrl: 'http://cdnapi.tasvirchi.com/p/1082342/sp/108234200/playManifest/entryId/1_rsrdfext/format/url/protocol/http',
           flavorParamsIds: '0,487041,487051,487061,487071,487081,487091',
           duration: 55,
           msDuration: 55047,
@@ -705,13 +705,13 @@ const EntryWithUIConfNoDrmData = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -721,9 +721,9 @@ const EntryWithUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10081/protocol/https/format/url/name/a.mov',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10081/protocol/https/format/url/name/a.mov',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 10101,
@@ -731,9 +731,9 @@ const EntryWithUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10101/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10101/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 10091,
@@ -741,9 +741,9 @@ const EntryWithUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10091/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/10091/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11241,
@@ -751,9 +751,9 @@ const EntryWithUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11241/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11241/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11611,
@@ -761,9 +761,9 @@ const EntryWithUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11611/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11611/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11261,
@@ -771,9 +771,9 @@ const EntryWithUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11261/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11261/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11251,
@@ -781,9 +781,9 @@ const EntryWithUIConfNoDrmData = {
           protocols: 'http,https',
           flavorIds: '1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11251/protocol/https/format/sl/a.ism',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/1_rsrdfext/flavorIds/1_ha0nqwz8,1_gw7u4nf1,1_rql6sqaa,1_sufd1yd9,1_9xvkk7a5,1_4typ4pat,1_n75294r4/deliveryProfileId/11251/protocol/https/format/sl/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       flavorAssets: [
@@ -809,7 +809,7 @@ const EntryWithUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777079,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487051,
@@ -833,7 +833,7 @@ const EntryWithUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777079,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487061,
@@ -857,7 +857,7 @@ const EntryWithUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777064,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487071,
@@ -881,7 +881,7 @@ const EntryWithUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777080,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487081,
@@ -905,7 +905,7 @@ const EntryWithUIConfNoDrmData = {
           createdAt: 1484777022,
           updatedAt: 1484777115,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487091,
@@ -929,7 +929,7 @@ const EntryWithUIConfNoDrmData = {
           createdAt: 1484777023,
           updatedAt: 1484777325,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 0,
@@ -953,7 +953,7 @@ const EntryWithUIConfNoDrmData = {
           createdAt: 1484776914,
           updatedAt: 1484777022,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [],
@@ -961,10 +961,10 @@ const EntryWithUIConfNoDrmData = {
         {
           message: "Out of scheduling\nWe're sorry, this content is currently unavailable.",
           code: 'SCHEDULED_RESTRICTED',
-          objectType: 'KalturaAccessControlMessage'
+          objectType: 'TasvirchiAccessControlMessage'
         }
       ],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [
@@ -981,7 +981,7 @@ const EntryWithUIConfNoDrmData = {
           status: 1,
           xml:
             '<?xml version="1.0" encoding="ASCII"?>\n<metadata><OriginalFilename>FO21934-HDTX-SWE.mov</OriginalFilename>\n<Locale>sv_SE</Locale>\n<PropertyCode>FTA-nm</PropertyCode>\n<SiteSection>tv-dc</SiteSection>\n<ContentType>clip</ContentType>\n<BusinessUnit>Disney Channel</BusinessUnit>\n<Origin>IBMS</Origin>\n<PromoType>Show - TV</PromoType>\n<StartDate>1483225200</StartDate>\n<EndDate>1485903600</EndDate>\n<AgeConsent>No Age Consent</AgeConsent></metadata>\n',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         },
         {
           id: 331744121,
@@ -996,11 +996,11 @@ const EntryWithUIConfNoDrmData = {
           status: 1,
           xml:
             '<metadata>\n  <TXID>FO21934-HDTX-SWE</TXID>\n  <ZeroTouchIds>se-dc-lf</ZeroTouchIds>\n  <ScheduleSource>VOD</ScheduleSource>\n  <HLSOnly>android</HLSOnly>\n  <ChannelName>Disney Channel SE</ChannelName>\n</metadata>\n',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         }
       ],
       totalCount: 2,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     },
     {
       id: 38621471,
@@ -1011,11 +1011,11 @@ const EntryWithUIConfNoDrmData = {
       objTypeAsString: 'Widget',
       width: '560',
       height: '395',
-      swfUrl: '/flash/kdp3/v3.9.9/kdp3.swf',
+      swfUrl: '/flash/tdp3/v3.9.9/tdp3.swf',
       confFile:
-        '<layout id="default player dark" skinPath="/content/uiconf/kaltura/kmc/appstudio/kdp3/eagle/skin/v3.5.9/skin.swf">\r\n  <HBox id="topLevel" width="100%" height="100%">\r\n    <VBox id="player" width="100%" height="100%" styleName="black">\r\n      <Plugin id="kalturaMix" width="0%" height="0%" includeInLayout="false" loadingPolicy="onDemand"/>\r\n      <Canvas height="100%" width="100%" id="PlayerHolder" styleName="black">\r\n        <Video id="video" width="100%" height="100%" mantainAspectRatio="false"/>\r\n      \t<VBox id="offlineMessageHolder" \r\n\t     \t\t\tverticalAlign="middle" horizontalAlign="center" \r\n\t     \t\t\tincludeInLayout="false"\r\n\t\t\t\t    width="100%" height="100%" >\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Label \r\n\t\t\t\t      id="offlineMessage" styleName="offlineMessage"\r\n\t\t\t\t      text="{mediaProxy.entry.offlineMessage}" visible="{mediaProxy.isOffline}"\r\n\t\t\t\t      width="100%" height="30"/> <!-- mediaProxy.entry.offlineMessage-->\r\n\t\t\t     \t<Spacer height="100%" />\r\n\t\t    \t</VBox>\r\n      </Canvas>\r\n      <HBox id="ControllerScreenHolder" width="100%" height="30" verticalAlign="middle" styleName="darkBg">\r\n        <HBox id="ControllerScreen" width="100%" height="30" paddingLeft="10" horizontalGap="9" verticalAlign="middle" styleName="darkBg">\r\n        <Button id="playBtnControllerScreen" command="play" buttonType="iconButton" focusRectPadding="0" icon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="pauseIcon" selectedOverIcon="pauseIcon" selectedDownIcon="pauseIcon" selectedDisabledIcon="pauseIcon" k_buttonType="buttonIconControllerArea" tooltip="" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial" selectedTooltip="Pause" upTooltip="Play"/>\r\n\t\t<Button id="liveToggleStatus"\r\n\t\t\t\t\ttoggle="true"\r\n\t\t\t\t\tcolor1="0xFF0000"\r\n\t\t\t\t\tcolor2="0xFF0000"\r\n\t\t\t\t\tupIcon="onAirIcon" \r\n\t\t\t\t\toverIcon="onAirIcon" \r\n\t\t\t\t\tdownIcon="onAirIcon" \r\n\t\t\t\t\tdisabeledIcon="onAirIcon" \r\n\t\t\t\t\tselectedUpIcon="offlineIcon"  \r\n\t\t\t\t\tselectedOverIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDownIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDisabledIcon="offlineIcon"  \r\n\t\t\t\t\tisSelected="{mediaProxy.isOffline}"\r\n\t\t\t\t\tvisible="{mediaProxy.isLive}"\r\n\t\t\t\t\tincludeInLayout="{mediaProxy.isLive}"\r\n\t\t\t\t\tuseHandCursor=""\r\n\t\t\t\t\t/>\r\n\t\t<VBox id="scrubberContainer" width="100%" height="30" verticalAlign="middle" verticalGap="-3" notVisible="{mediaProxy.isLive}">\r\n\t\t\t<Spacer height="10" />\t\r\n\t\t\t<Scrubber id="scrubber" width="100%" height="10"  styleName=""  />\r\n\t\t\t<HBox width="100%">\r\n\t\t\t\t<Timer id="timerControllerScreen1" width="60" styleName="timerProgressLeft" format="mm:ss" height="12"  />\r\n\t\t\t\t<Spacer width="100%" height="8" />\t\r\n\t\t\t\t<Timer id="timerControllerScreen2" width="60" \r\n\t\t\t\tstyleName="timerProgressRight" format="mm:ss" height="12" timerType="total" />\t\r\n\t\t\t</HBox>\r\n\t\t</VBox>\r\n\r\n          <VolumeBar id="volumeBar" styleName="volumeBtn" width="20" height="20" buttonType="iconButton" tooltip="Change volume" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="fullScreenBtnControllerScreen" command="fullScreen" \r\n          \t\t\tbuttonType="iconButton" height="22" styleName="controllerScreen" \r\n          \t\t\ticon="openFullScreenIcon" \r\n          \t\t\tselectedUpIcon="closeFullScreenIcon" \r\n          \t\t\tselectedOverIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDownIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDisabledIcon="closeFullScreenIcon" \r\n          \t\t\tfocusRectPadding="0" \r\n          \t\t\tk_buttonType="buttonIconControllerArea" \r\n          \t\t\ttooltip="Toggle fullscreen" \r\n          \t\t\tcolor1="11184810" \r\n          \t\t\tcolor2="16777215" \r\n          \t\t\tcolor3="16777215" \r\n          \t\t\tcolor4="11184810" color5="0" font="Arial"/>\r\n        </HBox>\r\n\t\t<Spacer width="7"/>\r\n      </HBox>\r\n    </VBox>\r\n  </HBox>\r\n  <screens>\r\n    <screen id="startScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer width="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnStartScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnStartScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer width="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="pauseScreen">\r\n      <VBox id="pauseContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnPauseScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnPauseScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="playScreen">\r\n      <VBox id="playContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="shareBtnPlayScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" tooltip="share with friends"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="endScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="replayBtnEndScreen" kClick="sendNotification(\'doSeek\',\'0\');sendNotification(\'doPlay\')" buttonType="onScreenButton" labelPlacement="top" label="replay" styleName="onScreenBtn" upIcon="replayIcon" k_buttonType="buttonIconControllerArea" tooltip="replay" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnEndScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n  </screens>\r\n  <renderers>\r\n    <renderer id="playlistItemRenderer">\r\n      <HBox height="100%" width="100%" x="10" y="10" verticalAlign="top">\r\n        <Image id="irImageIrScreen" height="30" width="40" url="{this.thumbnailUrl}" source="{this.thumbnailUrl}"/>\r\n        <VBox height="100%" width="100%" id="labelsHolder" verticalGap="0">\r\n\r\n          <Label id="irLinkIrScreen" width="100%" height="18" text="{this.name}" styleName="itemRendererLabel" label="{this.name}" prefix=""/>\r\n          <Label id="irDescriptionIrScreen" width="100%" height="18" text="{this.description}" styleName="itemRendererLabel" prefix=""/>\r\n          <Label id="irDurationIrScreen" width="100%" height="18" text="{formatDate(this.duration, \'NN:SS\')}" styleName="itemRendererLabel" prefix=""/>\r\n        </VBox>\r\n      </HBox>\r\n    </renderer>\r\n  </renderers>\r\n  <strings>\r\n    <string key="ENTRY_CONVERTING" value="Entry is processing, please try again in a few minutes."/>\r\n  </strings>\r\n  <extraData>\r\n    <GigyaUI theme="dark">\r\n      <config>\r\n        <display showEmail="true" useTransitions="true" showBookmark="true" codeBoxHeight="auto" showCodeBox="true" showCloseButton="true" networksWithCodeBox="" networksToHide="livespaces, piczo, orkut, pageflakes, vox, tagged, hi5, wordpress, multiply" networksToShow="myspace, facebook, bebo, blogger, freewebs, livejournal, blackplanet, myyearbook, typepad, xanga, igoogle, netvibes, migente, friendster" bookmarksToShow="googlebookmarks,delicious,digg,facebookshare,newsvine,reddit,twitter,ask,myaol,slashdot,skimbit,simpy,blogmarks,spurl,linkagogo,Magnolia,faves,segnalo,netvouz,blinklist,dropjack,feedmelinks"/>\r\n        <body>\r\n          <background frame-color="#BFBFBF" background-color="#292929" frame-thickness="0" gradient-color-begin="#292929" gradient-color-end="#292929" corner-roundness="0;0;0;0"/>\r\n          <controls corner-roundness="4;4;4;4" gradient-color-begin="#EAEAEA" gradient-color-end="#F4F4F4" bold="false">\r\n\r\n            <snbuttons type="textUnder" frame-color="#666666" background-color="#292929" over-frame-color="#FFFFFF" color="#BFBFBF" gradient-color-begin="#666666" gradient-color-end="Transparent" size="10" bold="false" down-frame-color="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#ffffff" down-gradient-color-end="#666666" over-color="#ffffff" down-color="#ffffff" over-bold="false">\r\n              <more frame-color="#A4DBFF" over-frame-color="#A4DBFF" gradient-color-begin="#F4F4F4" gradient-color-end="#BBE4FF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n              <previous frame-color="#BBE4FF" over-frame-color="#A4DBFF" gradient-color-begin="#FFFFFF" gradient-color-end="#A4DBFF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n            </snbuttons>\r\n            <textboxes frame-color="#CACACA" background-color="#292929" color="#757575" gradient-color-begin="#292929" gradient-color-end="#292929" bold="false">\r\n              <codeboxes color="#808080" frame-color="#6A6A6A" background-color="#606060" gradient-color-begin="Transparent" gradient-color-end="Transparent" size="10"/>\r\n              <inputs frame-color="#6a6a6a" color="#808080" gradient-color-begin="Transparent" gradient-color-end="Transparent"/>\r\n              <dropdowns list-item-over-color="#52A4DA" frame-color="#6a6a6a" background-color="#292929" color="#808080" gradient-color-begin="#292929" gradient-color-end="#292929"/>\r\n            </textboxes>\r\n\r\n            <buttons frame-color="#6a6a6a" background-color="Transparent" gradient-color-begin="#666666" gradient-color-end="Transparent" color="#FFFFFF" frame-thickness="1" size="12" bold="false" over-frame-color="#FFFFFF" down-frame-color="#6a6a6a" over-gradient-color-begin="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#353535" down-gradient-color-end="Transparent" over-size="12" over-bold="false">\r\n              <post-buttons frame-color="#6a6a6a" gradient-color-end="Transparent"/>\r\n            </buttons>\r\n            <listboxes frame-color="#CACACA" corner-roundness="4;4;4;4" gradient-color-begin="#F4F4F4" gradient-color-end="#FFFFFF"/>\r\n            <checkboxes checkmark-color="#FFFFC8" frame-color="#6a6a6a" down-gradient-color-begin="#292929" down-gradient-color-end="#292929" background-color="#292929" corner-roundness="3;3;3;3" gradient-color-begin="Transparent" gradient-color-end="Transparent" over-background-color="#292929" down-background-color="#292929"/>\r\n            <servicemarker gradient-color-begin="Transparent" gradient-color-end="#666666"/>\r\n            <tooltips frame-thickness="0" color="#292929" gradient-color-begin="#FFFFFF" gradient-color-end="#FFFFC8" size="10" frame-color="#FFDBA4"/>\r\n          </controls>\r\n          <texts color="808080">\r\n\r\n            <privacy color="#808080"/>\r\n            <headers color="#FFFFFF" bold="false"/>\r\n            <labels color="#FFFFFF" bold="false"/>\r\n            <messages color="#202020" background-color="#FFFFA4" frame-thickness="0" corner-roundness="4;4;4;4"/>\r\n            <links color="#FFFFFF" underline="false" over-color="#666666" down-color="#666666" down-bold="false"/>\r\n          </texts>\r\n        </body>\r\n      </config>\r\n    </GigyaUI>\r\n  </extraData>\r\n  <uiVars>\r\n    <var key="streamerType" value="auto" overrideFlashvar="true"/>\r\n  </uiVars>\r\n</layout>',
+        '<layout id="default player dark" skinPath="/content/uiconf/tasvirchi/tmc/appstudio/tdp3/eagle/skin/v3.5.9/skin.swf">\r\n  <HBox id="topLevel" width="100%" height="100%">\r\n    <VBox id="player" width="100%" height="100%" styleName="black">\r\n      <Plugin id="tasvirchiMix" width="0%" height="0%" includeInLayout="false" loadingPolicy="onDemand"/>\r\n      <Canvas height="100%" width="100%" id="PlayerHolder" styleName="black">\r\n        <Video id="video" width="100%" height="100%" mantainAspectRatio="false"/>\r\n      \t<VBox id="offlineMessageHolder" \r\n\t     \t\t\tverticalAlign="middle" horizontalAlign="center" \r\n\t     \t\t\tincludeInLayout="false"\r\n\t\t\t\t    width="100%" height="100%" >\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Label \r\n\t\t\t\t      id="offlineMessage" styleName="offlineMessage"\r\n\t\t\t\t      text="{mediaProxy.entry.offlineMessage}" visible="{mediaProxy.isOffline}"\r\n\t\t\t\t      width="100%" height="30"/> <!-- mediaProxy.entry.offlineMessage-->\r\n\t\t\t     \t<Spacer height="100%" />\r\n\t\t    \t</VBox>\r\n      </Canvas>\r\n      <HBox id="ControllerScreenHolder" width="100%" height="30" verticalAlign="middle" styleName="darkBg">\r\n        <HBox id="ControllerScreen" width="100%" height="30" paddingLeft="10" horizontalGap="9" verticalAlign="middle" styleName="darkBg">\r\n        <Button id="playBtnControllerScreen" command="play" buttonType="iconButton" focusRectPadding="0" icon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="pauseIcon" selectedOverIcon="pauseIcon" selectedDownIcon="pauseIcon" selectedDisabledIcon="pauseIcon" k_buttonType="buttonIconControllerArea" tooltip="" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial" selectedTooltip="Pause" upTooltip="Play"/>\r\n\t\t<Button id="liveToggleStatus"\r\n\t\t\t\t\ttoggle="true"\r\n\t\t\t\t\tcolor1="0xFF0000"\r\n\t\t\t\t\tcolor2="0xFF0000"\r\n\t\t\t\t\tupIcon="onAirIcon" \r\n\t\t\t\t\toverIcon="onAirIcon" \r\n\t\t\t\t\tdownIcon="onAirIcon" \r\n\t\t\t\t\tdisabeledIcon="onAirIcon" \r\n\t\t\t\t\tselectedUpIcon="offlineIcon"  \r\n\t\t\t\t\tselectedOverIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDownIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDisabledIcon="offlineIcon"  \r\n\t\t\t\t\tisSelected="{mediaProxy.isOffline}"\r\n\t\t\t\t\tvisible="{mediaProxy.isLive}"\r\n\t\t\t\t\tincludeInLayout="{mediaProxy.isLive}"\r\n\t\t\t\t\tuseHandCursor=""\r\n\t\t\t\t\t/>\r\n\t\t<VBox id="scrubberContainer" width="100%" height="30" verticalAlign="middle" verticalGap="-3" notVisible="{mediaProxy.isLive}">\r\n\t\t\t<Spacer height="10" />\t\r\n\t\t\t<Scrubber id="scrubber" width="100%" height="10"  styleName=""  />\r\n\t\t\t<HBox width="100%">\r\n\t\t\t\t<Timer id="timerControllerScreen1" width="60" styleName="timerProgressLeft" format="mm:ss" height="12"  />\r\n\t\t\t\t<Spacer width="100%" height="8" />\t\r\n\t\t\t\t<Timer id="timerControllerScreen2" width="60" \r\n\t\t\t\tstyleName="timerProgressRight" format="mm:ss" height="12" timerType="total" />\t\r\n\t\t\t</HBox>\r\n\t\t</VBox>\r\n\r\n          <VolumeBar id="volumeBar" styleName="volumeBtn" width="20" height="20" buttonType="iconButton" tooltip="Change volume" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="fullScreenBtnControllerScreen" command="fullScreen" \r\n          \t\t\tbuttonType="iconButton" height="22" styleName="controllerScreen" \r\n          \t\t\ticon="openFullScreenIcon" \r\n          \t\t\tselectedUpIcon="closeFullScreenIcon" \r\n          \t\t\tselectedOverIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDownIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDisabledIcon="closeFullScreenIcon" \r\n          \t\t\tfocusRectPadding="0" \r\n          \t\t\tk_buttonType="buttonIconControllerArea" \r\n          \t\t\ttooltip="Toggle fullscreen" \r\n          \t\t\tcolor1="11184810" \r\n          \t\t\tcolor2="16777215" \r\n          \t\t\tcolor3="16777215" \r\n          \t\t\tcolor4="11184810" color5="0" font="Arial"/>\r\n        </HBox>\r\n\t\t<Spacer width="7"/>\r\n      </HBox>\r\n    </VBox>\r\n  </HBox>\r\n  <screens>\r\n    <screen id="startScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer width="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnStartScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnStartScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer width="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="pauseScreen">\r\n      <VBox id="pauseContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnPauseScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnPauseScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="playScreen">\r\n      <VBox id="playContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="shareBtnPlayScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" tooltip="share with friends"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="endScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="replayBtnEndScreen" tClick="sendNotification(\'doSeek\',\'0\');sendNotification(\'doPlay\')" buttonType="onScreenButton" labelPlacement="top" label="replay" styleName="onScreenBtn" upIcon="replayIcon" k_buttonType="buttonIconControllerArea" tooltip="replay" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnEndScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n  </screens>\r\n  <renderers>\r\n    <renderer id="playlistItemRenderer">\r\n      <HBox height="100%" width="100%" x="10" y="10" verticalAlign="top">\r\n        <Image id="irImageIrScreen" height="30" width="40" url="{this.thumbnailUrl}" source="{this.thumbnailUrl}"/>\r\n        <VBox height="100%" width="100%" id="labelsHolder" verticalGap="0">\r\n\r\n          <Label id="irLinkIrScreen" width="100%" height="18" text="{this.name}" styleName="itemRendererLabel" label="{this.name}" prefix=""/>\r\n          <Label id="irDescriptionIrScreen" width="100%" height="18" text="{this.description}" styleName="itemRendererLabel" prefix=""/>\r\n          <Label id="irDurationIrScreen" width="100%" height="18" text="{formatDate(this.duration, \'NN:SS\')}" styleName="itemRendererLabel" prefix=""/>\r\n        </VBox>\r\n      </HBox>\r\n    </renderer>\r\n  </renderers>\r\n  <strings>\r\n    <string key="ENTRY_CONVERTING" value="Entry is processing, please try again in a few minutes."/>\r\n  </strings>\r\n  <extraData>\r\n    <GigyaUI theme="dark">\r\n      <config>\r\n        <display showEmail="true" useTransitions="true" showBookmark="true" codeBoxHeight="auto" showCodeBox="true" showCloseButton="true" networksWithCodeBox="" networksToHide="livespaces, piczo, orkut, pageflakes, vox, tagged, hi5, wordpress, multiply" networksToShow="myspace, facebook, bebo, blogger, freewebs, livejournal, blackplanet, myyearbook, typepad, xanga, igoogle, netvibes, migente, friendster" bookmarksToShow="googlebookmarks,delicious,digg,facebookshare,newsvine,reddit,twitter,ask,myaol,slashdot,skimbit,simpy,blogmarks,spurl,linkagogo,Magnolia,faves,segnalo,netvouz,blinklist,dropjack,feedmelinks"/>\r\n        <body>\r\n          <background frame-color="#BFBFBF" background-color="#292929" frame-thickness="0" gradient-color-begin="#292929" gradient-color-end="#292929" corner-roundness="0;0;0;0"/>\r\n          <controls corner-roundness="4;4;4;4" gradient-color-begin="#EAEAEA" gradient-color-end="#F4F4F4" bold="false">\r\n\r\n            <snbuttons type="textUnder" frame-color="#666666" background-color="#292929" over-frame-color="#FFFFFF" color="#BFBFBF" gradient-color-begin="#666666" gradient-color-end="Transparent" size="10" bold="false" down-frame-color="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#ffffff" down-gradient-color-end="#666666" over-color="#ffffff" down-color="#ffffff" over-bold="false">\r\n              <more frame-color="#A4DBFF" over-frame-color="#A4DBFF" gradient-color-begin="#F4F4F4" gradient-color-end="#BBE4FF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n              <previous frame-color="#BBE4FF" over-frame-color="#A4DBFF" gradient-color-begin="#FFFFFF" gradient-color-end="#A4DBFF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n            </snbuttons>\r\n            <textboxes frame-color="#CACACA" background-color="#292929" color="#757575" gradient-color-begin="#292929" gradient-color-end="#292929" bold="false">\r\n              <codeboxes color="#808080" frame-color="#6A6A6A" background-color="#606060" gradient-color-begin="Transparent" gradient-color-end="Transparent" size="10"/>\r\n              <inputs frame-color="#6a6a6a" color="#808080" gradient-color-begin="Transparent" gradient-color-end="Transparent"/>\r\n              <dropdowns list-item-over-color="#52A4DA" frame-color="#6a6a6a" background-color="#292929" color="#808080" gradient-color-begin="#292929" gradient-color-end="#292929"/>\r\n            </textboxes>\r\n\r\n            <buttons frame-color="#6a6a6a" background-color="Transparent" gradient-color-begin="#666666" gradient-color-end="Transparent" color="#FFFFFF" frame-thickness="1" size="12" bold="false" over-frame-color="#FFFFFF" down-frame-color="#6a6a6a" over-gradient-color-begin="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#353535" down-gradient-color-end="Transparent" over-size="12" over-bold="false">\r\n              <post-buttons frame-color="#6a6a6a" gradient-color-end="Transparent"/>\r\n            </buttons>\r\n            <listboxes frame-color="#CACACA" corner-roundness="4;4;4;4" gradient-color-begin="#F4F4F4" gradient-color-end="#FFFFFF"/>\r\n            <checkboxes checkmark-color="#FFFFC8" frame-color="#6a6a6a" down-gradient-color-begin="#292929" down-gradient-color-end="#292929" background-color="#292929" corner-roundness="3;3;3;3" gradient-color-begin="Transparent" gradient-color-end="Transparent" over-background-color="#292929" down-background-color="#292929"/>\r\n            <servicemarker gradient-color-begin="Transparent" gradient-color-end="#666666"/>\r\n            <tooltips frame-thickness="0" color="#292929" gradient-color-begin="#FFFFFF" gradient-color-end="#FFFFC8" size="10" frame-color="#FFDBA4"/>\r\n          </controls>\r\n          <texts color="808080">\r\n\r\n            <privacy color="#808080"/>\r\n            <headers color="#FFFFFF" bold="false"/>\r\n            <labels color="#FFFFFF" bold="false"/>\r\n            <messages color="#202020" background-color="#FFFFA4" frame-thickness="0" corner-roundness="4;4;4;4"/>\r\n            <links color="#FFFFFF" underline="false" over-color="#666666" down-color="#666666" down-bold="false"/>\r\n          </texts>\r\n        </body>\r\n      </config>\r\n    </GigyaUI>\r\n  </extraData>\r\n  <uiVars>\r\n    <var key="streamerType" value="auto" overrideFlashvar="true"/>\r\n  </uiVars>\r\n</layout>',
       config:
-        '{\n\t"plugins": {\n\t\t"topBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"controlBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"scrubber": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"largePlayBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playHead": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playPauseBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"volumeControl": {\n\t\t\t"showSlider": true,\n\t\t\t"layout": "horizontal",\n\t\t\t"pinVolumeBar": false,\n\t\t\t"accessibleControls": false,\n\t\t\t"accessibleVolumeChange": 0.1,\n\t\t\t"plugin": true\n\t\t},\n\t\t"durationLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"currentTimeLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"keyboardShortcuts": {\n\t\t\t"volumePercentChange": "0.1",\n\t\t\t"shortSeekTime": "5",\n\t\t\t"longSeekTime": "10",\n\t\t\t"volumeUpKey": "38",\n\t\t\t"volumeDownKey": "40",\n\t\t\t"togglePlaybackKey": "32",\n\t\t\t"shortSeekBackKey": "37",\n\t\t\t"shortSeekForwardKey": "39",\n\t\t\t"openFullscreenKey": "70",\n\t\t\t"closeFullscreenkey": "27",\n\t\t\t"gotoBeginingKey": "36",\n\t\t\t"gotoEndKey": "35",\n\t\t\t"longSeekForwardKey": "ctrl+39",\n\t\t\t"longSeekBackKey": "ctrl+37",\n\t\t\t"percentageSeekKeys": "49,50,51,52,53,54,55,56,57",\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveCore": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveStatus": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveBackBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"fullScreenBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"logo": {\n\t\t\t"href": "http://www.kaltura.com",\n\t\t\t"title": "Kaltura",\n\t\t\t"plugin": true\n\t\t},\n\t\t"playersJsReceiver": {\n\t\t\t"plugin": true\n\t\t}\n\t},\n\t"uiVars": [\n\t\t{\n\t\t\t"key": "autoPlay",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "autoMute",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "enableTooltips",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "adsOnReplay",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t}\n\t],\n\t"layout": {\n\t\t"skin": "kdark"\n\t}\n}',
+        '{\n\t"plugins": {\n\t\t"topBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"controlBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"scrubber": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"largePlayBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playHead": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playPauseBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"volumeControl": {\n\t\t\t"showSlider": true,\n\t\t\t"layout": "horizontal",\n\t\t\t"pinVolumeBar": false,\n\t\t\t"accessibleControls": false,\n\t\t\t"accessibleVolumeChange": 0.1,\n\t\t\t"plugin": true\n\t\t},\n\t\t"durationLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"currentTimeLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"keyboardShortcuts": {\n\t\t\t"volumePercentChange": "0.1",\n\t\t\t"shortSeekTime": "5",\n\t\t\t"longSeekTime": "10",\n\t\t\t"volumeUpKey": "38",\n\t\t\t"volumeDownKey": "40",\n\t\t\t"togglePlaybackKey": "32",\n\t\t\t"shortSeekBackKey": "37",\n\t\t\t"shortSeekForwardKey": "39",\n\t\t\t"openFullscreenKey": "70",\n\t\t\t"closeFullscreenkey": "27",\n\t\t\t"gotoBeginingKey": "36",\n\t\t\t"gotoEndKey": "35",\n\t\t\t"longSeekForwardKey": "ctrl+39",\n\t\t\t"longSeekBackKey": "ctrl+37",\n\t\t\t"percentageSeekKeys": "49,50,51,52,53,54,55,56,57",\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveCore": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveStatus": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveBackBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"fullScreenBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"logo": {\n\t\t\t"href": "http://www.tasvirchi.com",\n\t\t\t"title": "Tasvirchi",\n\t\t\t"plugin": true\n\t\t},\n\t\t"playersJsReceiver": {\n\t\t\t"plugin": true\n\t\t}\n\t},\n\t"uiVars": [\n\t\t{\n\t\t\t"key": "autoPlay",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "autoMute",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "enableTooltips",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "adsOnReplay",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t}\n\t],\n\t"layout": {\n\t\t"skin": "tdark"\n\t}\n}',
       useCdn: 1,
       tags: 'html5studio,player',
       swfUrlVersion: '3.9.9',
@@ -1024,7 +1024,7 @@ const EntryWithUIConfNoDrmData = {
       creationMode: 2,
       html5Url: '/html5/html5lib/v2.53.2/mwEmbedLoader.php',
       version: '11',
-      objectType: 'KalturaUiConf'
+      objectType: 'TasvirchiUiConf'
     }
   ]
 };
@@ -1035,7 +1035,7 @@ const EntryWithUIConfWithDrmData = {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://cdnapi.kaltura.com/p/1068292/sp/106829200/playManifest/entryId/1_rwbj3j0a/format/url/protocol/http',
+          dataUrl: 'http://cdnapi.tasvirchi.com/p/1068292/sp/106829200/playManifest/entryId/1_rwbj3j0a/format/url/protocol/http',
           flavorParamsIds: '0,525091,525101,525111,525121',
           duration: 596,
           msDuration: 596000,
@@ -1044,13 +1044,13 @@ const EntryWithUIConfWithDrmData = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -1060,17 +1060,17 @@ const EntryWithUIConfWithDrmData = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11311/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11311/protocol/https/format/applehttp/a.m3u8',
           drm: [
             {
               certificate: 'ABCD1234',
               scheme: 'fairplay.FAIRPLAY',
               licenseURL:
-                'https://udrmv3.kaltura.com//fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiWlRGaU56azRNbU01TWpKaVl6a3dPRGxpTXpRelpUUTNZMkk0TXpJd1lUSXpNbVF6TVRNeFlud3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTWprNU1qc3dPekUwT1RBeE5qWTFPVEl1T0RVeU1Uc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=AZaaKvEx5j8CAh6VMSZbGzmUK1A%3D',
-              objectType: 'KalturaFairPlayPlaybackPluginData'
+                'https://udrmv3.tasvirchi.com//fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiWlRGaU56azRNbU01TWpKaVl6a3dPRGxpTXpRelpUUTNZMkk0TXpJd1lUSXpNbVF6TVRNeFlud3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTWprNU1qc3dPekUwT1RBeE5qWTFPVEl1T0RVeU1Uc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=AZaaKvEx5j8CAh6VMSZbGzmUK1A%3D',
+              objectType: 'TasvirchiFairPlayPlaybackPluginData'
             }
           ],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11331,
@@ -1078,22 +1078,22 @@ const EntryWithUIConfWithDrmData = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11331/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11331/protocol/https/format/mpegdash/manifest.mpd',
           drm: [
             {
               scheme: 'drm.PLAYREADY_CENC',
               licenseURL:
-                'https://udrm.kaltura.com//cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiWlRGaU56azRNbU01TWpKaVl6a3dPRGxpTXpRelpUUTNZMkk0TXpJd1lUSXpNbVF6TVRNeFlud3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTWprNU1qc3dPekUwT1RBeE5qWTFPVEl1T0RVeU1Uc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=AZaaKvEx5j8CAh6VMSZbGzmUK1A%3D',
-              objectType: 'KalturaDrmPlaybackPluginData'
+                'https://udrm.tasvirchi.com//cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiWlRGaU56azRNbU01TWpKaVl6a3dPRGxpTXpRelpUUTNZMkk0TXpJd1lUSXpNbVF6TVRNeFlud3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTWprNU1qc3dPekUwT1RBeE5qWTFPVEl1T0RVeU1Uc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=AZaaKvEx5j8CAh6VMSZbGzmUK1A%3D',
+              objectType: 'TasvirchiDrmPlaybackPluginData'
             },
             {
               scheme: 'drm.WIDEVINE_CENC',
               licenseURL:
-                'https://udrm.kaltura.com//cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiWlRGaU56azRNbU01TWpKaVl6a3dPRGxpTXpRelpUUTNZMkk0TXpJd1lUSXpNbVF6TVRNeFlud3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTWprNU1qc3dPekUwT1RBeE5qWTFPVEl1T0RVeU1Uc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=AZaaKvEx5j8CAh6VMSZbGzmUK1A%3D',
-              objectType: 'KalturaDrmPlaybackPluginData'
+                'https://udrm.tasvirchi.com//cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiWlRGaU56azRNbU01TWpKaVl6a3dPRGxpTXpRelpUUTNZMkk0TXpJd1lUSXpNbVF6TVRNeFlud3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTWprNU1qc3dPekUwT1RBeE5qWTFPVEl1T0RVeU1Uc3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=AZaaKvEx5j8CAh6VMSZbGzmUK1A%3D',
+              objectType: 'TasvirchiDrmPlaybackPluginData'
             }
           ],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11321,
@@ -1101,9 +1101,9 @@ const EntryWithUIConfWithDrmData = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11321/protocol/https/format/sl/a.ism',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11321/protocol/https/format/sl/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       flavorAssets: [
@@ -1129,7 +1129,7 @@ const EntryWithUIConfWithDrmData = {
           createdAt: 1485272387,
           updatedAt: 1485272469,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525101,
@@ -1153,7 +1153,7 @@ const EntryWithUIConfWithDrmData = {
           createdAt: 1485272387,
           updatedAt: 1485272469,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525111,
@@ -1177,7 +1177,7 @@ const EntryWithUIConfWithDrmData = {
           createdAt: 1485272388,
           updatedAt: 1485272499,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525121,
@@ -1201,7 +1201,7 @@ const EntryWithUIConfWithDrmData = {
           createdAt: 1485272388,
           updatedAt: 1485272564,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 0,
@@ -1224,28 +1224,28 @@ const EntryWithUIConfWithDrmData = {
           createdAt: 1485272298,
           updatedAt: 1485272387,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [
         {
           deliveryProfileIds: '11311,11321,11331',
           type: 5,
-          objectType: 'KalturaAccessControlLimitDeliveryProfilesAction'
+          objectType: 'TasvirchiAccessControlLimitDeliveryProfilesAction'
         },
         {
           policyId: 4081,
           type: 'DRM_POLICY',
-          objectType: 'KalturaAccessControlDrmPolicyAction'
+          objectType: 'TasvirchiAccessControlDrmPolicyAction'
         }
       ],
       messages: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [],
       totalCount: 0,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     },
     {
       id: 38601981,
@@ -1256,11 +1256,11 @@ const EntryWithUIConfWithDrmData = {
       objTypeAsString: 'Widget',
       width: '560',
       height: '395',
-      swfUrl: '/flash/kdp3/v3.9.9/kdp3.swf',
+      swfUrl: '/flash/tdp3/v3.9.9/tdp3.swf',
       confFile:
-        '<layout id="default player dark" skinPath="/content/uiconf/kaltura/kmc/appstudio/kdp3/eagle/skin/v3.5.9/skin.swf">\r\n  <HBox id="topLevel" width="100%" height="100%">\r\n    <VBox id="player" width="100%" height="100%" styleName="black">\r\n      <Plugin id="kalturaMix" width="0%" height="0%" includeInLayout="false" loadingPolicy="onDemand"/>\r\n      <Canvas height="100%" width="100%" id="PlayerHolder" styleName="black">\r\n        <Video id="video" width="100%" height="100%" mantainAspectRatio="false"/>\r\n      \t<VBox id="offlineMessageHolder" \r\n\t     \t\t\tverticalAlign="middle" horizontalAlign="center" \r\n\t     \t\t\tincludeInLayout="false"\r\n\t\t\t\t    width="100%" height="100%" >\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Label \r\n\t\t\t\t      id="offlineMessage" styleName="offlineMessage"\r\n\t\t\t\t      text="{mediaProxy.entry.offlineMessage}" visible="{mediaProxy.isOffline}"\r\n\t\t\t\t      width="100%" height="30"/> <!-- mediaProxy.entry.offlineMessage-->\r\n\t\t\t     \t<Spacer height="100%" />\r\n\t\t    \t</VBox>\r\n      </Canvas>\r\n      <HBox id="ControllerScreenHolder" width="100%" height="30" verticalAlign="middle" styleName="darkBg">\r\n        <HBox id="ControllerScreen" width="100%" height="30" paddingLeft="10" horizontalGap="9" verticalAlign="middle" styleName="darkBg">\r\n        <Button id="playBtnControllerScreen" command="play" buttonType="iconButton" focusRectPadding="0" icon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="pauseIcon" selectedOverIcon="pauseIcon" selectedDownIcon="pauseIcon" selectedDisabledIcon="pauseIcon" k_buttonType="buttonIconControllerArea" tooltip="" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial" selectedTooltip="Pause" upTooltip="Play"/>\r\n\t\t<Button id="liveToggleStatus"\r\n\t\t\t\t\ttoggle="true"\r\n\t\t\t\t\tcolor1="0xFF0000"\r\n\t\t\t\t\tcolor2="0xFF0000"\r\n\t\t\t\t\tupIcon="onAirIcon" \r\n\t\t\t\t\toverIcon="onAirIcon" \r\n\t\t\t\t\tdownIcon="onAirIcon" \r\n\t\t\t\t\tdisabeledIcon="onAirIcon" \r\n\t\t\t\t\tselectedUpIcon="offlineIcon"  \r\n\t\t\t\t\tselectedOverIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDownIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDisabledIcon="offlineIcon"  \r\n\t\t\t\t\tisSelected="{mediaProxy.isOffline}"\r\n\t\t\t\t\tvisible="{mediaProxy.isLive}"\r\n\t\t\t\t\tincludeInLayout="{mediaProxy.isLive}"\r\n\t\t\t\t\tuseHandCursor=""\r\n\t\t\t\t\t/>\r\n\t\t<VBox id="scrubberContainer" width="100%" height="30" verticalAlign="middle" verticalGap="-3" notVisible="{mediaProxy.isLive}">\r\n\t\t\t<Spacer height="10" />\t\r\n\t\t\t<Scrubber id="scrubber" width="100%" height="10"  styleName=""  />\r\n\t\t\t<HBox width="100%">\r\n\t\t\t\t<Timer id="timerControllerScreen1" width="60" styleName="timerProgressLeft" format="mm:ss" height="12"  />\r\n\t\t\t\t<Spacer width="100%" height="8" />\t\r\n\t\t\t\t<Timer id="timerControllerScreen2" width="60" \r\n\t\t\t\tstyleName="timerProgressRight" format="mm:ss" height="12" timerType="total" />\t\r\n\t\t\t</HBox>\r\n\t\t</VBox>\r\n\r\n          <VolumeBar id="volumeBar" styleName="volumeBtn" width="20" height="20" buttonType="iconButton" tooltip="Change volume" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="fullScreenBtnControllerScreen" command="fullScreen" \r\n          \t\t\tbuttonType="iconButton" height="22" styleName="controllerScreen" \r\n          \t\t\ticon="openFullScreenIcon" \r\n          \t\t\tselectedUpIcon="closeFullScreenIcon" \r\n          \t\t\tselectedOverIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDownIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDisabledIcon="closeFullScreenIcon" \r\n          \t\t\tfocusRectPadding="0" \r\n          \t\t\tk_buttonType="buttonIconControllerArea" \r\n          \t\t\ttooltip="Toggle fullscreen" \r\n          \t\t\tcolor1="11184810" \r\n          \t\t\tcolor2="16777215" \r\n          \t\t\tcolor3="16777215" \r\n          \t\t\tcolor4="11184810" color5="0" font="Arial"/>\r\n        </HBox>\r\n\t\t<Spacer width="7"/>\r\n      </HBox>\r\n    </VBox>\r\n  </HBox>\r\n  <screens>\r\n    <screen id="startScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer width="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnStartScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnStartScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer width="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="pauseScreen">\r\n      <VBox id="pauseContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnPauseScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnPauseScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="playScreen">\r\n      <VBox id="playContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="shareBtnPlayScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" tooltip="share with friends"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="endScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="replayBtnEndScreen" kClick="sendNotification(\'doSeek\',\'0\');sendNotification(\'doPlay\')" buttonType="onScreenButton" labelPlacement="top" label="replay" styleName="onScreenBtn" upIcon="replayIcon" k_buttonType="buttonIconControllerArea" tooltip="replay" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnEndScreen" kClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n  </screens>\r\n  <renderers>\r\n    <renderer id="playlistItemRenderer">\r\n      <HBox height="100%" width="100%" x="10" y="10" verticalAlign="top">\r\n        <Image id="irImageIrScreen" height="30" width="40" url="{this.thumbnailUrl}" source="{this.thumbnailUrl}"/>\r\n        <VBox height="100%" width="100%" id="labelsHolder" verticalGap="0">\r\n\r\n          <Label id="irLinkIrScreen" width="100%" height="18" text="{this.name}" styleName="itemRendererLabel" label="{this.name}" prefix=""/>\r\n          <Label id="irDescriptionIrScreen" width="100%" height="18" text="{this.description}" styleName="itemRendererLabel" prefix=""/>\r\n          <Label id="irDurationIrScreen" width="100%" height="18" text="{formatDate(this.duration, \'NN:SS\')}" styleName="itemRendererLabel" prefix=""/>\r\n        </VBox>\r\n      </HBox>\r\n    </renderer>\r\n  </renderers>\r\n  <strings>\r\n    <string key="ENTRY_CONVERTING" value="Entry is processing, please try again in a few minutes."/>\r\n  </strings>\r\n  <extraData>\r\n    <GigyaUI theme="dark">\r\n      <config>\r\n        <display showEmail="true" useTransitions="true" showBookmark="true" codeBoxHeight="auto" showCodeBox="true" showCloseButton="true" networksWithCodeBox="" networksToHide="livespaces, piczo, orkut, pageflakes, vox, tagged, hi5, wordpress, multiply" networksToShow="myspace, facebook, bebo, blogger, freewebs, livejournal, blackplanet, myyearbook, typepad, xanga, igoogle, netvibes, migente, friendster" bookmarksToShow="googlebookmarks,delicious,digg,facebookshare,newsvine,reddit,twitter,ask,myaol,slashdot,skimbit,simpy,blogmarks,spurl,linkagogo,Magnolia,faves,segnalo,netvouz,blinklist,dropjack,feedmelinks"/>\r\n        <body>\r\n          <background frame-color="#BFBFBF" background-color="#292929" frame-thickness="0" gradient-color-begin="#292929" gradient-color-end="#292929" corner-roundness="0;0;0;0"/>\r\n          <controls corner-roundness="4;4;4;4" gradient-color-begin="#EAEAEA" gradient-color-end="#F4F4F4" bold="false">\r\n\r\n            <snbuttons type="textUnder" frame-color="#666666" background-color="#292929" over-frame-color="#FFFFFF" color="#BFBFBF" gradient-color-begin="#666666" gradient-color-end="Transparent" size="10" bold="false" down-frame-color="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#ffffff" down-gradient-color-end="#666666" over-color="#ffffff" down-color="#ffffff" over-bold="false">\r\n              <more frame-color="#A4DBFF" over-frame-color="#A4DBFF" gradient-color-begin="#F4F4F4" gradient-color-end="#BBE4FF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n              <previous frame-color="#BBE4FF" over-frame-color="#A4DBFF" gradient-color-begin="#FFFFFF" gradient-color-end="#A4DBFF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n            </snbuttons>\r\n            <textboxes frame-color="#CACACA" background-color="#292929" color="#757575" gradient-color-begin="#292929" gradient-color-end="#292929" bold="false">\r\n              <codeboxes color="#808080" frame-color="#6A6A6A" background-color="#606060" gradient-color-begin="Transparent" gradient-color-end="Transparent" size="10"/>\r\n              <inputs frame-color="#6a6a6a" color="#808080" gradient-color-begin="Transparent" gradient-color-end="Transparent"/>\r\n              <dropdowns list-item-over-color="#52A4DA" frame-color="#6a6a6a" background-color="#292929" color="#808080" gradient-color-begin="#292929" gradient-color-end="#292929"/>\r\n            </textboxes>\r\n\r\n            <buttons frame-color="#6a6a6a" background-color="Transparent" gradient-color-begin="#666666" gradient-color-end="Transparent" color="#FFFFFF" frame-thickness="1" size="12" bold="false" over-frame-color="#FFFFFF" down-frame-color="#6a6a6a" over-gradient-color-begin="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#353535" down-gradient-color-end="Transparent" over-size="12" over-bold="false">\r\n              <post-buttons frame-color="#6a6a6a" gradient-color-end="Transparent"/>\r\n            </buttons>\r\n            <listboxes frame-color="#CACACA" corner-roundness="4;4;4;4" gradient-color-begin="#F4F4F4" gradient-color-end="#FFFFFF"/>\r\n            <checkboxes checkmark-color="#FFFFC8" frame-color="#6a6a6a" down-gradient-color-begin="#292929" down-gradient-color-end="#292929" background-color="#292929" corner-roundness="3;3;3;3" gradient-color-begin="Transparent" gradient-color-end="Transparent" over-background-color="#292929" down-background-color="#292929"/>\r\n            <servicemarker gradient-color-begin="Transparent" gradient-color-end="#666666"/>\r\n            <tooltips frame-thickness="0" color="#292929" gradient-color-begin="#FFFFFF" gradient-color-end="#FFFFC8" size="10" frame-color="#FFDBA4"/>\r\n          </controls>\r\n          <texts color="808080">\r\n\r\n            <privacy color="#808080"/>\r\n            <headers color="#FFFFFF" bold="false"/>\r\n            <labels color="#FFFFFF" bold="false"/>\r\n            <messages color="#202020" background-color="#FFFFA4" frame-thickness="0" corner-roundness="4;4;4;4"/>\r\n            <links color="#FFFFFF" underline="false" over-color="#666666" down-color="#666666" down-bold="false"/>\r\n          </texts>\r\n        </body>\r\n      </config>\r\n    </GigyaUI>\r\n  </extraData>\r\n  <uiVars>\r\n    <var key="streamerType" value="auto" overrideFlashvar="true"/>\r\n  </uiVars>\r\n</layout>',
+        '<layout id="default player dark" skinPath="/content/uiconf/tasvirchi/tmc/appstudio/tdp3/eagle/skin/v3.5.9/skin.swf">\r\n  <HBox id="topLevel" width="100%" height="100%">\r\n    <VBox id="player" width="100%" height="100%" styleName="black">\r\n      <Plugin id="tasvirchiMix" width="0%" height="0%" includeInLayout="false" loadingPolicy="onDemand"/>\r\n      <Canvas height="100%" width="100%" id="PlayerHolder" styleName="black">\r\n        <Video id="video" width="100%" height="100%" mantainAspectRatio="false"/>\r\n      \t<VBox id="offlineMessageHolder" \r\n\t     \t\t\tverticalAlign="middle" horizontalAlign="center" \r\n\t     \t\t\tincludeInLayout="false"\r\n\t\t\t\t    width="100%" height="100%" >\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Spacer height="100%" />\r\n\t\t\t\t    <Label \r\n\t\t\t\t      id="offlineMessage" styleName="offlineMessage"\r\n\t\t\t\t      text="{mediaProxy.entry.offlineMessage}" visible="{mediaProxy.isOffline}"\r\n\t\t\t\t      width="100%" height="30"/> <!-- mediaProxy.entry.offlineMessage-->\r\n\t\t\t     \t<Spacer height="100%" />\r\n\t\t    \t</VBox>\r\n      </Canvas>\r\n      <HBox id="ControllerScreenHolder" width="100%" height="30" verticalAlign="middle" styleName="darkBg">\r\n        <HBox id="ControllerScreen" width="100%" height="30" paddingLeft="10" horizontalGap="9" verticalAlign="middle" styleName="darkBg">\r\n        <Button id="playBtnControllerScreen" command="play" buttonType="iconButton" focusRectPadding="0" icon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="pauseIcon" selectedOverIcon="pauseIcon" selectedDownIcon="pauseIcon" selectedDisabledIcon="pauseIcon" k_buttonType="buttonIconControllerArea" tooltip="" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial" selectedTooltip="Pause" upTooltip="Play"/>\r\n\t\t<Button id="liveToggleStatus"\r\n\t\t\t\t\ttoggle="true"\r\n\t\t\t\t\tcolor1="0xFF0000"\r\n\t\t\t\t\tcolor2="0xFF0000"\r\n\t\t\t\t\tupIcon="onAirIcon" \r\n\t\t\t\t\toverIcon="onAirIcon" \r\n\t\t\t\t\tdownIcon="onAirIcon" \r\n\t\t\t\t\tdisabeledIcon="onAirIcon" \r\n\t\t\t\t\tselectedUpIcon="offlineIcon"  \r\n\t\t\t\t\tselectedOverIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDownIcon="offlineIcon"  \r\n\t\t\t\t\tselectedDisabledIcon="offlineIcon"  \r\n\t\t\t\t\tisSelected="{mediaProxy.isOffline}"\r\n\t\t\t\t\tvisible="{mediaProxy.isLive}"\r\n\t\t\t\t\tincludeInLayout="{mediaProxy.isLive}"\r\n\t\t\t\t\tuseHandCursor=""\r\n\t\t\t\t\t/>\r\n\t\t<VBox id="scrubberContainer" width="100%" height="30" verticalAlign="middle" verticalGap="-3" notVisible="{mediaProxy.isLive}">\r\n\t\t\t<Spacer height="10" />\t\r\n\t\t\t<Scrubber id="scrubber" width="100%" height="10"  styleName=""  />\r\n\t\t\t<HBox width="100%">\r\n\t\t\t\t<Timer id="timerControllerScreen1" width="60" styleName="timerProgressLeft" format="mm:ss" height="12"  />\r\n\t\t\t\t<Spacer width="100%" height="8" />\t\r\n\t\t\t\t<Timer id="timerControllerScreen2" width="60" \r\n\t\t\t\tstyleName="timerProgressRight" format="mm:ss" height="12" timerType="total" />\t\r\n\t\t\t</HBox>\r\n\t\t</VBox>\r\n\r\n          <VolumeBar id="volumeBar" styleName="volumeBtn" width="20" height="20" buttonType="iconButton" tooltip="Change volume" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="fullScreenBtnControllerScreen" command="fullScreen" \r\n          \t\t\tbuttonType="iconButton" height="22" styleName="controllerScreen" \r\n          \t\t\ticon="openFullScreenIcon" \r\n          \t\t\tselectedUpIcon="closeFullScreenIcon" \r\n          \t\t\tselectedOverIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDownIcon="closeFullScreenIcon" \r\n          \t\t\tselectedDisabledIcon="closeFullScreenIcon" \r\n          \t\t\tfocusRectPadding="0" \r\n          \t\t\tk_buttonType="buttonIconControllerArea" \r\n          \t\t\ttooltip="Toggle fullscreen" \r\n          \t\t\tcolor1="11184810" \r\n          \t\t\tcolor2="16777215" \r\n          \t\t\tcolor3="16777215" \r\n          \t\t\tcolor4="11184810" color5="0" font="Arial"/>\r\n        </HBox>\r\n\t\t<Spacer width="7"/>\r\n      </HBox>\r\n    </VBox>\r\n  </HBox>\r\n  <screens>\r\n    <screen id="startScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer width="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnStartScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnStartScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer width="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="pauseScreen">\r\n      <VBox id="pauseContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="onVideoPlayBtnPauseScreen" command="play" buttonType="onScreenButton" labelPlacement="top" label="Play" styleName="onScreenBtn" upIcon="playIcon" overIcon="playIcon" downIcon="playIcon" disabeledIcon="playIcon" selectedUpIcon="playIcon" selectedOverIcon="playIcon" selectedDownIcon="playIcon" selectedDisabledIcon="playIcon" k_buttonType="buttonIconControllerArea" tooltip="Play video" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnPauseScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="playScreen">\r\n      <VBox id="playContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="shareBtnPlayScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" tooltip="share with friends"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n    <screen id="endScreen">\r\n      <VBox id="startContainer" width="100%" height="100%" verticalAlign="middle" horizontalAlign="center">\r\n        <Spacer height="100%"/>\r\n        <Tile id="startTile" width="100%" verticalGap="10" verticalAlign="middle" horizontalAlign="center">\r\n          <Button id="replayBtnEndScreen" tClick="sendNotification(\'doSeek\',\'0\');sendNotification(\'doPlay\')" buttonType="onScreenButton" labelPlacement="top" label="replay" styleName="onScreenBtn" upIcon="replayIcon" k_buttonType="buttonIconControllerArea" tooltip="replay" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n          <Button id="shareBtnEndScreen" tClick="sendNotification(\'doGigya\')" buttonType="onScreenButton" labelPlacement="top" label="Share" styleName="onScreenBtn" upIcon="shareIcon" k_buttonType="buttonIconControllerArea" tooltip="share with friends" color1="11184810" color2="16777215" color3="16777215" color4="11184810" color5="0" font="Arial"/>\r\n        </Tile>\r\n        <Spacer height="100%"/>\r\n      </VBox>\r\n    </screen>\r\n  </screens>\r\n  <renderers>\r\n    <renderer id="playlistItemRenderer">\r\n      <HBox height="100%" width="100%" x="10" y="10" verticalAlign="top">\r\n        <Image id="irImageIrScreen" height="30" width="40" url="{this.thumbnailUrl}" source="{this.thumbnailUrl}"/>\r\n        <VBox height="100%" width="100%" id="labelsHolder" verticalGap="0">\r\n\r\n          <Label id="irLinkIrScreen" width="100%" height="18" text="{this.name}" styleName="itemRendererLabel" label="{this.name}" prefix=""/>\r\n          <Label id="irDescriptionIrScreen" width="100%" height="18" text="{this.description}" styleName="itemRendererLabel" prefix=""/>\r\n          <Label id="irDurationIrScreen" width="100%" height="18" text="{formatDate(this.duration, \'NN:SS\')}" styleName="itemRendererLabel" prefix=""/>\r\n        </VBox>\r\n      </HBox>\r\n    </renderer>\r\n  </renderers>\r\n  <strings>\r\n    <string key="ENTRY_CONVERTING" value="Entry is processing, please try again in a few minutes."/>\r\n  </strings>\r\n  <extraData>\r\n    <GigyaUI theme="dark">\r\n      <config>\r\n        <display showEmail="true" useTransitions="true" showBookmark="true" codeBoxHeight="auto" showCodeBox="true" showCloseButton="true" networksWithCodeBox="" networksToHide="livespaces, piczo, orkut, pageflakes, vox, tagged, hi5, wordpress, multiply" networksToShow="myspace, facebook, bebo, blogger, freewebs, livejournal, blackplanet, myyearbook, typepad, xanga, igoogle, netvibes, migente, friendster" bookmarksToShow="googlebookmarks,delicious,digg,facebookshare,newsvine,reddit,twitter,ask,myaol,slashdot,skimbit,simpy,blogmarks,spurl,linkagogo,Magnolia,faves,segnalo,netvouz,blinklist,dropjack,feedmelinks"/>\r\n        <body>\r\n          <background frame-color="#BFBFBF" background-color="#292929" frame-thickness="0" gradient-color-begin="#292929" gradient-color-end="#292929" corner-roundness="0;0;0;0"/>\r\n          <controls corner-roundness="4;4;4;4" gradient-color-begin="#EAEAEA" gradient-color-end="#F4F4F4" bold="false">\r\n\r\n            <snbuttons type="textUnder" frame-color="#666666" background-color="#292929" over-frame-color="#FFFFFF" color="#BFBFBF" gradient-color-begin="#666666" gradient-color-end="Transparent" size="10" bold="false" down-frame-color="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#ffffff" down-gradient-color-end="#666666" over-color="#ffffff" down-color="#ffffff" over-bold="false">\r\n              <more frame-color="#A4DBFF" over-frame-color="#A4DBFF" gradient-color-begin="#F4F4F4" gradient-color-end="#BBE4FF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n              <previous frame-color="#BBE4FF" over-frame-color="#A4DBFF" gradient-color-begin="#FFFFFF" gradient-color-end="#A4DBFF" over-gradient-color-begin="#A4DBFF" over-gradient-color-end="#F4F4F4"/>\r\n            </snbuttons>\r\n            <textboxes frame-color="#CACACA" background-color="#292929" color="#757575" gradient-color-begin="#292929" gradient-color-end="#292929" bold="false">\r\n              <codeboxes color="#808080" frame-color="#6A6A6A" background-color="#606060" gradient-color-begin="Transparent" gradient-color-end="Transparent" size="10"/>\r\n              <inputs frame-color="#6a6a6a" color="#808080" gradient-color-begin="Transparent" gradient-color-end="Transparent"/>\r\n              <dropdowns list-item-over-color="#52A4DA" frame-color="#6a6a6a" background-color="#292929" color="#808080" gradient-color-begin="#292929" gradient-color-end="#292929"/>\r\n            </textboxes>\r\n\r\n            <buttons frame-color="#6a6a6a" background-color="Transparent" gradient-color-begin="#666666" gradient-color-end="Transparent" color="#FFFFFF" frame-thickness="1" size="12" bold="false" over-frame-color="#FFFFFF" down-frame-color="#6a6a6a" over-gradient-color-begin="#666666" down-gradient-color-begin="Transparent" over-gradient-color-end="#353535" down-gradient-color-end="Transparent" over-size="12" over-bold="false">\r\n              <post-buttons frame-color="#6a6a6a" gradient-color-end="Transparent"/>\r\n            </buttons>\r\n            <listboxes frame-color="#CACACA" corner-roundness="4;4;4;4" gradient-color-begin="#F4F4F4" gradient-color-end="#FFFFFF"/>\r\n            <checkboxes checkmark-color="#FFFFC8" frame-color="#6a6a6a" down-gradient-color-begin="#292929" down-gradient-color-end="#292929" background-color="#292929" corner-roundness="3;3;3;3" gradient-color-begin="Transparent" gradient-color-end="Transparent" over-background-color="#292929" down-background-color="#292929"/>\r\n            <servicemarker gradient-color-begin="Transparent" gradient-color-end="#666666"/>\r\n            <tooltips frame-thickness="0" color="#292929" gradient-color-begin="#FFFFFF" gradient-color-end="#FFFFC8" size="10" frame-color="#FFDBA4"/>\r\n          </controls>\r\n          <texts color="808080">\r\n\r\n            <privacy color="#808080"/>\r\n            <headers color="#FFFFFF" bold="false"/>\r\n            <labels color="#FFFFFF" bold="false"/>\r\n            <messages color="#202020" background-color="#FFFFA4" frame-thickness="0" corner-roundness="4;4;4;4"/>\r\n            <links color="#FFFFFF" underline="false" over-color="#666666" down-color="#666666" down-bold="false"/>\r\n          </texts>\r\n        </body>\r\n      </config>\r\n    </GigyaUI>\r\n  </extraData>\r\n  <uiVars>\r\n    <var key="streamerType" value="auto" overrideFlashvar="true"/>\r\n  </uiVars>\r\n</layout>',
       config:
-        '{\n\t"plugins": {\n\t\t"topBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"controlBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"scrubber": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"largePlayBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playHead": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playPauseBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"volumeControl": {\n\t\t\t"showSlider": true,\n\t\t\t"layout": "horizontal",\n\t\t\t"pinVolumeBar": false,\n\t\t\t"accessibleControls": false,\n\t\t\t"accessibleVolumeChange": 0.1,\n\t\t\t"plugin": true\n\t\t},\n\t\t"durationLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"currentTimeLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"keyboardShortcuts": {\n\t\t\t"volumePercentChange": "0.1",\n\t\t\t"shortSeekTime": "5",\n\t\t\t"longSeekTime": "10",\n\t\t\t"volumeUpKey": "38",\n\t\t\t"volumeDownKey": "40",\n\t\t\t"togglePlaybackKey": "32",\n\t\t\t"shortSeekBackKey": "37",\n\t\t\t"shortSeekForwardKey": "39",\n\t\t\t"openFullscreenKey": "70",\n\t\t\t"closeFullscreenkey": "27",\n\t\t\t"gotoBeginingKey": "36",\n\t\t\t"gotoEndKey": "35",\n\t\t\t"longSeekForwardKey": "ctrl+39",\n\t\t\t"longSeekBackKey": "ctrl+37",\n\t\t\t"percentageSeekKeys": "49,50,51,52,53,54,55,56,57",\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveCore": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveStatus": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveBackBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"fullScreenBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"logo": {\n\t\t\t"href": "http://www.kaltura.com",\n\t\t\t"title": "Kaltura",\n\t\t\t"plugin": true\n\t\t},\n\t\t"playersJsReceiver": {\n\t\t\t"plugin": true\n\t\t}\n\t},\n\t"uiVars": [\n\t\t{\n\t\t\t"key": "autoPlay",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "autoMute",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "enableTooltips",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "adsOnReplay",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t}\n\t],\n\t"layout": {\n\t\t"skin": "kdark"\n\t}\n}',
+        '{\n\t"plugins": {\n\t\t"topBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"controlBarContainer": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"scrubber": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"largePlayBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playHead": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"playPauseBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"volumeControl": {\n\t\t\t"showSlider": true,\n\t\t\t"layout": "horizontal",\n\t\t\t"pinVolumeBar": false,\n\t\t\t"accessibleControls": false,\n\t\t\t"accessibleVolumeChange": 0.1,\n\t\t\t"plugin": true\n\t\t},\n\t\t"durationLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"currentTimeLabel": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"keyboardShortcuts": {\n\t\t\t"volumePercentChange": "0.1",\n\t\t\t"shortSeekTime": "5",\n\t\t\t"longSeekTime": "10",\n\t\t\t"volumeUpKey": "38",\n\t\t\t"volumeDownKey": "40",\n\t\t\t"togglePlaybackKey": "32",\n\t\t\t"shortSeekBackKey": "37",\n\t\t\t"shortSeekForwardKey": "39",\n\t\t\t"openFullscreenKey": "70",\n\t\t\t"closeFullscreenkey": "27",\n\t\t\t"gotoBeginingKey": "36",\n\t\t\t"gotoEndKey": "35",\n\t\t\t"longSeekForwardKey": "ctrl+39",\n\t\t\t"longSeekBackKey": "ctrl+37",\n\t\t\t"percentageSeekKeys": "49,50,51,52,53,54,55,56,57",\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveCore": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveStatus": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"liveBackBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"fullScreenBtn": {\n\t\t\t"plugin": true\n\t\t},\n\t\t"logo": {\n\t\t\t"href": "http://www.tasvirchi.com",\n\t\t\t"title": "Tasvirchi",\n\t\t\t"plugin": true\n\t\t},\n\t\t"playersJsReceiver": {\n\t\t\t"plugin": true\n\t\t}\n\t},\n\t"uiVars": [\n\t\t{\n\t\t\t"key": "autoPlay",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "autoMute",\n\t\t\t"value": false,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "enableTooltips",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t},\n\t\t{\n\t\t\t"key": "adsOnReplay",\n\t\t\t"value": true,\n\t\t\t"overrideFlashvar": false\n\t\t}\n\t],\n\t"layout": {\n\t\t"skin": "tdark"\n\t}\n}',
       useCdn: 1,
       tags: 'html5studio,player',
       swfUrlVersion: '3.9.9',
@@ -1269,26 +1269,26 @@ const EntryWithUIConfWithDrmData = {
       creationMode: 2,
       html5Url: '/html5/html5lib/{latest}/mwEmbedLoader.php',
       version: '11',
-      objectType: 'KalturaUiConf'
+      objectType: 'TasvirchiUiConf'
     }
   ]
 };
 
 const WrongUiConfID = {
-  headers: ['x-kaltura: 1'],
+  headers: ['x-tasvirchi: 1'],
   response: [
     {
       partnerId: 1068292,
-      ks:
+      ts:
         'OGU5Nzc2ZTY0MDdjZGJjYTk1ODQ1Y2YzZjFiMjMzOTdlZWU5ODdmOXwxMDY4MjkyOzEwNjgyOTI7MTQ5MDI1NDgwMDswOzE0OTAxNjg0MDAuMTA2MzswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://cdnapi.kaltura.com/p/1068292/sp/106829200/playManifest/entryId/1_rwbj3j0a/format/url/protocol/http',
+          dataUrl: 'http://cdnapi.tasvirchi.com/p/1068292/sp/106829200/playManifest/entryId/1_rwbj3j0a/format/url/protocol/http',
           flavorParamsIds: '0,525091,525101,525111,525121',
           duration: 596,
           msDuration: 596000,
@@ -1297,13 +1297,13 @@ const WrongUiConfID = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -1313,17 +1313,17 @@ const WrongUiConfID = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11311/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11311/protocol/https/format/applehttp/a.m3u8',
           drm: [
             {
               certificate: 'ABCD1234',
               scheme: 'fairplay.FAIRPLAY',
               licenseURL:
-                'https://udrmv3.kaltura.com//fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiT0dVNU56YzJaVFkwTURkalpHSmpZVGsxT0RRMVkyWXpaakZpTWpNek9UZGxaV1U1T0RkbU9Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTkRnd01Ec3dPekUwT1RBeE5qZzBNREF1TVRBMk16c3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=RW0rJqR9HuXDUlN8gqmDF08PMLE%3D',
-              objectType: 'KalturaFairPlayPlaybackPluginData'
+                'https://udrmv3.tasvirchi.com//fps/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiT0dVNU56YzJaVFkwTURkalpHSmpZVGsxT0RRMVkyWXpaakZpTWpNek9UZGxaV1U1T0RkbU9Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTkRnd01Ec3dPekUwT1RBeE5qZzBNREF1TVRBMk16c3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=RW0rJqR9HuXDUlN8gqmDF08PMLE%3D',
+              objectType: 'TasvirchiFairPlayPlaybackPluginData'
             }
           ],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11331,
@@ -1331,22 +1331,22 @@ const WrongUiConfID = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11331/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11331/protocol/https/format/mpegdash/manifest.mpd',
           drm: [
             {
               scheme: 'drm.PLAYREADY_CENC',
               licenseURL:
-                'https://udrm.kaltura.com//cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiT0dVNU56YzJaVFkwTURkalpHSmpZVGsxT0RRMVkyWXpaakZpTWpNek9UZGxaV1U1T0RkbU9Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTkRnd01Ec3dPekUwT1RBeE5qZzBNREF1TVRBMk16c3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=RW0rJqR9HuXDUlN8gqmDF08PMLE%3D',
-              objectType: 'KalturaDrmPlaybackPluginData'
+                'https://udrm.tasvirchi.com//cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiT0dVNU56YzJaVFkwTURkalpHSmpZVGsxT0RRMVkyWXpaakZpTWpNek9UZGxaV1U1T0RkbU9Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTkRnd01Ec3dPekUwT1RBeE5qZzBNREF1TVRBMk16c3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=RW0rJqR9HuXDUlN8gqmDF08PMLE%3D',
+              objectType: 'TasvirchiDrmPlaybackPluginData'
             },
             {
               scheme: 'drm.WIDEVINE_CENC',
               licenseURL:
-                'https://udrm.kaltura.com//cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiT0dVNU56YzJaVFkwTURkalpHSmpZVGsxT0RRMVkyWXpaakZpTWpNek9UZGxaV1U1T0RkbU9Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTkRnd01Ec3dPekUwT1RBeE5qZzBNREF1TVRBMk16c3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=RW0rJqR9HuXDUlN8gqmDF08PMLE%3D',
-              objectType: 'KalturaDrmPlaybackPluginData'
+                'https://udrm.tasvirchi.com//cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJPVlAiLCJ1c2VyX3Rva2VuIjoiT0dVNU56YzJaVFkwTURkalpHSmpZVGsxT0RRMVkyWXpaakZpTWpNek9UZGxaV1U1T0RkbU9Yd3hNRFk0TWpreU96RXdOamd5T1RJN01UUTVNREkxTkRnd01Ec3dPekUwT1RBeE5qZzBNREF1TVRBMk16c3dPM1pwWlhjNktpeDNhV1JuWlhRNk1UczciLCJhY2NvdW50X2lkIjoxMDY4MjkyLCJjb250ZW50X2lkIjoiMV9yd2JqM2owYSIsImZpbGVzIjoiMV85MmRmeXJ6NSwxXzlkaGg2bTBpLDFfenVkb3V1YWgsMV9yMHd1Nnk3NywxX296MzQza2xhIn0%3D&signature=RW0rJqR9HuXDUlN8gqmDF08PMLE%3D',
+              objectType: 'TasvirchiDrmPlaybackPluginData'
             }
           ],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11321,
@@ -1354,9 +1354,9 @@ const WrongUiConfID = {
           protocols: 'http,https',
           flavorIds: '1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla',
           url:
-            'https://cdnapisec.kaltura.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11321/protocol/https/format/sl/a.ism',
+            'https://cdnapisec.tasvirchi.com/p/1068292/sp/1068292/playManifest/entryId/1_rwbj3j0a/flavorIds/1_92dfyrz5,1_9dhh6m0i,1_zudouuah,1_r0wu6y77,1_oz343kla/deliveryProfileId/11321/protocol/https/format/sl/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       flavorAssets: [
@@ -1382,7 +1382,7 @@ const WrongUiConfID = {
           createdAt: 1485272387,
           updatedAt: 1485272469,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525101,
@@ -1406,7 +1406,7 @@ const WrongUiConfID = {
           createdAt: 1485272387,
           updatedAt: 1485272469,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525111,
@@ -1430,7 +1430,7 @@ const WrongUiConfID = {
           createdAt: 1485272388,
           updatedAt: 1485272499,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 525121,
@@ -1454,7 +1454,7 @@ const WrongUiConfID = {
           createdAt: 1485272388,
           updatedAt: 1485272564,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 0,
@@ -1477,33 +1477,33 @@ const WrongUiConfID = {
           createdAt: 1485272298,
           updatedAt: 1485272387,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [
         {
           deliveryProfileIds: '11311,11321,11331',
           type: 5,
-          objectType: 'KalturaAccessControlLimitDeliveryProfilesAction'
+          objectType: 'TasvirchiAccessControlLimitDeliveryProfilesAction'
         },
         {
           policyId: 4081,
           type: 'DRM_POLICY',
-          objectType: 'KalturaAccessControlDrmPolicyAction'
+          objectType: 'TasvirchiAccessControlDrmPolicyAction'
         }
       ],
       messages: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [],
       totalCount: 0,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     },
     {
       code: 'INVALID_UI_CONF_ID',
       message: 'Unknown uiConf [3860198154645645]',
-      objectType: 'KalturaAPIException',
+      objectType: 'TasvirchiAPIException',
       args: {
         UI_CONF_ID: '3860198154645645'
       }
@@ -1515,16 +1515,16 @@ const AudioEntryWithoutPlugins = {
   response: [
     {
       partnerId: 1082342,
-      ks:
+      ts:
         'YWU4Y2I0ZDk4ZmNiMjUyZjA1NmQ1NmMzMTdjZmFjZWEyODc2NDE0YXwxMDgyMzQyOzEwODIzNDI7MTQ5MDg2MTk1OTswOzE0OTA3NzU1NTkuNzk0MzswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       objects: [
         {
           mediaType: 5,
-          dataUrl: 'http://cdnapi.kaltura.com/p/1082342/sp/108234200/playManifest/entryId/0_vyzw3ceu/format/url/protocol/http',
+          dataUrl: 'http://cdnapi.tasvirchi.com/p/1082342/sp/108234200/playManifest/entryId/0_vyzw3ceu/format/url/protocol/http',
           flavorParamsIds: '0',
           duration: 0,
           msDuration: 0,
@@ -1534,13 +1534,13 @@ const AudioEntryWithoutPlugins = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -1550,9 +1550,9 @@ const AudioEntryWithoutPlugins = {
           protocols: 'http,https',
           flavorIds: '0_hawbhpz3',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/10081/protocol/https/format/url/name/a.xml',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/10081/protocol/https/format/url/name/a.xml',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 10101,
@@ -1560,9 +1560,9 @@ const AudioEntryWithoutPlugins = {
           protocols: 'http,https',
           flavorIds: '0_hawbhpz3',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/10101/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/10101/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 10091,
@@ -1570,9 +1570,9 @@ const AudioEntryWithoutPlugins = {
           protocols: 'http,https',
           flavorIds: '0_hawbhpz3',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/10091/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/10091/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11241,
@@ -1580,9 +1580,9 @@ const AudioEntryWithoutPlugins = {
           protocols: 'http,https',
           flavorIds: '0_hawbhpz3',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11241/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11241/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11611,
@@ -1590,9 +1590,9 @@ const AudioEntryWithoutPlugins = {
           protocols: 'http,https',
           flavorIds: '0_hawbhpz3',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11611/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11611/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11261,
@@ -1600,9 +1600,9 @@ const AudioEntryWithoutPlugins = {
           protocols: 'http,https',
           flavorIds: '0_hawbhpz3',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11261/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11261/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 11251,
@@ -1610,9 +1610,9 @@ const AudioEntryWithoutPlugins = {
           protocols: 'http,https',
           flavorIds: '0_hawbhpz3',
           url:
-            'https://cdnapisec.kaltura.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11251/protocol/https/format/sl/a.ism',
+            'https://cdnapisec.tasvirchi.com/p/1082342/sp/1082342/playManifest/entryId/0_vyzw3ceu/flavorIds/0_hawbhpz3/deliveryProfileId/11251/protocol/https/format/sl/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       flavorAssets: [
@@ -1637,17 +1637,17 @@ const AudioEntryWithoutPlugins = {
           createdAt: 1432905178,
           updatedAt: 1432908187,
           description: '',
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [],
       messages: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [],
       totalCount: 0,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
@@ -1656,17 +1656,17 @@ const ImageEntryWithoutPlugins = {
   response: [
     {
       partnerId: 1082342,
-      ks:
+      ts:
         'YWU4Y2I0ZDk4ZmNiMjUyZjA1NmQ1NmMzMTdjZmFjZWEyODc2NDE0YXwxMDgyMzQyOzEwODIzNDI7MTQ5MDg2MTk1OTswOzE0OTA3NzU1NTkuNzk0MzswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       objects: [
         {
           mediaType: 2,
           dataUrl:
-            'http://cdnbakmi.kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/0_84zz779s/def_height/480/def_width/640/version/100000/type/1',
+            'http://cdnbakmi.tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/0_84zz779s/def_height/480/def_width/640/version/100000/type/1',
           duration: 0,
           msDuration: 0,
           id: '0_84zz779s',
@@ -1674,25 +1674,25 @@ const ImageEntryWithoutPlugins = {
           type: 1,
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel semper libero. Curabitur in felis elementum, porttitor sem ac, volutpat mi. Sed dignissim facilisis magna, ac suscipit orci suscipit id. Suspendisse feugiat sapien laoreet auctor convallis. Cras volutpat dictum massa, in pharetra erat placerat eget. Donec at elit est. Donec id cursus elit. Etiam sit amet sapien sed mi aliquam finibus at lobortis diam. Aenean at gravida libero.',
-          thumbnailUrl: 'http://kaltura.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
+          thumbnailUrl: 'http://tasvirchi.com/p/1082342/sp/108234200/thumbnail/entry_id/1_rsrdfext/version/100002/width/640/height/360',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [],
       flavorAssets: [],
       actions: [],
       messages: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [],
       totalCount: 0,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
@@ -1700,55 +1700,55 @@ const ImageEntryWithoutPlugins = {
 const PlaylistById = {
   response: [
     {
-      objectType: 'KalturaPlaylist',
+      objectType: 'TasvirchiPlaylist',
       id: '0_wckoqjnn',
       name: 'Playlist_VOD_Only',
       description: 'Playlist_VOD_Only_desc',
-      thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162'
+      thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162'
     },
     [
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_fu4ifhie/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_fu4ifhie/format/url/protocol/http',
         flavorParamsIds: '0,2,3,4,5,6,7',
         duration: 596,
         msDuration: 596000,
         id: '0_fu4ifhie',
         name: 'big_buck_bunny_1080p_h264',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_fu4ifhie/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_fu4ifhie/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_15xrxwvo/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_15xrxwvo/format/url/protocol/http',
         flavorParamsIds: '0,2,3,4,5',
         duration: 141,
         msDuration: 141000,
         id: '0_15xrxwvo',
         name: 'The Night King kills Viserion - Game of Thrones S07E06 Edited',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_15xrxwvo/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_15xrxwvo/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 5,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
         flavorParamsIds: '0,1,5,8',
         duration: 320,
         msDuration: 320000,
         id: '0_p8aigvgu',
         name: 'Californication',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_ttfy4uu0/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_ttfy4uu0/format/url/protocol/http',
         flavorParamsIds: '0,1,2,3,4,5,582941,582971,583574',
         duration: 734,
         msDuration: 734000,
@@ -1756,13 +1756,13 @@ const PlaylistById = {
         name: 'Mutli Audio  Eng,Rus,It',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_ttfy4uu0/version/100032',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_ttfy4uu0/version/100032',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_df8g87v8/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_df8g87v8/format/url/protocol/http',
         flavorParamsIds: '0,1,2,3,4,5,582941,583327',
         duration: 741,
         msDuration: 741000,
@@ -1770,13 +1770,13 @@ const PlaylistById = {
         name: '"Multi Audio and Captions for Player V3"',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_df8g87v8/version/100032',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_df8g87v8/version/100032',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_hut6q26s/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_hut6q26s/format/url/protocol/http',
         flavorParamsIds: '0,2,3,4,5',
         duration: 739,
         msDuration: 739000,
@@ -1784,13 +1784,13 @@ const PlaylistById = {
         name: 'Multi Captions Languages',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_hut6q26s/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_hut6q26s/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_x8n0mub7/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_x8n0mub7/format/url/protocol/http',
         flavorParamsIds: '0,2,3,5',
         duration: 128,
         msDuration: 128000,
@@ -1798,29 +1798,29 @@ const PlaylistById = {
         name: 'PiratesCaribbean6 - default Eng captions',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_x8n0mub7/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_x8n0mub7/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_4ktof5po/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_4ktof5po/format/url/protocol/http',
         flavorParamsIds: '0,2',
         duration: 9868,
         msDuration: 9868120,
         id: '0_4ktof5po',
         name: 'More than 2G media',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_4ktof5po/version/100000',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_4ktof5po/version/100000',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       }
     ],
     {
-      objectType: 'KalturaUserEntryListResponse',
+      objectType: 'TasvirchiUserEntryListResponse',
       objects: [
         {
-          objectType: 'KalturaViewHistoryUserEntry',
+          objectType: 'TasvirchiViewHistoryUserEntry',
           playlistLastEntryId: '0_15xrxwvo'
         }
       ],
@@ -1832,61 +1832,61 @@ const PlaylistById = {
 const AnonymousPlaylistById = {
   response: [
     {
-      objectType: 'KalturaStartWidgetSessionResponse',
+      objectType: 'TasvirchiStartWidgetSessionResponse',
       partnerId: 1091,
-      ks: 'ZDY2NGVhYzkyNTg0Yjc0OTA3ZjA5Mzc2M2IwODA3NDFlYmZmMTNkOXwxMDkxOzEwOTE7MTU0NDc5MzY2NzswOzE1NDQ3MDcyNjcuODk2NTswO3ZpZXc6Kix3aWRnZXQ6MTs7',
+      ts: 'ZDY2NGVhYzkyNTg0Yjc0OTA3ZjA5Mzc2M2IwODA3NDFlYmZmMTNkOXwxMDkxOzEwOTE7MTU0NDc5MzY2NzswOzE1NDQ3MDcyNjcuODk2NTswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0
     },
     {
       id: '0_wckoqjnn',
       name: 'Playlist_VOD_Only',
       description: 'Playlist_VOD_Only_desc',
-      thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162',
-      objectType: 'KalturaPlaylist'
+      thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162',
+      objectType: 'TasvirchiPlaylist'
     },
     [
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_fu4ifhie/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_fu4ifhie/format/url/protocol/http',
         flavorParamsIds: '0,2,3,4,5,6,7',
         duration: 596,
         msDuration: 596000,
         id: '0_fu4ifhie',
         name: 'big_buck_bunny_1080p_h264',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_fu4ifhie/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_fu4ifhie/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_15xrxwvo/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_15xrxwvo/format/url/protocol/http',
         flavorParamsIds: '0,2,3,4,5',
         duration: 141,
         msDuration: 141000,
         id: '0_15xrxwvo',
         name: 'The Night King kills Viserion - Game of Thrones S07E06 Edited',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_15xrxwvo/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_15xrxwvo/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 5,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
         flavorParamsIds: '0,1,5,8',
         duration: 320,
         msDuration: 320000,
         id: '0_p8aigvgu',
         name: 'Californication',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_ttfy4uu0/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_ttfy4uu0/format/url/protocol/http',
         flavorParamsIds: '0,1,2,3,4,5,582941,582971,583574',
         duration: 734,
         msDuration: 734000,
@@ -1894,13 +1894,13 @@ const AnonymousPlaylistById = {
         name: 'Mutli Audio  Eng,Rus,It',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_ttfy4uu0/version/100032',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_ttfy4uu0/version/100032',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_df8g87v8/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_df8g87v8/format/url/protocol/http',
         flavorParamsIds: '0,1,2,3,4,5,582941,583327',
         duration: 741,
         msDuration: 741000,
@@ -1908,13 +1908,13 @@ const AnonymousPlaylistById = {
         name: '"Multi Audio and Captions for Player V3"',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_df8g87v8/version/100032',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_df8g87v8/version/100032',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_hut6q26s/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_hut6q26s/format/url/protocol/http',
         flavorParamsIds: '0,2,3,4,5',
         duration: 739,
         msDuration: 739000,
@@ -1922,13 +1922,13 @@ const AnonymousPlaylistById = {
         name: 'Multi Captions Languages',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_hut6q26s/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_hut6q26s/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_x8n0mub7/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_x8n0mub7/format/url/protocol/http',
         flavorParamsIds: '0,2,3,5',
         duration: 128,
         msDuration: 128000,
@@ -1936,26 +1936,26 @@ const AnonymousPlaylistById = {
         name: 'PiratesCaribbean6 - default Eng captions',
         tags: '',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_x8n0mub7/version/100002',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_x8n0mub7/version/100002',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       },
       {
         mediaType: 1,
-        dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_4ktof5po/format/url/protocol/http',
+        dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_4ktof5po/format/url/protocol/http',
         flavorParamsIds: '0,2',
         duration: 9868,
         msDuration: 9868120,
         id: '0_4ktof5po',
         name: 'More than 2G media',
         type: 1,
-        thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_4ktof5po/version/100000',
+        thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_4ktof5po/version/100000',
         downloadUrl: '',
-        objectType: 'KalturaMediaEntry'
+        objectType: 'TasvirchiMediaEntry'
       }
     ],
     {
-      objectType: 'KalturaUserEntryListResponse',
+      objectType: 'TasvirchiUserEntryListResponse',
       objects: [],
       totalCount: 0
     }
@@ -1965,7 +1965,7 @@ const AnonymousPlaylistById = {
 const PlaylistByEntryList = {
   response: [
     {
-      objectType: 'KalturaBaseEntryListResponse',
+      objectType: 'TasvirchiBaseEntryListResponse',
       objects: [
         {
           dvrStatus: 1,
@@ -1974,30 +1974,30 @@ const PlaylistByEntryList = {
           duration: 86406,
           msDuration: 86406027,
           id: '0_nwkp7jtx',
-          name: 'Kaltura Live with DVR new - 08.17',
+          name: 'Tasvirchi Live with DVR new - 08.17',
           description: '',
           type: 7,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_nwkp7jtx/version/0',
-          objectType: 'KalturaLiveStreamEntry'
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_nwkp7jtx/version/0',
+          objectType: 'TasvirchiLiveStreamEntry'
         }
       ],
       totalCount: 1
     },
     {
-      objectType: 'KalturaBaseEntryListResponse',
+      objectType: 'TasvirchiBaseEntryListResponse',
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
           flavorParamsIds: '0,1,2,3,4,5,6,582941,583327',
           duration: 741,
           msDuration: 741000,
           id: '0_wifqaipd',
           name: 'MPEG Dash with MultiAudio New Transcoding',
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1
@@ -2006,20 +2006,20 @@ const PlaylistByEntryList = {
       objects: [
         {
           mediaType: 5,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
           flavorParamsIds: '0,1,5,8',
           duration: 320,
           msDuration: 320000,
           id: '0_p8aigvgu',
           name: 'Californication',
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     }
   ]
 };
@@ -2027,13 +2027,13 @@ const PlaylistByEntryList = {
 const AnonymousPlaylistByEntryList = {
   response: [
     {
-      objectType: 'KalturaStartWidgetSessionResponse',
+      objectType: 'TasvirchiStartWidgetSessionResponse',
       partnerId: 1091,
-      ks: 'YmEwODMwNDZhZWVkZGNlYzBhZjkwN2JjYmMxNzViOWFkMWE4ZWE5YnwxMDkxOzEwOTE7MTU0NDc5ODQ3NDswOzE1NDQ3MTIwNzUuMDAyODswO3ZpZXc6Kix3aWRnZXQ6MTs7',
+      ts: 'YmEwODMwNDZhZWVkZGNlYzBhZjkwN2JjYmMxNzViOWFkMWE4ZWE5YnwxMDkxOzEwOTE7MTU0NDc5ODQ3NDswOzE1NDQ3MTIwNzUuMDAyODswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0
     },
     {
-      objectType: 'KalturaBaseEntryListResponse',
+      objectType: 'TasvirchiBaseEntryListResponse',
       objects: [
         {
           dvrStatus: 1,
@@ -2042,11 +2042,11 @@ const AnonymousPlaylistByEntryList = {
           duration: 86406,
           msDuration: 86406027,
           id: '0_nwkp7jtx',
-          name: 'Kaltura Live with DVR new - 08.17',
+          name: 'Tasvirchi Live with DVR new - 08.17',
           description: '',
           type: 7,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_nwkp7jtx/version/0',
-          objectType: 'KalturaLiveStreamEntry'
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_nwkp7jtx/version/0',
+          objectType: 'TasvirchiLiveStreamEntry'
         }
       ],
       totalCount: 1
@@ -2055,39 +2055,39 @@ const AnonymousPlaylistByEntryList = {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
           flavorParamsIds: '0,1,2,3,4,5,6,582941,583327',
           duration: 741,
           msDuration: 741000,
           id: '0_wifqaipd',
           name: 'MPEG Dash with MultiAudio New Transcoding',
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       objects: [
         {
           mediaType: 5,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_p8aigvgu/format/url/protocol/http',
           flavorParamsIds: '0,1,5,8',
           duration: 320,
           msDuration: 320000,
           id: '0_p8aigvgu',
           name: 'Californication',
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_p8aigvgu/version/100022',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     }
   ]
 };
@@ -2097,28 +2097,28 @@ const EntryInImport = {
     result: [
       {
         partnerId: 2506752,
-        ks: 'djJ8MjUwNjc1MnxwyWJo0ceKNSAU-NO1ohJWlRyPdr8oNQbFFAZ9SP-HxFUeE2YXnlW_sO7A7VqfcqCba_BEx6KwR4stpw4VemPQMDBYKTSxllcQyPfT8ET-vg==',
+        ts: 'djJ8MjUwNjc1MnxwyWJo0ceKNSAU-NO1ohJWlRyPdr8oNQbFFAZ9SP-HxFUeE2YXnlW_sO7A7VqfcqCba_BEx6KwR4stpw4VemPQMDBYKTSxllcQyPfT8ET-vg==',
         userId: 0,
-        objectType: 'KalturaStartWidgetSessionResponse'
+        objectType: 'TasvirchiStartWidgetSessionResponse'
       },
       {
         objects: [
           {
             mediaType: 1,
-            dataUrl: 'http://cdnapi.kaltura.com/p/2506752/sp/250675200/playManifest/entryId/0_fknc1xml/format/url/protocol/http',
+            dataUrl: 'http://cdnapi.tasvirchi.com/p/2506752/sp/250675200/playManifest/entryId/0_fknc1xml/format/url/protocol/http',
             duration: 0,
             msDuration: 0,
             id: '0_fknc1xml',
             name: 's15e18',
             status: 0,
             type: 1,
-            thumbnailUrl: 'http://cfvod.kaltura.com/p/2506752/sp/250675200/thumbnail/entry_id/0_fknc1xml/version/0',
+            thumbnailUrl: 'http://cfvod.tasvirchi.com/p/2506752/sp/250675200/thumbnail/entry_id/0_fknc1xml/version/0',
             downloadUrl: '',
-            objectType: 'KalturaMediaEntry'
+            objectType: 'TasvirchiMediaEntry'
           }
         ],
         totalCount: 1,
-        objectType: 'KalturaBaseEntryListResponse'
+        objectType: 'TasvirchiBaseEntryListResponse'
       },
       {
         sources: [],
@@ -2126,12 +2126,12 @@ const EntryInImport = {
         flavorAssets: [],
         actions: [],
         messages: [],
-        objectType: 'KalturaPlaybackContext'
+        objectType: 'TasvirchiPlaybackContext'
       },
       {
         objects: [],
         totalCount: 0,
-        objectType: 'KalturaMetadataListResponse'
+        objectType: 'TasvirchiMetadataListResponse'
       }
     ]
   }
@@ -2142,28 +2142,28 @@ const EntryInPreConvert = {
     result: [
       {
         partnerId: 2506752,
-        ks: 'djJ8MjUwNjc1MnxwyWJo0ceKNSAU-NO1ohJWlRyPdr8oNQbFFAZ9SP-HxFUeE2YXnlW_sO7A7VqfcqCba_BEx6KwR4stpw4VemPQMDBYKTSxllcQyPfT8ET-vg==',
+        ts: 'djJ8MjUwNjc1MnxwyWJo0ceKNSAU-NO1ohJWlRyPdr8oNQbFFAZ9SP-HxFUeE2YXnlW_sO7A7VqfcqCba_BEx6KwR4stpw4VemPQMDBYKTSxllcQyPfT8ET-vg==',
         userId: 0,
-        objectType: 'KalturaStartWidgetSessionResponse'
+        objectType: 'TasvirchiStartWidgetSessionResponse'
       },
       {
         objects: [
           {
             mediaType: 1,
-            dataUrl: 'http://cdnapi.kaltura.com/p/2506752/sp/250675200/playManifest/entryId/0_fknc1xml/format/url/protocol/http',
+            dataUrl: 'http://cdnapi.tasvirchi.com/p/2506752/sp/250675200/playManifest/entryId/0_fknc1xml/format/url/protocol/http',
             duration: 0,
             msDuration: 0,
             id: '0_fknc1xml',
             name: 's15e18',
             status: 1,
             type: 1,
-            thumbnailUrl: 'http://cfvod.kaltura.com/p/2506752/sp/250675200/thumbnail/entry_id/0_fknc1xml/version/0',
+            thumbnailUrl: 'http://cfvod.tasvirchi.com/p/2506752/sp/250675200/thumbnail/entry_id/0_fknc1xml/version/0',
             downloadUrl: '',
-            objectType: 'KalturaMediaEntry'
+            objectType: 'TasvirchiMediaEntry'
           }
         ],
         totalCount: 1,
-        objectType: 'KalturaBaseEntryListResponse'
+        objectType: 'TasvirchiBaseEntryListResponse'
       },
       {
         sources: [],
@@ -2171,12 +2171,12 @@ const EntryInPreConvert = {
         flavorAssets: [],
         actions: [],
         messages: [],
-        objectType: 'KalturaPlaybackContext'
+        objectType: 'TasvirchiPlaybackContext'
       },
       {
         objects: [],
         totalCount: 0,
-        objectType: 'KalturaMetadataListResponse'
+        objectType: 'TasvirchiMetadataListResponse'
       }
     ]
   }
@@ -2187,15 +2187,15 @@ const EntryInReady = {
     result: [
       {
         partnerId: 2506752,
-        ks: 'djJ8MjUwNjc1MnxXgLWGTtALJr0eA2V67PUjKNid42atY4_FvPBUqJn9eiDi1X07iHL5aCqJzrwnOg6CILe3Aj_m8zD57JxljVysvrRvoGgpP8mjOKZ-oVrADg==',
+        ts: 'djJ8MjUwNjc1MnxXgLWGTtALJr0eA2V67PUjKNid42atY4_FvPBUqJn9eiDi1X07iHL5aCqJzrwnOg6CILe3Aj_m8zD57JxljVysvrRvoGgpP8mjOKZ-oVrADg==',
         userId: 0,
-        objectType: 'KalturaStartWidgetSessionResponse'
+        objectType: 'TasvirchiStartWidgetSessionResponse'
       },
       {
         objects: [
           {
             mediaType: 1,
-            dataUrl: 'http://cdnapi.kaltura.com/p/2506752/sp/250675200/playManifest/entryId/0_yp010l8a/format/url/protocol/http',
+            dataUrl: 'http://cdnapi.tasvirchi.com/p/2506752/sp/250675200/playManifest/entryId/0_yp010l8a/format/url/protocol/http',
             flavorParamsIds: '0,301991,487041,487051,487061,487071,487111',
             duration: 32,
             msDuration: 32159,
@@ -2203,13 +2203,13 @@ const EntryInReady = {
             name: 'WhatsApp Video 2019-11-10 at 14.43.24',
             status: 2,
             type: 1,
-            thumbnailUrl: 'http://cfvod.kaltura.com/p/2506752/sp/250675200/thumbnail/entry_id/0_yp010l8a/version/100022',
+            thumbnailUrl: 'http://cfvod.tasvirchi.com/p/2506752/sp/250675200/thumbnail/entry_id/0_yp010l8a/version/100022',
             downloadUrl: '',
-            objectType: 'KalturaMediaEntry'
+            objectType: 'TasvirchiMediaEntry'
           }
         ],
         totalCount: 1,
-        objectType: 'KalturaBaseEntryListResponse'
+        objectType: 'TasvirchiBaseEntryListResponse'
       },
       {
         sources: [
@@ -2219,9 +2219,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5642/protocol/https/format/url/name/a.mp4',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5642/protocol/https/format/url/name/a.mp4',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 3382,
@@ -2229,9 +2229,9 @@ const EntryInReady = {
             protocols: 'https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/3382/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/3382/protocol/https/format/hdnetworkmanifest/manifest.f4m',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 4662,
@@ -2239,9 +2239,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/4662/protocol/https/format/mpegdash/manifest.mpd',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/4662/protocol/https/format/mpegdash/manifest.mpd',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 72,
@@ -2249,9 +2249,9 @@ const EntryInReady = {
             protocols: 'http',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'http://cdnapi.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/72/protocol/http/format/url/name/a.mp4',
+              'http://cdnapi.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/72/protocol/http/format/url/name/a.mp4',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 92,
@@ -2259,9 +2259,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/92/protocol/https/format/url/name/a.mp4',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/92/protocol/https/format/url/name/a.mp4',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 102,
@@ -2269,9 +2269,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/102/protocol/https/format/hdnetwork/manifest.f4m',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/102/protocol/https/format/hdnetwork/manifest.f4m',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 13942,
@@ -2279,9 +2279,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/13942/protocol/https/format/applehttp/a.m3u8',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/13942/protocol/https/format/applehttp/a.m3u8',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 122,
@@ -2289,9 +2289,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/122/protocol/https/format/rtsp/name/a.3gp',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/122/protocol/https/format/rtsp/name/a.3gp',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 13952,
@@ -2299,9 +2299,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/13952/protocol/https/format/applehttp/a.m3u8',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/13952/protocol/https/format/applehttp/a.m3u8',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 132,
@@ -2309,9 +2309,9 @@ const EntryInReady = {
             protocols: 'http',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'http://cdnapi.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/132/protocol/http/format/hdnetworkmanifest/manifest.f4m',
+              'http://cdnapi.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/132/protocol/http/format/hdnetworkmanifest/manifest.f4m',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 152,
@@ -2319,9 +2319,9 @@ const EntryInReady = {
             protocols: 'rtmp,rtmpe,rtmpt,rtmpte',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'http://cdnapi.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/152/protocol/http/format/rtmp/a.f4m',
+              'http://cdnapi.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/152/protocol/http/format/rtmp/a.f4m',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 162,
@@ -2329,9 +2329,9 @@ const EntryInReady = {
             protocols: 'rtmp,rtmpe,rtmpt,rtmpte',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'http://cdnapi.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/162/protocol/http/format/rtmp/a.f4m',
+              'http://cdnapi.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/162/protocol/http/format/rtmp/a.f4m',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 12972,
@@ -2339,9 +2339,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/12972/protocol/https/format/mpegdash/manifest.mpd',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/12972/protocol/https/format/mpegdash/manifest.mpd',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 5552,
@@ -2349,9 +2349,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5552/protocol/https/format/url/name/a.mp4',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5552/protocol/https/format/url/name/a.mp4',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 5612,
@@ -2359,9 +2359,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5612/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5612/protocol/https/format/hdnetworkmanifest/manifest.f4m',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           },
           {
             deliveryProfileId: 5622,
@@ -2369,9 +2369,9 @@ const EntryInReady = {
             protocols: 'http,https',
             flavorIds: '0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq',
             url:
-              'https://cdnapisec.kaltura.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5622/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+              'https://cdnapisec.tasvirchi.com/p/2506752/sp/2506752/playManifest/entryId/0_yp010l8a/flavorIds/0_jdohwj1e,0_oaesu6dm,0_jfw6tkei,0_69ubhyxq/deliveryProfileId/5622/protocol/https/format/hdnetworkmanifest/manifest.f4m',
             drm: [],
-            objectType: 'KalturaPlaybackSource'
+            objectType: 'TasvirchiPlaybackSource'
           }
         ],
         playbackCaptions: [],
@@ -2399,7 +2399,7 @@ const EntryInReady = {
             createdAt: 1573391246,
             updatedAt: 1573391287,
             description: 'audio warnings: 2106,#Redundant bitrate.\n',
-            objectType: 'KalturaFlavorAsset'
+            objectType: 'TasvirchiFlavorAsset'
           },
           {
             flavorParamsId: 487051,
@@ -2424,7 +2424,7 @@ const EntryInReady = {
             createdAt: 1573391246,
             updatedAt: 1573391276,
             description: 'audio warnings: 2106,#Redundant bitrate.\n',
-            objectType: 'KalturaFlavorAsset'
+            objectType: 'TasvirchiFlavorAsset'
           },
           {
             flavorParamsId: 487061,
@@ -2449,7 +2449,7 @@ const EntryInReady = {
             createdAt: 1573391246,
             updatedAt: 1573391276,
             description: 'audio warnings: 2106,#Redundant bitrate.\n',
-            objectType: 'KalturaFlavorAsset'
+            objectType: 'TasvirchiFlavorAsset'
           },
           {
             flavorParamsId: 487071,
@@ -2474,17 +2474,17 @@ const EntryInReady = {
             createdAt: 1573391246,
             updatedAt: 1573391277,
             description: '',
-            objectType: 'KalturaFlavorAsset'
+            objectType: 'TasvirchiFlavorAsset'
           }
         ],
         actions: [],
         messages: [],
-        objectType: 'KalturaPlaybackContext'
+        objectType: 'TasvirchiPlaybackContext'
       },
       {
         objects: [],
         totalCount: 0,
-        objectType: 'KalturaMetadataListResponse'
+        objectType: 'TasvirchiMetadataListResponse'
       }
     ]
   }
@@ -2494,15 +2494,15 @@ const EntryWithBumper = {
   response: [
     {
       partnerId: 1091,
-      ks: 'OGMxMjE2NTU5NTRhZGM0ZDQ2ODc5NzE5OWM1MGJmMmFkZWI5ZjQ0OHwxMDkxOzEwOTE7MTYwNTcyNTczODswOzE2MDU2MzkzMzguMjYyMzswO3ZpZXc6Kix3aWRnZXQ6MTs7',
+      ts: 'OGMxMjE2NTU5NTRhZGM0ZDQ2ODc5NzE5OWM1MGJmMmFkZWI5ZjQ0OHwxMDkxOzEwOTE7MTYwNTcyNTczODswOzE2MDU2MzkzMzguMjYyMzswO3ZpZXc6Kix3aWRnZXQ6MTs7',
       userId: 0,
-      objectType: 'KalturaStartWidgetSessionResponse'
+      objectType: 'TasvirchiStartWidgetSessionResponse'
     },
     {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
           flavorParamsIds: '0,1,2,3,4,5,6,582941,583327',
           duration: 741,
           msDuration: 741000,
@@ -2510,13 +2510,13 @@ const EntryWithBumper = {
           name: 'MPEG Dash with MultiAudio New Transcoding',
           status: 2,
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -2526,9 +2526,9 @@ const EntryWithBumper = {
           protocols: 'http,https',
           flavorIds: '0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 261,
@@ -2536,9 +2536,9 @@ const EntryWithBumper = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 861,
@@ -2546,9 +2546,9 @@ const EntryWithBumper = {
           protocols: 'http,https',
           flavorIds: '0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 451,
@@ -2556,9 +2556,9 @@ const EntryWithBumper = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 231,
@@ -2566,9 +2566,9 @@ const EntryWithBumper = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 251,
@@ -2576,9 +2576,9 @@ const EntryWithBumper = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       playbackCaptions: [
@@ -2587,20 +2587,20 @@ const EntryWithBumper = {
           format: '1',
           language: 'English',
           webVttUrl:
-            'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_kozg4x1x/segmentIndex/-1/version/2/captions.vtt',
-          url: 'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_kozg4x1x/v/2',
+            'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_kozg4x1x/segmentIndex/-1/version/2/captions.vtt',
+          url: 'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_kozg4x1x/v/2',
           languageCode: 'en',
-          objectType: 'KalturaCaptionPlaybackPluginData'
+          objectType: 'TasvirchiCaptionPlaybackPluginData'
         },
         {
           label: 'Esp',
           format: '1',
           language: 'Spanish',
           webVttUrl:
-            'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_njhnv6na/segmentIndex/-1/version/2/captions.vtt',
-          url: 'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_njhnv6na/v/2',
+            'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_njhnv6na/segmentIndex/-1/version/2/captions.vtt',
+          url: 'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_njhnv6na/v/2',
           languageCode: 'es',
-          objectType: 'KalturaCaptionPlaybackPluginData'
+          objectType: 'TasvirchiCaptionPlaybackPluginData'
         }
       ],
       flavorAssets: [
@@ -2627,7 +2627,7 @@ const EntryWithBumper = {
           updatedAt: 1477390118,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 583327,
@@ -2652,7 +2652,7 @@ const EntryWithBumper = {
           updatedAt: 1477390712,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 2,
@@ -2678,7 +2678,7 @@ const EntryWithBumper = {
           updatedAt: 1477390214,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 3,
@@ -2704,7 +2704,7 @@ const EntryWithBumper = {
           updatedAt: 1477390245,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 4,
@@ -2730,7 +2730,7 @@ const EntryWithBumper = {
           updatedAt: 1477390329,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 5,
@@ -2756,7 +2756,7 @@ const EntryWithBumper = {
           updatedAt: 1477390590,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 6,
@@ -2782,7 +2782,7 @@ const EntryWithBumper = {
           updatedAt: 1477394388,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [],
@@ -2798,9 +2798,9 @@ const EntryWithBumper = {
               protocols: 'http,https',
               flavorIds: '0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 261,
@@ -2808,9 +2808,9 @@ const EntryWithBumper = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 861,
@@ -2818,9 +2818,9 @@ const EntryWithBumper = {
               protocols: 'http,https',
               flavorIds: '0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 451,
@@ -2828,9 +2828,9 @@ const EntryWithBumper = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 231,
@@ -2838,9 +2838,9 @@ const EntryWithBumper = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 251,
@@ -2848,15 +2848,15 @@ const EntryWithBumper = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             }
           ],
-          objectType: 'KalturaBumper'
+          objectType: 'TasvirchiBumper'
         }
       ],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [
@@ -2872,7 +2872,7 @@ const EntryWithBumper = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata/>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         },
         {
           id: 13624422,
@@ -2886,22 +2886,22 @@ const EntryWithBumper = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata>\n  <MediaType>Movie</MediaType>\n  <WatchPermissionRule>Parrent Allowed</WatchPermissionRule>\n</metadata>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         }
       ],
       totalCount: 2,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
 
-const EntryWithBumperWithKs = {
+const EntryWithBumperWithTs = {
   response: [
     {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
           flavorParamsIds: '0,1,2,3,4,5,6,582941,583327',
           duration: 741,
           msDuration: 741000,
@@ -2909,13 +2909,13 @@ const EntryWithBumperWithKs = {
           name: 'MPEG Dash with MultiAudio New Transcoding',
           status: 2,
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -2925,9 +2925,9 @@ const EntryWithBumperWithKs = {
           protocols: 'http,https',
           flavorIds: '0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 261,
@@ -2935,9 +2935,9 @@ const EntryWithBumperWithKs = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 861,
@@ -2945,9 +2945,9 @@ const EntryWithBumperWithKs = {
           protocols: 'http,https',
           flavorIds: '0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 451,
@@ -2955,9 +2955,9 @@ const EntryWithBumperWithKs = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 231,
@@ -2965,9 +2965,9 @@ const EntryWithBumperWithKs = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 251,
@@ -2975,9 +2975,9 @@ const EntryWithBumperWithKs = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       playbackCaptions: [
@@ -2986,20 +2986,20 @@ const EntryWithBumperWithKs = {
           format: '4',
           language: 'English',
           webVttUrl:
-            'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_kozg4x1x/segmentIndex/-1/version/2/captions.vtt',
-          url: 'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_kozg4x1x/v/2',
+            'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_kozg4x1x/segmentIndex/-1/version/2/captions.vtt',
+          url: 'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_kozg4x1x/v/2',
           languageCode: 'en',
-          objectType: 'KalturaCaptionPlaybackPluginData'
+          objectType: 'TasvirchiCaptionPlaybackPluginData'
         },
         {
           label: 'Esp',
           format: '2',
           language: 'Spanish',
           webVttUrl:
-            'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_njhnv6na/segmentIndex/-1/version/2/captions.vtt?testParam=abc',
-          url: 'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_njhnv6na/v/2',
+            'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_njhnv6na/segmentIndex/-1/version/2/captions.vtt?testParam=abc',
+          url: 'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_njhnv6na/v/2',
           languageCode: 'es',
-          objectType: 'KalturaCaptionPlaybackPluginData'
+          objectType: 'TasvirchiCaptionPlaybackPluginData'
         }
       ],
       flavorAssets: [
@@ -3026,7 +3026,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1477390118,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 583327,
@@ -3051,7 +3051,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1477390712,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 2,
@@ -3077,7 +3077,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1477390214,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 3,
@@ -3103,7 +3103,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1477390245,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 4,
@@ -3129,7 +3129,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1477390329,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 5,
@@ -3155,7 +3155,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1477390590,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 6,
@@ -3181,7 +3181,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1477394388,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [],
@@ -3197,9 +3197,9 @@ const EntryWithBumperWithKs = {
               protocols: 'http,https',
               flavorIds: '0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 261,
@@ -3207,9 +3207,9 @@ const EntryWithBumperWithKs = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 861,
@@ -3217,9 +3217,9 @@ const EntryWithBumperWithKs = {
               protocols: 'http,https',
               flavorIds: '0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 451,
@@ -3227,9 +3227,9 @@ const EntryWithBumperWithKs = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 231,
@@ -3237,9 +3237,9 @@ const EntryWithBumperWithKs = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             },
             {
               deliveryProfileId: 251,
@@ -3247,15 +3247,15 @@ const EntryWithBumperWithKs = {
               protocols: 'http,https',
               flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
               url:
-                'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+                'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_6r7gufsj/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
               drm: [],
-              objectType: 'KalturaPlaybackSource'
+              objectType: 'TasvirchiPlaybackSource'
             }
           ],
-          objectType: 'KalturaBumper'
+          objectType: 'TasvirchiBumper'
         }
       ],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [
@@ -3271,7 +3271,7 @@ const EntryWithBumperWithKs = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata/>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         },
         {
           id: 13624422,
@@ -3285,22 +3285,22 @@ const EntryWithBumperWithKs = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata>\n  <MediaType>Movie</MediaType>\n  <WatchPermissionRule>Parrent Allowed</WatchPermissionRule>\n</metadata>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         }
       ],
       totalCount: 2,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
 
-const EntryDirectWithKs = {
+const EntryDirectWithTs = {
   response: [
     {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
           flavorParamsIds: '',
           duration: 741,
           msDuration: 741000,
@@ -3308,13 +3308,13 @@ const EntryDirectWithKs = {
           name: 'MPEG Dash with MultiAudio New Transcoding',
           status: 2,
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -3324,14 +3324,14 @@ const EntryDirectWithKs = {
           protocols: 'http,https',
           flavorIds: '',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       actions: [],
       messages: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [
@@ -3347,7 +3347,7 @@ const EntryDirectWithKs = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata/>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         },
         {
           id: 13624422,
@@ -3361,11 +3361,11 @@ const EntryDirectWithKs = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata>\n  <MediaType>Movie</MediaType>\n  <WatchPermissionRule>Parrent Allowed</WatchPermissionRule>\n</metadata>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         }
       ],
       totalCount: 2,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
@@ -3376,7 +3376,7 @@ const EntryWithBumperWitNoSources = {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'http://qa-apache-php7.dev.kaltura.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
+          dataUrl: 'http://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/109100/playManifest/entryId/0_wifqaipd/format/url/protocol/http',
           flavorParamsIds: '0,1,2,3,4,5,6,582941,583327',
           duration: 741,
           msDuration: 741000,
@@ -3384,13 +3384,13 @@ const EntryWithBumperWitNoSources = {
           name: 'MPEG Dash with MultiAudio New Transcoding',
           status: 2,
           type: 1,
-          thumbnailUrl: 'http://cdntesting.qa.mkaltura.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
+          thumbnailUrl: 'http://cdntesting.qa.mtasvirchi.com/p/1091/sp/109100/thumbnail/entry_id/0_wifqaipd/version/100042',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -3400,9 +3400,9 @@ const EntryWithBumperWitNoSources = {
           protocols: 'http,https',
           flavorIds: '0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/911/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 261,
@@ -3410,9 +3410,9 @@ const EntryWithBumperWitNoSources = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/261/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 861,
@@ -3420,9 +3420,9 @@ const EntryWithBumperWitNoSources = {
           protocols: 'http,https',
           flavorIds: '0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/861/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 451,
@@ -3430,9 +3430,9 @@ const EntryWithBumperWitNoSources = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/451/protocol/https/format/multicast_silverlight/a.ism',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 231,
@@ -3440,9 +3440,9 @@ const EntryWithBumperWitNoSources = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/231/protocol/https/format/hdnetwork/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 251,
@@ -3450,9 +3450,9 @@ const EntryWithBumperWitNoSources = {
           protocols: 'http,https',
           flavorIds: '0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n',
           url:
-            'https://qa-apache-php7.dev.kaltura.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://qa-apache-php7.dev.tasvirchi.com/p/1091/sp/1091/playManifest/entryId/0_wifqaipd/flavorIds/0_ep7yqavp,0_1xcr8gnf,0_h65mfj7f,0_3flmvnwc,0_m131krws,0_5407xm9j,0_xcrwyk2n/deliveryProfileId/251/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       playbackCaptions: [
@@ -3461,20 +3461,20 @@ const EntryWithBumperWitNoSources = {
           format: '1',
           language: 'English',
           webVttUrl:
-            'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_kozg4x1x/segmentIndex/-1/version/2/captions.vtt',
-          url: 'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_kozg4x1x/v/2',
+            'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_kozg4x1x/segmentIndex/-1/version/2/captions.vtt',
+          url: 'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_kozg4x1x/v/2',
           languageCode: 'en',
-          objectType: 'KalturaCaptionPlaybackPluginData'
+          objectType: 'TasvirchiCaptionPlaybackPluginData'
         },
         {
           label: 'Esp',
           format: '1',
           language: 'Spanish',
           webVttUrl:
-            'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_njhnv6na/segmentIndex/-1/version/2/captions.vtt',
-          url: 'http://cdntesting.qa.mkaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_njhnv6na/v/2',
+            'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/0_njhnv6na/segmentIndex/-1/version/2/captions.vtt',
+          url: 'http://cdntesting.qa.mtasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/0_njhnv6na/v/2',
           languageCode: 'es',
-          objectType: 'KalturaCaptionPlaybackPluginData'
+          objectType: 'TasvirchiCaptionPlaybackPluginData'
         }
       ],
       flavorAssets: [
@@ -3501,7 +3501,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1477390118,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 583327,
@@ -3526,7 +3526,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1477390712,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 2,
@@ -3552,7 +3552,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1477390214,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 3,
@@ -3578,7 +3578,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1477390245,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 4,
@@ -3604,7 +3604,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1477390329,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 5,
@@ -3630,7 +3630,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1477390590,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 6,
@@ -3656,7 +3656,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1477394388,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [],
@@ -3665,10 +3665,10 @@ const EntryWithBumperWitNoSources = {
         {
           entryId: '0_6r7gufsj',
           url: 'https://www.ynet.co.il/home/0,7340,L-8,00.html',
-          objectType: 'KalturaBumper'
+          objectType: 'TasvirchiBumper'
         }
       ],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
     {
       objects: [
@@ -3684,7 +3684,7 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata/>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         },
         {
           id: 13624422,
@@ -3698,11 +3698,11 @@ const EntryWithBumperWitNoSources = {
           updatedAt: 1499600285,
           status: 1,
           xml: '<metadata>\n  <MediaType>Movie</MediaType>\n  <WatchPermissionRule>Parrent Allowed</WatchPermissionRule>\n</metadata>',
-          objectType: 'KalturaMetadata'
+          objectType: 'TasvirchiMetadata'
         }
       ],
       totalCount: 2,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   ]
 };
@@ -3710,9 +3710,9 @@ const EntryWithBumperWitNoSources = {
 const Session = {
   response: [
     {
-      ks:
+      ts:
         'NDIxYjc3MmJhMmI1YTBhYTc1N2U2ODI0NjA4MWU0YzVhNGI3ZDQzM3wxMDY4MjkyOzEwNjgyOTI7MTYzOTM5NDk2OTsyOzE2MzkzMDg1NjkuOTg1NTtwaGlsbC5wcmljZUBkaXNuZXkuY29tOyosZGlzYWJsZWVudGl0bGVtZW50Ozs',
-      objectType: 'KalturaStartWidgetSessionResponse',
+      objectType: 'TasvirchiStartWidgetSessionResponse',
       partnerId: 1068292,
       userId: 0
     }
@@ -3725,7 +3725,7 @@ const Partner0EntryData = {
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'https://cdnapisec.kaltura.com/p/1645161/sp/164516100/playManifest/entryId/0_pi55vv3r/format/url/protocol/https',
+          dataUrl: 'https://cdnapisec.tasvirchi.com/p/1645161/sp/164516100/playManifest/entryId/0_pi55vv3r/format/url/protocol/https',
           flavorParamsIds: '0,487051',
           duration: 11,
           msDuration: 11312,
@@ -3735,13 +3735,13 @@ const Partner0EntryData = {
           tags: 'titanic, short',
           status: 2,
           type: 1,
-          thumbnailUrl: 'https://cfvod.kaltura.com/p/1645161/sp/164516100/thumbnail/entry_id/0_pi55vv3r/version/100002',
+          thumbnailUrl: 'https://cfvod.tasvirchi.com/p/1645161/sp/164516100/thumbnail/entry_id/0_pi55vv3r/version/100002',
           downloadUrl: '',
-          objectType: 'KalturaMediaEntry'
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     },
     {
       sources: [
@@ -3751,9 +3751,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5642/protocol/https/format/url/name/a.mp4',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5642/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 3382,
@@ -3761,9 +3761,9 @@ const Partner0EntryData = {
           protocols: 'https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/3382/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/3382/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 4662,
@@ -3771,9 +3771,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/4662/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/4662/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 72,
@@ -3781,9 +3781,9 @@ const Partner0EntryData = {
           protocols: 'http',
           flavorIds: '0_6gg99kvm',
           url:
-            'http://cdnapi.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/72/protocol/http/format/url/name/a.mp4',
+            'http://cdnapi.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/72/protocol/http/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 92,
@@ -3791,9 +3791,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/92/protocol/https/format/url/name/a.mp4',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/92/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 102,
@@ -3801,9 +3801,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/102/protocol/https/format/hdnetwork/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/102/protocol/https/format/hdnetwork/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 13942,
@@ -3811,9 +3811,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/13942/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/13942/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 122,
@@ -3821,9 +3821,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/122/protocol/https/format/rtsp/name/a.3gp',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/122/protocol/https/format/rtsp/name/a.3gp',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 13952,
@@ -3831,9 +3831,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/13952/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/13952/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 21633,
@@ -3841,9 +3841,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/21633/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/21633/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 132,
@@ -3851,9 +3851,9 @@ const Partner0EntryData = {
           protocols: 'http',
           flavorIds: '0_6gg99kvm',
           url:
-            'http://cdnapi.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/132/protocol/http/format/hdnetworkmanifest/manifest.f4m',
+            'http://cdnapi.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/132/protocol/http/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 152,
@@ -3861,9 +3861,9 @@ const Partner0EntryData = {
           protocols: 'rtmp,rtmpe,rtmpt,rtmpte',
           flavorIds: '0_6gg99kvm',
           url:
-            'http://cdnapi.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/152/protocol/http/format/rtmp/a.f4m',
+            'http://cdnapi.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/152/protocol/http/format/rtmp/a.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 162,
@@ -3871,9 +3871,9 @@ const Partner0EntryData = {
           protocols: 'rtmp,rtmpe,rtmpt,rtmpte',
           flavorIds: '0_6gg99kvm',
           url:
-            'http://cdnapi.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/162/protocol/http/format/rtmp/a.f4m',
+            'http://cdnapi.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/162/protocol/http/format/rtmp/a.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 12972,
@@ -3881,9 +3881,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/12972/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/12972/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 5552,
@@ -3891,9 +3891,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5552/protocol/https/format/url/name/a.mp4',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5552/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 5612,
@@ -3901,9 +3901,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5612/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5612/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 5622,
@@ -3911,9 +3911,9 @@ const Partner0EntryData = {
           protocols: 'http,https',
           flavorIds: '0_6gg99kvm',
           url:
-            'https://cdnapisec.kaltura.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5622/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/1645161/sp/1645161/playManifest/entryId/0_pi55vv3r/flavorIds/0_6gg99kvm/deliveryProfileId/5622/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       playbackCaptions: [],
@@ -3942,15 +3942,15 @@ const Partner0EntryData = {
           updatedAt: 1564401403,
           description: 'video warnings: 2107,280,600#The target flavor bitrate (280) does not comply with the requested bitrate (600).\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [],
       messages: [],
       bumperData: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     },
-    {objects: [], totalCount: 0, objectType: 'KalturaMetadataListResponse'}
+    {objects: [], totalCount: 0, objectType: 'TasvirchiMetadataListResponse'}
   ]
 };
 
@@ -3973,11 +3973,11 @@ export {
   EntryInPreConvert,
   EntryInReady,
   EntryWithBumper,
-  EntryWithBumperWithKs,
+  EntryWithBumperWithTs,
   EntryWithBumperWitNoSources,
-  EntryWithBumper as EntryExternalCaptionNoKS,
-  EntryWithBumperWithKs as EntryExternalCaptionWithKS,
-  EntryDirectWithKs,
+  EntryWithBumper as EntryExternalCaptionNoTS,
+  EntryWithBumperWithTs as EntryExternalCaptionWithTS,
+  EntryDirectWithTs,
   Session,
   Partner0EntryData
 };

@@ -1,7 +1,7 @@
 import ServiceResult from '../../common/base-service-result';
-import {KalturaUserEntry} from './kaltura-user-entry';
+import {TasvirchiUserEntry} from './tasvirchi-user-entry';
 
-export class KalturaUserEntryListResponse extends ServiceResult {
+export class TasvirchiUserEntryListResponse extends ServiceResult {
   /**
    * @member - The total count
    * @type {number}
@@ -9,9 +9,9 @@ export class KalturaUserEntryListResponse extends ServiceResult {
   private totalCount!: number;
   /**
    * @member - The entries
-   * @type {Array<KalturaUserEntry>}
+   * @type {Array<TasvirchiUserEntry>}
    */
-  private entries!: Array<KalturaUserEntry>;
+  private entries!: Array<TasvirchiUserEntry>;
 
   /**
    * @constructor
@@ -23,7 +23,7 @@ export class KalturaUserEntryListResponse extends ServiceResult {
       this.totalCount = responseObj.totalCount;
       this.entries = [];
       if (this.totalCount > 0) {
-        responseObj.objects.map(entry => this.entries.push(new KalturaUserEntry(entry)));
+        responseObj.objects.map(entry => this.entries.push(new TasvirchiUserEntry(entry)));
       }
     }
   }

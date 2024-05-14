@@ -1,6 +1,6 @@
-import {KalturaPlaybackSource} from './kaltura-playback-source';
+import {TasvirchiPlaybackSource} from './tasvirchi-playback-source';
 
-export class KalturaBumper {
+export class TasvirchiBumper {
   /**
    * @member - The bumper entry ID
    * @type {string}
@@ -13,13 +13,13 @@ export class KalturaBumper {
   public clickThroughUrl: string;
   /**
    * @member - The bumper sources
-   * @type {Array<KalturaPlaybackSource>}
+   * @type {Array<TasvirchiPlaybackSource>}
    */
-  public sources: Array<KalturaPlaybackSource>;
+  public sources: Array<TasvirchiPlaybackSource>;
 
   constructor(data: any) {
     this.entryId = data.entryId;
     this.clickThroughUrl = data.url;
-    this.sources = data.sources ? data.sources.map(source => new KalturaPlaybackSource(source)) : [];
+    this.sources = data.sources ? data.sources.map(source => new TasvirchiPlaybackSource(source)) : [];
   }
 }

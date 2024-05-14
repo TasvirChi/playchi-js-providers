@@ -1,6 +1,6 @@
 {
-  "name": "@playkit-js/playkit-js-providers/stats-service",
-  "main": "../dist/playkit-stats-service.js",
+  "name": "@playchi-js/playchi-js-providers/stats-service",
+  "main": "../dist/playchi-stats-service.js",
   "types": "../dist/stats-service.d.ts",
   "sideEffects": false
 }

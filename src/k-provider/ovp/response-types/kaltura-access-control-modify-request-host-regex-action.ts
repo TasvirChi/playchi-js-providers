@@ -1,6 +1,6 @@
-import {KalturaRuleAction} from './kaltura-rule-action';
+import {TasvirchiRuleAction} from './tasvirchi-rule-action';
 
-export class KalturaAccessControlModifyRequestHostRegexAction extends KalturaRuleAction {
+export class TasvirchiAccessControlModifyRequestHostRegexAction extends TasvirchiRuleAction {
   /**
    * @member - Request host regex pattern
    * @type {string}

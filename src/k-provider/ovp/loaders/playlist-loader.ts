@@ -1,10 +1,10 @@
 import RequestBuilder from '../../../util/request-builder';
 import OVPPlaylistService from '../services/playlist-service';
 import OVPConfiguration from '../config';
-import {KalturaPlaylist} from '../response-types';
-import {KalturaMediaEntries} from '../response-types';
+import {TasvirchiPlaylist} from '../response-types';
+import {TasvirchiMediaEntries} from '../response-types';
 import {ILoader} from '../../../types';
-import { KalturaUserEntryListResponse } from '../response-types';
+import { TasvirchiUserEntryListResponse } from '../response-types';
 
 export default class OVPPlaylistLoader implements ILoader {
   private _playlistId: string;
@@ -33,9 +33,9 @@ export default class OVPPlaylistLoader implements ILoader {
   }
 
   public set response(response: any) {
-    this._response.playlistData = new KalturaPlaylist(response[0].data);
-    this._response.playlistItems = new KalturaMediaEntries(response[1].data);
-    this._response.playlistUserEntries = new KalturaUserEntryListResponse(response[2].data);
+    this._response.playlistData = new TasvirchiPlaylist(response[0].data);
+    this._response.playlistItems = new TasvirchiMediaEntries(response[1].data);
+    this._response.playlistUserEntries = new TasvirchiUserEntryListResponse(response[2].data);
   }
 
   public get response(): any {
@@ -52,9 +52,9 @@ export default class OVPPlaylistLoader implements ILoader {
   public buildRequests(params: any): Array<RequestBuilder> {
     const config = OVPConfiguration.get();
     const requests: Array<RequestBuilder> = [];
-    requests.push(OVPPlaylistService.get(config.serviceUrl, params.ks, params.playlistId));
-    requests.push(OVPPlaylistService.execute(config.serviceUrl, params.ks, params.playlistId));
-    requests.push(OVPPlaylistService.getLastEntryId(config.serviceUrl, params.ks, params.playlistId));
+    requests.push(OVPPlaylistService.get(config.serviceUrl, params.ts, params.playlistId));
+    requests.push(OVPPlaylistService.execute(config.serviceUrl, params.ts, params.playlistId));
+    requests.push(OVPPlaylistService.getLastEntryId(config.serviceUrl, params.ts, params.playlistId));
     return requests;
   }
 

@@ -10,16 +10,16 @@ export default class OVPStatsService extends OVPService {
    * Creates an instance of RequestBuilder for stats.collect
    * @function collect
    * @param {string} serviceUrl - The service base url
-   * @param {string} ks - The ks
+   * @param {string} ts - The ts
    * @param {string} playerVersion - The player version
    * @param {Object} event - The event data
    * @returns {RequestBuilder} - The request builder
    * @static
    */
-  public static collect(serviceUrl: string, ks: string, playerVersion: string, event: any): RequestBuilder {
+  public static collect(serviceUrl: string, ts: string, playerVersion: string, event: any): RequestBuilder {
     const ovpParams = OVPConfiguration.get();
     const serviceParams = {};
-    Object.assign(serviceParams, ovpParams.serviceParams, {ks: ks, clientTag: 'html5:v' + playerVersion}, event);
+    Object.assign(serviceParams, ovpParams.serviceParams, {ts: ts, clientTag: 'html5:v' + playerVersion}, event);
     const request = new RequestBuilder();
     request.service = SERVICE_NAME;
     request.action = 'collect';

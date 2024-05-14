@@ -1,37 +1,37 @@
 import ServiceResult from '../../common/base-service-result';
-import {KalturaAccessControlMessage} from '../../common/response-types/kaltura-access-control-message';
-import {KalturaPlaybackSource} from './kaltura-playback-source';
-import {KalturaAccessControlModifyRequestHostRegexAction} from './kaltura-access-control-modify-request-host-regex-action';
-import {KalturaRuleAction} from './kaltura-rule-action';
-import {KalturaFlavorAsset} from './kaltura-flavor-asset';
-import {KalturaBumper} from './kaltura-bumper';
+import {TasvirchiAccessControlMessage} from '../../common/response-types/tasvirchi-access-control-message';
+import {TasvirchiPlaybackSource} from './tasvirchi-playback-source';
+import {TasvirchiAccessControlModifyRequestHostRegexAction} from './tasvirchi-access-control-modify-request-host-regex-action';
+import {TasvirchiRuleAction} from './tasvirchi-rule-action';
+import {TasvirchiFlavorAsset} from './tasvirchi-flavor-asset';
+import {TasvirchiBumper} from './tasvirchi-bumper';
 
-export class KalturaPlaybackContext extends ServiceResult {
+export class TasvirchiPlaybackContext extends ServiceResult {
   /**
    * @member - The playback sources
-   * @type {Array<KalturaPlaybackSource>}
+   * @type {Array<TasvirchiPlaybackSource>}
    */
-  public sources: Array<KalturaPlaybackSource> = [];
+  public sources: Array<TasvirchiPlaybackSource> = [];
   /**
    * @member - Array of actions as received from the rules that invalidated
-   * @type {Array<KalturaRuleAction>}
+   * @type {Array<TasvirchiRuleAction>}
    */
-  public actions: Array<KalturaRuleAction> = [];
+  public actions: Array<TasvirchiRuleAction> = [];
   /**
    * @member - Array of actions as received from the rules that invalidated
-   * @type {Array<KalturaAccessControlMessage>}
+   * @type {Array<TasvirchiAccessControlMessage>}
    */
-  public messages: Array<KalturaAccessControlMessage> = [];
+  public messages: Array<TasvirchiAccessControlMessage> = [];
   /**
    * @member - The flavor assets
-   * @type {Array<KalturaFlavorAsset>}
+   * @type {Array<TasvirchiFlavorAsset>}
    */
-  public flavorAssets: Array<KalturaFlavorAsset> = [];
+  public flavorAssets: Array<TasvirchiFlavorAsset> = [];
   /**
    * @member - The bumper data
-   * @type {Array<KalturaBumper>}
+   * @type {Array<TasvirchiBumper>}
    */
-  public bumperData: Array<KalturaBumper> = [];
+  public bumperData: Array<TasvirchiBumper> = [];
 
   /**
    * @constructor
@@ -42,29 +42,29 @@ export class KalturaPlaybackContext extends ServiceResult {
     if (!this.hasError) {
       const messages = response.messages;
       if (messages) {
-        messages.map(message => this.messages.push(new KalturaAccessControlMessage(message)));
+        messages.map(message => this.messages.push(new TasvirchiAccessControlMessage(message)));
       }
       const actions = response.actions;
       if (actions) {
         actions.map(action => {
-          if (action.type === KalturaRuleAction.Type.REQUEST_HOST_REGEX) {
-            this.actions.push(new KalturaAccessControlModifyRequestHostRegexAction(action));
+          if (action.type === TasvirchiRuleAction.Type.REQUEST_HOST_REGEX) {
+            this.actions.push(new TasvirchiAccessControlModifyRequestHostRegexAction(action));
           } else {
-            this.actions.push(new KalturaRuleAction(action));
+            this.actions.push(new TasvirchiRuleAction(action));
           }
         });
       }
       const sources = response.sources;
       if (sources) {
-        sources.map(source => this.sources.push(new KalturaPlaybackSource(source)));
+        sources.map(source => this.sources.push(new TasvirchiPlaybackSource(source)));
       }
       const flavorAssets = response.flavorAssets;
       if (flavorAssets) {
-        flavorAssets.map(flavor => this.flavorAssets.push(new KalturaFlavorAsset(flavor)));
+        flavorAssets.map(flavor => this.flavorAssets.push(new TasvirchiFlavorAsset(flavor)));
       }
       const bumperData = response.bumperData;
       if (bumperData) {
-        bumperData.map(bumper => this.bumperData.push(new KalturaBumper(bumper)));
+        bumperData.map(bumper => this.bumperData.push(new TasvirchiBumper(bumper)));
       }
     }
   }
@@ -73,22 +73,22 @@ export class KalturaPlaybackContext extends ServiceResult {
     return this.getBlockAction() !== undefined;
   }
 
-  public getBlockAction(): KalturaRuleAction | undefined {
-    return this.actions.find(action => action.type === KalturaRuleAction.Type.BLOCK);
+  public getBlockAction(): TasvirchiRuleAction | undefined {
+    return this.actions.find(action => action.type === TasvirchiRuleAction.Type.BLOCK);
   }
 
-  public getErrorMessages(): Array<KalturaAccessControlMessage> {
+  public getErrorMessages(): Array<TasvirchiAccessControlMessage> {
     return this.messages;
   }
 
   /**
-   * Get the KalturaAccessControlModifyRequestHostRegexAction action
+   * Get the TasvirchiAccessControlModifyRequestHostRegexAction action
    * @function getRequestHostRegexAction
-   * @returns {?KalturaAccessControlModifyRequestHostRegexAction} The action
+   * @returns {?TasvirchiAccessControlModifyRequestHostRegexAction} The action
    * */
-  public getRequestHostRegexAction(): KalturaAccessControlModifyRequestHostRegexAction | undefined {
-    const action = this.actions.find(action => action.type === KalturaRuleAction.Type.REQUEST_HOST_REGEX);
-    if (action instanceof KalturaAccessControlModifyRequestHostRegexAction) {
+  public getRequestHostRegexAction(): TasvirchiAccessControlModifyRequestHostRegexAction | undefined {
+    const action = this.actions.find(action => action.type === TasvirchiRuleAction.Type.REQUEST_HOST_REGEX);
+    if (action instanceof TasvirchiAccessControlModifyRequestHostRegexAction) {
       return action;
     }
   }

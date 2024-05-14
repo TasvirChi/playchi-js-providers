@@ -2,14 +2,14 @@ import {clone} from '../../util/clone';
 import {ProviderEnvConfigObject} from '../../types';
 
 const defaultConfig: any = {
-  serviceUrl: 'https://cdnapisec.kaltura.com/api_v3',
-  cdnUrl: 'https://cdnapisec.kaltura.com',
+  serviceUrl: 'https://cdnapisec.tasvirchi.com/api_v3',
+  cdnUrl: 'https://cdnapisec.tasvirchi.com',
   serviceParams: {
     apiVersion: '3.3.0',
     format: 1
   },
   useApiCaptions: true,
-  loadThumbnailWithKs: false,
+  loadThumbnailWithTs: false,
   replaceHostOnlyManifestUrls: false
 };
 

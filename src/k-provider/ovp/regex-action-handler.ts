@@ -1,6 +1,6 @@
 import getLogger from '../../util/logger';
 import OVPConfiguration from './config';
-import {KalturaAccessControlModifyRequestHostRegexAction} from './response-types';
+import {TasvirchiAccessControlModifyRequestHostRegexAction} from './response-types';
 import OVPMediaEntryLoader from './loaders/media-entry-loader';
 import {ILoader, ProviderMediaConfigObject} from '../../types';
 
@@ -10,13 +10,13 @@ class RegexActionHandler {
   /**
    * Applies the request host regex on the url
    * @function _applyRegexAction
-   * @param {KalturaAccessControlModifyRequestHostRegexAction} regexAction - The regex action
+   * @param {TasvirchiAccessControlModifyRequestHostRegexAction} regexAction - The regex action
    * @param {string} url - The url to modify
    * @returns {string} - The request host regex applied url
    * @static
    * @private
    */
-  private static _applyRegexAction(regexAction: KalturaAccessControlModifyRequestHostRegexAction, url: string): string {
+  private static _applyRegexAction(regexAction: TasvirchiAccessControlModifyRequestHostRegexAction, url: string): string {
     if (regexAction) {
       const regex = new RegExp(regexAction.pattern, 'i');
       if (url.match(regex)) {
@@ -30,7 +30,7 @@ class RegexActionHandler {
    * Ping the ECDN url and replace the host urls if needed
    * @function _pingECDNAndReplaceHostUrls
    * @param {ProviderMediaConfigObject} mediaConfig - The media config
-   * @param {KalturaAccessControlModifyRequestHostRegexAction} regexAction - The regex action
+   * @param {TasvirchiAccessControlModifyRequestHostRegexAction} regexAction - The regex action
    * @param {string} cdnUrl - The CDN url
    * @returns {Promise<ProviderMediaConfigObject>} - The media config with old or modified urls
    * @static
@@ -38,7 +38,7 @@ class RegexActionHandler {
    */
   private static _pingECDNAndReplaceHostUrls(
     mediaConfig: ProviderMediaConfigObject,
-    regexAction: KalturaAccessControlModifyRequestHostRegexAction,
+    regexAction: TasvirchiAccessControlModifyRequestHostRegexAction,
     cdnUrl: string
   ): Promise<ProviderMediaConfigObject> {
     return new Promise(resolve => {
@@ -100,12 +100,12 @@ class RegexActionHandler {
    * Modify the host urls - injects the configured cdn before the original host, to route requests
    * @function _replaceHostUrls
    * @param {ProviderMediaConfigObject} mediaConfig - The media config
-   * @param {KalturaAccessControlModifyRequestHostRegexAction} regexAction - The regex action
+   * @param {TasvirchiAccessControlModifyRequestHostRegexAction} regexAction - The regex action
    * @returns {void}
    * @static
    * @private
    */
-  private static _replaceHostUrls(mediaConfig: ProviderMediaConfigObject, regexAction: KalturaAccessControlModifyRequestHostRegexAction): void {
+  private static _replaceHostUrls(mediaConfig: ProviderMediaConfigObject, regexAction: TasvirchiAccessControlModifyRequestHostRegexAction): void {
     RegexActionHandler._logger.debug('Starting to modify urls...');
     const sources = mediaConfig.sources;
     const {hls, dash, progressive, image} = sources;
@@ -130,23 +130,23 @@ class RegexActionHandler {
    * Extracts the regex action from the data response
    * @function _extractRegexActionFromData
    * @param {Map<string, Function>} data - The response data
-   * @returns {KalturaAccessControlModifyRequestHostRegexAction} regexAction - The regex action
+   * @returns {TasvirchiAccessControlModifyRequestHostRegexAction} regexAction - The regex action
    * @static
    * @private
    */
-  private static _extractRegexActionFromData(data: Map<string, ILoader>): KalturaAccessControlModifyRequestHostRegexAction | undefined {
+  private static _extractRegexActionFromData(data: Map<string, ILoader>): TasvirchiAccessControlModifyRequestHostRegexAction | undefined {
     return data.get(OVPMediaEntryLoader.id)?.response?.playBackContextResult.getRequestHostRegexAction();
   }
 
   /**
    * Extracts the regex action from the data response
    * @function _extractRegexActionFromData
-   * @param {KalturaAccessControlModifyRequestHostRegexAction} regexAction - The regex action
+   * @param {TasvirchiAccessControlModifyRequestHostRegexAction} regexAction - The regex action
    * @returns {RegExp} The regex expression
    * @static
    * @private
    */
-  private static _getRegExp(regexAction: KalturaAccessControlModifyRequestHostRegexAction | undefined): RegExp | undefined {
+  private static _getRegExp(regexAction: TasvirchiAccessControlModifyRequestHostRegexAction | undefined): RegExp | undefined {
     if (regexAction && regexAction.pattern && regexAction.replacement) {
       return new RegExp(regexAction.pattern, 'i');
     }

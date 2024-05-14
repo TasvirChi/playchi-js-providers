@@ -1,7 +1,7 @@
 import ServiceResult from '../../common/base-service-result';
 import {Poster} from '../../../types';
 
-export default class KalturaAsset extends ServiceResult {
+export default class TasvirchiAsset extends ServiceResult {
   public static Type: {[type: string]: string} = {
     MEDIA: 'media',
     RECORDING: 'recording',

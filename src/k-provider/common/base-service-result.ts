@@ -20,10 +20,10 @@ export default class ServiceResult {
    * @param {Object} response - Service response
    */
   constructor(response: any) {
-    if (response.objectType === 'KalturaAPIException') {
+    if (response.objectType === 'TasvirchiAPIException') {
       this.hasError = true;
       this.error = new ServiceError(response.code, response.message);
-    } else if (response.error && response.error.objectType === 'KalturaAPIException') {
+    } else if (response.error && response.error.objectType === 'TasvirchiAPIException') {
       this.hasError = true;
       this.error = new ServiceError(response.error.code, response.error.message);
     } else {

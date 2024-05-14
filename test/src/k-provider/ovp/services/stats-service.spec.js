@@ -4,18 +4,18 @@ import OVPConfiguration from '../../../../../src/k-provider/ovp/config';
 import {param} from '../../../../../src/util/param';
 
 describe('stats service - collect', function () {
-  let ovpParams, ks, event;
+  let ovpParams, ts, event;
   const playerVersion = '1.2.3';
 
   beforeEach(function () {
     ovpParams = OVPConfiguration.get();
-    ks = '1234';
+    ts = '1234';
     event = {a: 1};
   });
 
   it('should be proper values', function () {
     const serviceUrl = 'http://my/url';
-    const request = OVPStatsService.collect(serviceUrl, ks, playerVersion, event);
+    const request = OVPStatsService.collect(serviceUrl, ts, playerVersion, event);
     (request instanceof RequestBuilder).should.be.true;
     request.service.should.be.equal('stats');
     request.action.should.be.equal('collect');
@@ -27,7 +27,7 @@ describe('stats service - collect', function () {
         {},
         ovpParams.serviceParams,
         {
-          ks: ks,
+          ts: ts,
           clientTag: 'html5:v' + playerVersion
         },
         event

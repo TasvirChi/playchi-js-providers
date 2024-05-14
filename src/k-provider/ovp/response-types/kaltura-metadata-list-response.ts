@@ -1,9 +1,9 @@
 import ServiceResult from '../../common/base-service-result';
-import {KalturaMetadata} from './kaltura-metadata';
+import {TasvirchiMetadata} from './tasvirchi-metadata';
 
-export class KalturaMetadataListResponse extends ServiceResult {
+export class TasvirchiMetadataListResponse extends ServiceResult {
   public totalCount!: number;
-  public metas!: Array<KalturaMetadata>;
+  public metas!: Array<TasvirchiMetadata>;
 
   /**
    * @constructor
@@ -15,7 +15,7 @@ export class KalturaMetadataListResponse extends ServiceResult {
       this.totalCount = responseObj.totalCount;
       if (this.totalCount > 0) {
         this.metas = [];
-        responseObj.objects.map(meta => this.metas.push(new KalturaMetadata(meta)));
+        responseObj.objects.map(meta => this.metas.push(new TasvirchiMetadata(meta)));
       }
     }
   }

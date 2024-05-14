@@ -1,11 +1,11 @@
 import OTTAssetService from '../services/asset-service';
 import OTTConfiguration from '../config';
 import RequestBuilder from '../../../util/request-builder';
-import KalturaPlaybackContext from '../response-types/kaltura-playback-context';
-import KalturaAsset from '../response-types/kaltura-asset';
+import TasvirchiPlaybackContext from '../response-types/tasvirchi-playback-context';
+import TasvirchiAsset from '../response-types/tasvirchi-asset';
 import {ILoader} from '../../../types';
 
-type OTTAssetLoaderResponse = {mediaDataResult: KalturaAsset, playBackContextResult: KalturaPlaybackContext};
+type OTTAssetLoaderResponse = {mediaDataResult: TasvirchiAsset, playBackContextResult: TasvirchiPlaybackContext};
 export type {OTTAssetLoaderResponse};
 
 export default class OTTAssetLoader implements ILoader {
@@ -35,8 +35,8 @@ export default class OTTAssetLoader implements ILoader {
   }
 
   public set response(response: any) {
-    this._response.mediaDataResult = new KalturaAsset(response[0].data);
-    this._response.playBackContextResult = new KalturaPlaybackContext(response[1].data);
+    this._response.mediaDataResult = new TasvirchiAsset(response[0].data);
+    this._response.playBackContextResult = new TasvirchiPlaybackContext(response[1].data);
   }
 
   public get response(): OTTAssetLoaderResponse {
@@ -53,8 +53,8 @@ export default class OTTAssetLoader implements ILoader {
   public buildRequests(params: any): Array<RequestBuilder> {
     const config = OTTConfiguration.get();
     const requests: Array<RequestBuilder> = [];
-    requests.push(OTTAssetService.get(config.serviceUrl, params.ks, params.entryId, params.assetReferenceType));
-    requests.push(OTTAssetService.getPlaybackContext(config.serviceUrl, params.ks, params.entryId, params.type, params.playbackContext));
+    requests.push(OTTAssetService.get(config.serviceUrl, params.ts, params.entryId, params.assetReferenceType));
+    requests.push(OTTAssetService.getPlaybackContext(config.serviceUrl, params.ts, params.entryId, params.type, params.playbackContext));
     return requests;
   }
 

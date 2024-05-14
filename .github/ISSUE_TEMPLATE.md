@@ -2,8 +2,8 @@
 
 ##### Prerequisites
 
-- [ ] Have you checked for duplicate [issues](https://github.com/kaltura/playkit-js-providers/issues): **\_\_**
-- [ ] Which Plugin [version](https://github.com/kaltura/playkit-js-providers/releases) are you using: **\_\_**
+- [ ] Have you checked for duplicate [issues](https://github.com/tasvirchi/playchi-js-providers/issues): **\_\_**
+- [ ] Which Plugin [version](https://github.com/tasvirchi/playchi-js-providers/releases) are you using: **\_\_**
 - [ ] Can you reproduce the issue with our latest release version: **\_\_**
 - [ ] Can you reproduce the issue with the latest code from master: **\_\_**
 - [ ] What browser and OS names and versions are you using: **\_\_**

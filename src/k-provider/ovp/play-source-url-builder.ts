@@ -3,7 +3,7 @@ import OVPConfiguration from './config';
 type urlParamsType = {
   partnerId: number,
   entryId: string,
-  ks: string,
+  ts: string,
   uiConfId?: number,
   format: string,
   protocol: string,
@@ -22,7 +22,7 @@ export default class PlaySourceUrlBuilder {
   public static build(urlParams: urlParamsType): string {
     const config = OVPConfiguration.get();
     const serviceUrlOrigin: string = config.serviceUrl.substr(0, config.serviceUrl.lastIndexOf('/'));
-    const {partnerId, entryId, ks, uiConfId, format, protocol, extension, flavorIds} = urlParams;
+    const {partnerId, entryId, ts, uiConfId, format, protocol, extension, flavorIds} = urlParams;
 
     //verify mandatory params
     // @ts-expect-error - fff
@@ -42,8 +42,8 @@ export default class PlaySourceUrlBuilder {
       playUrl += '/uiConfId/' + uiConfId;
     }
 
-    if (ks !== '') {
-      playUrl += '/ks/' + ks;
+    if (ts !== '') {
+      playUrl += '/ts/' + ts;
     }
 
     if (extension !== '') {

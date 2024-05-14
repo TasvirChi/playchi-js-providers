@@ -1,7 +1,7 @@
 import ServiceResult from '../../common/base-service-result';
-import {KalturaMediaEntry} from './kaltura-media-entry';
+import {TasvirchiMediaEntry} from './tasvirchi-media-entry';
 
-export class KalturaBaseEntryListResponse extends ServiceResult {
+export class TasvirchiBaseEntryListResponse extends ServiceResult {
   /**
    * @member - The total count
    * @type {number}
@@ -9,9 +9,9 @@ export class KalturaBaseEntryListResponse extends ServiceResult {
   public totalCount!: number;
   /**
    * @member - The entries
-   * @type {Array<KalturaMediaEntry>}
+   * @type {Array<TasvirchiMediaEntry>}
    */
-  public entries!: Array<KalturaMediaEntry>;
+  public entries!: Array<TasvirchiMediaEntry>;
 
   /**
    * @constructor
@@ -23,7 +23,7 @@ export class KalturaBaseEntryListResponse extends ServiceResult {
       this.totalCount = responseObj.totalCount;
       if (this.totalCount > 0) {
         this.entries = [];
-        responseObj.objects.map(entry => this.entries.push(new KalturaMediaEntry(entry)));
+        responseObj.objects.map(entry => this.entries.push(new TasvirchiMediaEntry(entry)));
       }
     }
   }

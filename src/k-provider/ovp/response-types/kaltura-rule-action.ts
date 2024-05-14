@@ -1,4 +1,4 @@
-export class KalturaRuleAction {
+export class TasvirchiRuleAction {
   public static Type: {[type: string]: string | number} = {
     DRM_POLICY: 'drm.DRM_POLICY',
     BLOCK: 1,

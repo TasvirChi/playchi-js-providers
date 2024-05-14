@@ -256,13 +256,13 @@ describe('OVPProvider.partnerId:1082342', function () {
 describe('OVPProvider.partnerId:1068292', function () {
   let provider, sandbox;
   const partnerId = 1068292;
-  const ks =
+  const ts =
     'NTAwZjViZWZjY2NjNTRkNGEyMjU1MTg4OGE1NmUwNDljZWJkMzk1MXwxMDY4MjkyOzEwNjgyOTI7MTQ5MDE3NjE0NjswOzE0OTAwODk3NDYuMDIyNjswO3ZpZXc6Kix3aWRnZXQ6MTs7';
   const playerVersion = '1.2.3';
 
   beforeEach(() => {
     sandbox = sinon.createSandbox();
-    provider = new OVPProvider({partnerId: partnerId, ks: ks}, playerVersion);
+    provider = new OVPProvider({partnerId: partnerId, ts: ts}, playerVersion);
   });
 
   afterEach(() => {
@@ -318,7 +318,7 @@ describe('OVPProvider.partnerId:1068292', function () {
   });
 
   it('should return config with plugins and with drm data', done => {
-    provider = new OVPProvider({partnerId: partnerId, ks: ks, uiConfId: 38601981}, playerVersion);
+    provider = new OVPProvider({partnerId: partnerId, ts: ts, uiConfId: 38601981}, playerVersion);
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
         const response = new MultiRequestResult(BE_DATA.EntryWithUIConfWithDrmData.response);
@@ -345,7 +345,7 @@ describe('OVPProvider.partnerId:1068292', function () {
   });
 
   it('should return reject when try to get config with wrong uiConf ID', done => {
-    provider = new OVPProvider({partnerId: partnerId, ks: ks, uiConfId: 38601981}, playerVersion);
+    provider = new OVPProvider({partnerId: partnerId, ts: ts, uiConfId: 38601981}, playerVersion);
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise((resolve, reject) => {
         const response = new MultiRequestResult(BE_DATA.WrongUiConfID.response);
@@ -373,13 +373,13 @@ describe('OVPProvider.partnerId:1068292', function () {
 describe('OVPProvider.partnerId:0', function () {
   let provider, sandbox;
   const partnerId = 0;
-  const ks =
+  const ts =
     'djJ8MTY0NTE2MXzvlA0ktfU5h5Q_sBfvomsONiVGDO4zRRaJHvTBmnxd9eGmGQq3yvwzedJ8elff4L85A8hbCNE5rhDZsPMqDBFT_cfr1ytLeTLyEhS_ZjyYzEpZWUxzrsXjvgiSo9np4Y9H1pH6avyV4TpknfDDX20H59wjh3QhpZRn3DLryzgoTQ';
   const playerVersion = '1.2.3';
 
   beforeEach(() => {
     sandbox = sinon.createSandbox();
-    provider = new OVPProvider({partnerId: partnerId, ks: ks}, playerVersion);
+    provider = new OVPProvider({partnerId: partnerId, ts: ts}, playerVersion);
   });
 
   afterEach(() => {
@@ -414,11 +414,11 @@ describe('getMediaConfig', function () {
   let provider, sandbox;
   const partnerId = 1068292;
   const widgetId = '_123456';
-  const ks =
+  const ts =
     'NTAwZjViZWZjY2NjNTRkNGEyMjU1MTg4OGE1NmUwNDljZWJkMzk1MXwxMDY4MjkyOzEwNjgyOTI7MTQ5MDE3NjE0NjswOzE0OTAwODk3NDYuMDIyNjswO3ZpZXc6Kix3aWRnZXQ6MTs7';
   const playerVersion = '1.2.3';
 
-  describe('getMediaConfig with ks', function () {
+  describe('getMediaConfig with ts', function () {
     beforeEach(() => {
       sandbox = sinon.createSandbox();
       sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
@@ -433,9 +433,9 @@ describe('getMediaConfig', function () {
       MultiRequestBuilder.prototype.execute.restore();
     });
 
-    it('should set anonymous to false when given a KS', done => {
+    it('should set anonymous to false when given a TS', done => {
       provider = new OVPProvider({partnerId: partnerId}, playerVersion);
-      provider.getMediaConfig({entryId: '1_rwbj3j0a', ks: ks}).then(
+      provider.getMediaConfig({entryId: '1_rwbj3j0a', ts: ts}).then(
         mediaConfig => {
           try {
             mediaConfig.session.isAnonymous.should.be.false;
@@ -450,12 +450,12 @@ describe('getMediaConfig', function () {
       );
     });
 
-    it('should use the response KS on request with widgetId', done => {
+    it('should use the response TS on request with widgetId', done => {
       provider = new OVPProvider({partnerId, widgetId}, playerVersion);
-      provider.getMediaConfig({entryId: '1_rwbj3j0a', ks: ks}).then(
+      provider.getMediaConfig({entryId: '1_rwbj3j0a', ts: ts}).then(
         () => {
           try {
-            provider.ks.should.equal(ks);
+            provider.ts.should.equal(ts);
             done();
           } catch (err) {
             done(err);
@@ -468,7 +468,7 @@ describe('getMediaConfig', function () {
     });
   });
 
-  describe('getMediaConfig without ks', function () {
+  describe('getMediaConfig without ts', function () {
     beforeEach(() => {
       sandbox = sinon.createSandbox();
       sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
@@ -534,12 +534,12 @@ describe('getMediaConfig', function () {
       );
     });
 
-    it('should use the response KS on request with widgetId', done => {
+    it('should use the response TS on request with widgetId', done => {
       provider = new OVPProvider({partnerId, widgetId}, playerVersion);
       provider.getMediaConfig({entryId: '1_rwbj3j0a'}).then(
         () => {
           try {
-            provider.ks.should.equal(BE_DATA.AnonymousMocEntryWithoutUIConfNoDrmData.response[0].ks);
+            provider.ts.should.equal(BE_DATA.AnonymousMocEntryWithoutUIConfNoDrmData.response[0].ts);
             done();
           } catch (err) {
             done(err);
@@ -606,7 +606,7 @@ describe('getMediaConfig', function () {
   describe('getMediaConfig with bumper', function () {
     let provider, sandbox;
     const partnerId = 1091;
-    const ks =
+    const ts =
       'YmMzNzUyZWM4ZmVkYjRiMzRlOTBlYTZjMGY2YTI1NzRkZDUwZjZjNnwxMDkxOzEwOTE7MTYwNTcyMjI5NDsyOzE2MDU2MzU4OTQuMTA0MzthdmkuYmFydWNoQGthbHR1cmEuY29tOyosZGlzYWJsZWVudGl0bGVtZW50Ozs';
     const playerVersion = '1.2.3';
 
@@ -619,7 +619,7 @@ describe('getMediaConfig', function () {
       MultiRequestBuilder.prototype.execute.restore();
     });
 
-    it('should set the bumper plugin with no ks', done => {
+    it('should set the bumper plugin with no ts', done => {
       sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
         return new Promise(resolve => {
           resolve({response: new MultiRequestResult(BE_DATA.EntryWithBumper.response)});
@@ -641,17 +641,17 @@ describe('getMediaConfig', function () {
       );
     });
 
-    it('should set the bumper plugin with ks', done => {
+    it('should set the bumper plugin with ts', done => {
       sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
         return new Promise(resolve => {
-          resolve({response: new MultiRequestResult(BE_DATA.EntryWithBumperWithKs.response)});
+          resolve({response: new MultiRequestResult(BE_DATA.EntryWithBumperWithTs.response)});
         });
       });
       provider = new OVPProvider({partnerId: partnerId}, playerVersion);
-      provider.getMediaConfig({entryId: '0_wifqaipd', ks}).then(
+      provider.getMediaConfig({entryId: '0_wifqaipd', ts}).then(
         mediaConfig => {
           try {
-            mediaConfig.should.deep.equal(MEDIA_CONFIG_DATA.EntryWithBumperWithKs);
+            mediaConfig.should.deep.equal(MEDIA_CONFIG_DATA.EntryWithBumperWithTs);
             done();
           } catch (err) {
             done(err);
@@ -670,7 +670,7 @@ describe('getMediaConfig', function () {
         });
       });
       provider = new OVPProvider({partnerId: partnerId}, playerVersion);
-      provider.getMediaConfig({entryId: '0_wifqaipd', ks}).then(
+      provider.getMediaConfig({entryId: '0_wifqaipd', ts}).then(
         mediaConfig => {
           try {
             mediaConfig.should.deep.equal(MEDIA_CONFIG_DATA.EntryWithNoBumper);
@@ -690,7 +690,7 @@ describe('getMediaConfig', function () {
 describe('getPlaylistConfig', function () {
   let provider, sandbox;
   const partnerId = 1091;
-  const ks = 'MDlkOTIzMzRhZmM4MmJmNTIwYzZkYzZhMzc0ZTRiNWI1NTRiZjNhM3wxMDkxOzEwOTE7MTU0NDc5NzcyMjswOzE1NDQ3MTEzMjIuODk2MTswO3ZpZXc6Kix3aWRnZXQ6MTs7';
+  const ts = 'MDlkOTIzMzRhZmM4MmJmNTIwYzZkYzZhMzc0ZTRiNWI1NTRiZjNhM3wxMDkxOzEwOTE7MTU0NDc5NzcyMjswOzE1NDQ3MTEzMjIuODk2MTswO3ZpZXc6Kix3aWRnZXQ6MTs7';
   const playerVersion = '1.2.3';
 
   beforeEach(() => {
@@ -716,7 +716,7 @@ describe('getPlaylistConfig', function () {
           playlistConfig.items.length.should.equal(8);
           playlistConfig.metadata.name.should.equal('Playlist_VOD_Only');
           playlistConfig.metadata.description.should.equal('Playlist_VOD_Only_desc');
-          playlistConfig.poster.should.equal('http://cdntesting.qa.mkaltura.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162');
+          playlistConfig.poster.should.equal('http://cdntesting.qa.mtasvirchi.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162');
           (playlistConfig.playlistLastEntryId === undefined).should.eql(true);
           done();
         } catch (err) {
@@ -729,20 +729,20 @@ describe('getPlaylistConfig', function () {
     );
   });
 
-  it('should load a playlist by id - with KS', done => {
+  it('should load a playlist by id - with TS', done => {
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
         resolve({response: new MultiRequestResult(BE_DATA.PlaylistById.response)});
       });
     });
-    provider.getPlaylistConfig({playlistId: '0_wckoqjnn', ks}).then(
+    provider.getPlaylistConfig({playlistId: '0_wckoqjnn', ts}).then(
       playlistConfig => {
         try {
           playlistConfig.id.should.equal('0_wckoqjnn');
           playlistConfig.items.length.should.equal(8);
           playlistConfig.metadata.name.should.equal('Playlist_VOD_Only');
           playlistConfig.metadata.description.should.equal('Playlist_VOD_Only_desc');
-          playlistConfig.poster.should.equal('http://cdntesting.qa.mkaltura.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162');
+          playlistConfig.poster.should.equal('http://cdntesting.qa.mtasvirchi.com/p/1091/sp/0/thumbnail/entry_id/0_wckoqjnn/version/100162');
           playlistConfig.playlistLastEntryId.should.equal('0_15xrxwvo');
           done();
         } catch (err) {
@@ -759,7 +759,7 @@ describe('getPlaylistConfig', function () {
 describe('getEntryListConfig', function () {
   let provider, sandbox;
   const partnerId = 1091;
-  const ks = 'MGVjMWI2ZDRkNmUwNTU4ODk5MWQyZmU4NzZlMmU4OGJjYzI5OTFmYnwxMDkxOzEwOTE7MTU0NDc5NDg4NzswOzE1NDQ3MDg0ODcuOTY1OTswO3ZpZXc6Kix3aWRnZXQ6MTs7';
+  const ts = 'MGVjMWI2ZDRkNmUwNTU4ODk5MWQyZmU4NzZlMmU4OGJjYzI5OTFmYnwxMDkxOzEwOTE7MTU0NDc5NDg4NzswOzE1NDQ3MDg0ODcuOTY1OTswO3ZpZXc6Kix3aWRnZXQ6MTs7';
   const playerVersion = '1.2.3';
 
   beforeEach(() => {
@@ -797,13 +797,13 @@ describe('getEntryListConfig', function () {
     );
   });
 
-  it('should load a playlist by entry list - with KS', done => {
+  it('should load a playlist by entry list - with TS', done => {
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
         resolve({response: new MultiRequestResult(BE_DATA.PlaylistByEntryList.response)});
       });
     });
-    provider.getEntryListConfig({entries: ['0_nwkp7jtx', {entryId: '0_wifqaipd'}, '0_p8aigvgu'], ks}).then(
+    provider.getEntryListConfig({entries: ['0_nwkp7jtx', {entryId: '0_wifqaipd'}, '0_p8aigvgu'], ts}).then(
       entryListConfig => {
         try {
           entryListConfig.id.should.equal('');
@@ -829,7 +829,7 @@ describe('getEntryListConfig', function () {
       });
     });
 
-    provider.getEntryListConfig({entries: ['0_nwkp7jtx', {entryId: '0_wifqaipd'}, '0_p8aigvgu'], ks}).then(
+    provider.getEntryListConfig({entries: ['0_nwkp7jtx', {entryId: '0_wifqaipd'}, '0_p8aigvgu'], ts}).then(
       entryListConfig => {
         try {
           entryListConfig.id.should.equal('');
@@ -852,7 +852,7 @@ describe('getEntryListConfig', function () {
 describe('getPlaybackContext', () => {
   let provider, sandbox;
   const partnerId = 1068292;
-  const ks =
+  const ts =
     'NTAwZjViZWZjY2NjNTRkNGEyMjU1MTg4OGE1NmUwNDljZWJkMzk1MXwxMDY4MjkyOzEwNjgyOTI7MTQ5MDE3NjE0NjswOzE0OTAwODk3NDYuMDIyNjswO3ZpZXc6Kix3aWRnZXQ6MTs7';
   const playerVersion = '1.2.3';
 
@@ -861,7 +861,7 @@ describe('getPlaybackContext', () => {
     MultiRequestBuilder.prototype.execute.restore();
   });
 
-  it('should request entryId token {1:result:objects:0:id} in request with valid KS', done => {
+  it('should request entryId token {1:result:objects:0:id} in request with valid TS', done => {
     sandbox = sinon.createSandbox();
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
@@ -870,7 +870,7 @@ describe('getPlaybackContext', () => {
     });
     provider = new OVPProvider({partnerId: partnerId}, playerVersion);
     provider
-      .getMediaConfig({entryId: '1_rwbj3j0a', ks: ks})
+      .getMediaConfig({entryId: '1_rwbj3j0a', ts: ts})
       .then(() => {
         const getPlaybackContext = provider._dataLoader._multiRequest.requests.find(request => {
           return request.action === 'getPlaybackContext';
@@ -883,20 +883,20 @@ describe('getPlaybackContext', () => {
       });
   });
 
-  it('should add KS to direct playbackContext', done => {
+  it('should add TS to direct playbackContext', done => {
     sandbox = sinon.createSandbox();
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
-        resolve({response: new MultiRequestResult(BE_DATA.EntryDirectWithKs.response)});
+        resolve({response: new MultiRequestResult(BE_DATA.EntryDirectWithTs.response)});
       });
     });
     provider = new OVPProvider({partnerId: partnerId}, playerVersion);
-    provider.getMediaConfig({entryId: '0_wifqaipd', ks: ks}).then(
+    provider.getMediaConfig({entryId: '0_wifqaipd', ts: ts}).then(
       mediaConfig => {
         try {
           const result = mediaConfig.sources.dash.filter(source => {
-            const ksParam = source.url.indexOf('?') === -1 ? 'ks/' : source.url.indexOf('?ks') === -1 ? '&ks=' : '?ks=';
-            return source.url.indexOf(ksParam + ks) !== -1;
+            const tsParam = source.url.indexOf('?') === -1 ? 'ts/' : source.url.indexOf('?ts') === -1 ? '&ts=' : '?ts=';
+            return source.url.indexOf(tsParam + ts) !== -1;
           });
           result.should.deep.equal(mediaConfig.sources.dash);
           done();
@@ -910,20 +910,20 @@ describe('getPlaybackContext', () => {
     );
   });
 
-  it('should add KS to external captions url', done => {
+  it('should add TS to external captions url', done => {
     sandbox = sinon.createSandbox();
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
-        resolve({response: new MultiRequestResult(BE_DATA.EntryExternalCaptionWithKS.response)});
+        resolve({response: new MultiRequestResult(BE_DATA.EntryExternalCaptionWithTS.response)});
       });
     });
     provider = new OVPProvider({partnerId: partnerId}, playerVersion);
-    provider.getMediaConfig({entryId: '1_rwbj3j0a', ks: ks}).then(
+    provider.getMediaConfig({entryId: '1_rwbj3j0a', ts: ts}).then(
       mediaConfig => {
         try {
           const result = mediaConfig.sources.captions.filter(caption => {
-            const ksParam = caption.url.indexOf('?') === -1 ? 'ks/' : caption.url.indexOf('?ks') === -1 ? '&ks=' : '?ks=';
-            return caption.url.indexOf(ksParam + ks) !== -1;
+            const tsParam = caption.url.indexOf('?') === -1 ? 'ts/' : caption.url.indexOf('?ts') === -1 ? '&ts=' : '?ts=';
+            return caption.url.indexOf(tsParam + ts) !== -1;
           });
           result.should.deep.equal(mediaConfig.sources.captions);
           done();
@@ -937,7 +937,7 @@ describe('getPlaybackContext', () => {
     );
   });
 
-  it('should request entryId token {2:result:objects:0:id} in request with anonymous KS', done => {
+  it('should request entryId token {2:result:objects:0:id} in request with anonymous TS', done => {
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
         resolve({response: new MultiRequestResult(BE_DATA.AnonymousMocEntryWithoutUIConfNoDrmData.response)});
@@ -958,11 +958,11 @@ describe('getPlaybackContext', () => {
       });
   });
 
-  it('should not add KS to external captions', done => {
+  it('should not add TS to external captions', done => {
     sandbox = sinon.createSandbox();
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
-        resolve({response: new MultiRequestResult(BE_DATA.EntryExternalCaptionNoKS.response)});
+        resolve({response: new MultiRequestResult(BE_DATA.EntryExternalCaptionNoTS.response)});
       });
     });
     provider = new OVPProvider({partnerId: partnerId}, playerVersion);
@@ -970,8 +970,8 @@ describe('getPlaybackContext', () => {
       mediaConfig => {
         try {
           const result = mediaConfig.sources.captions.filter(caption => {
-            const ksParam = caption.url.indexOf('?') === -1 ? 'ks/' : caption.url.indexOf('?ks') === -1 ? '&ks=' : '?ks=';
-            return caption.url.indexOf(ksParam + ks) === -1;
+            const tsParam = caption.url.indexOf('?') === -1 ? 'ts/' : caption.url.indexOf('?ts') === -1 ? '&ts=' : '?ts=';
+            return caption.url.indexOf(tsParam + ts) === -1;
           });
           result.should.deep.equal(mediaConfig.sources.captions);
           done();
@@ -990,7 +990,7 @@ describe('doRequest', () => {
   let provider, params, sandbox;
   const partnerId = 1068292;
   const playerVersion = '1.2.3';
-  const ks =
+  const ts =
     'NDIxYjc3MmJhMmI1YTBhYTc1N2U2ODI0NjA4MWU0YzVhNGI3ZDQzM3wxMDY4MjkyOzEwNjgyOTI7MTYzOTM5NDk2OTsyOzE2MzkzMDg1NjkuOTg1NTtwaGlsbC5wcmljZUBkaXNuZXkuY29tOyosZGlzYWJsZWVudGl0bGVtZW50Ozs';
 
   beforeEach(() => {
@@ -999,7 +999,7 @@ describe('doRequest', () => {
       referenceId: '',
       entryId: '1_rwbj3j0a',
       redirectFromEntryId: true,
-      ks: ''
+      ts: ''
     };
   });
 
@@ -1008,7 +1008,7 @@ describe('doRequest', () => {
     MultiRequestBuilder.prototype.execute.restore();
   });
 
-  it('should add session request to the multirequest and use that KS', done => {
+  it('should add session request to the multirequest and use that TS', done => {
     sandbox = sinon.createSandbox();
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
@@ -1019,10 +1019,10 @@ describe('doRequest', () => {
       .doRequest([{loader: OVPMediaEntryLoader, params}])
       .then((data) => {
         data.has(OVPSessionLoader.id).should.be.true;
-        data.get(OVPSessionLoader.id).response.should.equal(ks);
+        data.get(OVPSessionLoader.id).response.should.equal(ts);
         provider.isAnonymous.should.be.true;
         const mediaLoader = data.get(OVPMediaEntryLoader.id);
-        mediaLoader._requests[1].params.ks.should.equal('{1:result:ks}');
+        mediaLoader._requests[1].params.ts.should.equal('{1:result:ts}');
         done();
       })
       .catch(err => {
@@ -1030,21 +1030,21 @@ describe('doRequest', () => {
       });
   });
 
-  it('should use KS from provider', done => {
+  it('should use TS from provider', done => {
     sandbox = sinon.createSandbox();
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
         resolve({response: {}});
       });
     });
-    params.ks = ks;
-    provider.ks = ks;
+    params.ts = ts;
+    provider.ts = ts;
     provider
       .doRequest([{loader: OVPMediaEntryLoader, params}])
       .then((data) => {
         data.has(OVPSessionLoader.id).should.be.false;
         const mediaLoader = data.get(OVPMediaEntryLoader.id);
-        mediaLoader._requests[0].params.ks.should.equal(provider.ks);
+        mediaLoader._requests[0].params.ts.should.equal(provider.ts);
         done();
       })
       .catch(err => {
@@ -1052,22 +1052,22 @@ describe('doRequest', () => {
       });
   });
 
-  it('should use external KS', done => {
+  it('should use external TS', done => {
     sandbox = sinon.createSandbox();
     sinon.stub(MultiRequestBuilder.prototype, 'execute').callsFake(function () {
       return new Promise(resolve => {
         resolve({response: {}});
       });
     });
-    params.ks = ks;
+    params.ts = ts;
     provider
-      .doRequest([{loader: OVPMediaEntryLoader, params}], ks)
+      .doRequest([{loader: OVPMediaEntryLoader, params}], ts)
       .then((data) => {
-        provider.ks.should.equal('');
+        provider.ts.should.equal('');
         data.has(OVPSessionLoader.id).should.be.false;
         provider.isAnonymous.should.be.true;
         const mediaLoader = data.get(OVPMediaEntryLoader.id);
-        mediaLoader._requests[0].params.ks.should.equal(ks);
+        mediaLoader._requests[0].params.ts.should.equal(ts);
         done();
       })
       .catch(err => {

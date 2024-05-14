@@ -1,4 +1,4 @@
-export class KalturaDrmPlaybackPluginData {
+export class TasvirchiDrmPlaybackPluginData {
   public static Scheme: {[scheme: string]: string} = {
     'drm.PLAYREADY_CENC': 'com.microsoft.playready',
     'drm.WIDEVINE_CENC': 'com.widevine.alpha',

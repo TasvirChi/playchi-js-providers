@@ -1,4 +1,4 @@
-export class KalturaPlaylist {
+export class TasvirchiPlaylist {
   /**
    * @member - playlist id
    * @type {string}

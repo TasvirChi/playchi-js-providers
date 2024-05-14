@@ -1,4 +1,4 @@
-export default class KalturaBumpersPlaybackPluginData {
+export default class TasvirchiBumpersPlaybackPluginData {
   public static StreamerType: {[type: string]: string} = {
     HLS: 'hls',
     DASH: 'dash',

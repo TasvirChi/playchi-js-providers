@@ -8,12 +8,12 @@ export default class OVPUIConfService extends OVPService {
    * Creates an instance of RequestBuilder for uiconf.get
    * @function get
    * @param {string} serviceUrl The service base URL
-   * @param {string} ks The ks
+   * @param {string} ts The ts
    * @param {string} uiConfId The uiConf ID
    * @returns {RequestBuilder} The request builder
    * @static
    */
-  public static get(serviceUrl: string, ks: string, uiConfId: number): RequestBuilder {
+  public static get(serviceUrl: string, ts: string, uiConfId: number): RequestBuilder {
     const headers: Map<string, string> = new Map();
     headers.set('Content-Type', 'application/json');
     const request = new RequestBuilder(headers);
@@ -26,7 +26,7 @@ export default class OVPUIConfService extends OVPService {
       fields: 'config',
       type: 1
     };
-    request.params = {id: uiConfId, responseProfile: responseProfileParams, ks: ks};
+    request.params = {id: uiConfId, responseProfile: responseProfileParams, ts: ts};
     return request;
   }
 }

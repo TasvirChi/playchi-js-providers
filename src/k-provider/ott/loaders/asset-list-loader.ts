@@ -1,7 +1,7 @@
 import RequestBuilder from '../../../util/request-builder';
 import OTTConfiguration from '../config';
 import OTTAssetService from '../services/asset-service';
-import KalturaAsset from '../response-types/kaltura-asset';
+import TasvirchiAsset from '../response-types/tasvirchi-asset';
 import {ILoader} from '../../../types';
 
 export default class OTTAssetListLoader implements ILoader {
@@ -32,7 +32,7 @@ export default class OTTAssetListLoader implements ILoader {
 
   public set response(response: any) {
     response.forEach(item => {
-      this._response.playlistItems.entries.push({mediaDataResult: new KalturaAsset(item.data)});
+      this._response.playlistItems.entries.push({mediaDataResult: new TasvirchiAsset(item.data)});
     });
   }
 
@@ -51,8 +51,8 @@ export default class OTTAssetListLoader implements ILoader {
     const config = OTTConfiguration.get();
     const requests: Array<RequestBuilder> = [];
     params.entries.forEach(entry => {
-      const assetReferenceType = entry.assetReferenceType || KalturaAsset.AssetReferenceType.MEDIA;
-      requests.push(OTTAssetService.get(config.serviceUrl, params.ks, entry.entryId || entry, assetReferenceType));
+      const assetReferenceType = entry.assetReferenceType || TasvirchiAsset.AssetReferenceType.MEDIA;
+      requests.push(OTTAssetService.get(config.serviceUrl, params.ts, entry.entryId || entry, assetReferenceType));
     });
     return requests;
   }

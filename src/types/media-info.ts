@@ -3,7 +3,7 @@ import {AdapterDataConfig} from './adapter-data-config';
 export type OVPProviderMediaInfoObject = {
   entryId?: string;
   referenceId?: string;
-  ks?: string;
+  ts?: string;
 };
 
 export type OTTProviderMediaInfoObject = OVPProviderMediaInfoObject & {

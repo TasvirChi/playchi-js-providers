@@ -30,11 +30,11 @@ export default class OTTSessionLoader implements ILoader {
   }
 
   public set response(response: any) {
-    this._response.ks = response[0].data.ks;
+    this._response.ts = response[0].data.ts;
   }
 
   public get response(): any {
-    return this._response.ks;
+    return this._response.ts;
   }
 
   /**

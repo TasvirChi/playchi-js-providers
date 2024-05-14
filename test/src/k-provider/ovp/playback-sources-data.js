@@ -1,13 +1,13 @@
-import {KalturaPlaybackSource} from '../../../../src/k-provider/ovp/response-types/kaltura-playback-source';
+import {TasvirchiPlaybackSource} from '../../../../src/k-provider/ovp/response-types/tasvirchi-playback-source';
 
-export const kalturaSourceProtocolMismatch = new KalturaPlaybackSource({
+export const tasvirchiSourceProtocolMismatch = new TasvirchiPlaybackSource({
   format: 'applehttp',
   deliveryProfileId: 12345,
   url: 'myUrl',
   protocols: 'http',
   flavorIds: '0_mw390bu0,0_bx6b5i2a,0_ao23nl3z,0_lwxuraqs'
 });
-export const kalturaSourceProtocolMismatchFlavorAssets = [
+export const tasvirchiSourceProtocolMismatchFlavorAssets = [
   {
     id: '0_mw390bu0',
     flavorParamsId: 487041,
@@ -69,7 +69,7 @@ export const kalturaSourceProtocolMismatchFlavorAssets = [
     language: 'Undefined'
   }
 ];
-export const kalturaDashSource = new KalturaPlaybackSource({
+export const tasvirchiDashSource = new TasvirchiPlaybackSource({
   format: 'mpegdash',
   deliveryProfileId: 911,
   url: 'myUrl',
@@ -77,7 +77,7 @@ export const kalturaDashSource = new KalturaPlaybackSource({
   flavorIds: '0_m131krws,0_5407xm9j,0_xcrwyk2n'
 });
 
-export const kalturaProgressiveSourceNotSecured = new KalturaPlaybackSource({
+export const tasvirchiProgressiveSourceNotSecured = new TasvirchiPlaybackSource({
   drm: [],
   format: 'url',
   deliveryProfileId: 19931,
@@ -86,7 +86,7 @@ export const kalturaProgressiveSourceNotSecured = new KalturaPlaybackSource({
   flavorIds: '0_5407xm9j'
 });
 
-export const kalturaProgressiveSourceSecured = new KalturaPlaybackSource({
+export const tasvirchiProgressiveSourceSecured = new TasvirchiPlaybackSource({
   drm: [],
   format: 'url',
   deliveryProfileId: 19951,
@@ -95,7 +95,7 @@ export const kalturaProgressiveSourceSecured = new KalturaPlaybackSource({
   flavorIds: '0_5407xm9j'
 });
 
-export const kalturaProgressiveMultiProtocol = new KalturaPlaybackSource({
+export const tasvirchiProgressiveMultiProtocol = new TasvirchiPlaybackSource({
   drm: [],
   format: 'url',
   deliveryProfileId: 19961,
@@ -104,7 +104,7 @@ export const kalturaProgressiveMultiProtocol = new KalturaPlaybackSource({
   flavorIds: '0_5407xm9j'
 });
 
-export const kalturaProgressiveSourceFlavorAssets = [
+export const tasvirchiProgressiveSourceFlavorAssets = [
   {
     id: '0_5407xm9j',
     flavorParamsId: 5,
@@ -122,7 +122,7 @@ export const kalturaProgressiveSourceFlavorAssets = [
   }
 ];
 
-export const kalturaDashSourceFlavorAssets = [
+export const tasvirchiDashSourceFlavorAssets = [
   {
     id: '0_ep7yqavp',
     flavorParamsId: 582941,

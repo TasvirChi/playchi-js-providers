@@ -1,4 +1,4 @@
-export class KalturaMetadata {
+export class TasvirchiMetadata {
   public static ObjectType: {[type: string]: string | number} = {
     AD_CUE_POINT: 'adCuePointMetadata.AdCuePoint',
     ANNOTATION: 'annotationMetadata.Annotation',

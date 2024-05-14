@@ -14,7 +14,7 @@ describe('handleRegexAction', ()=> {
   let mediaConfigForTest = {...mediaConfig};
 
   before(() => {
-    mediaEntryLoader = new OVPMediaEntryLoader({entryId: 'a', ks: 'a', redirectFromEntryId: true});
+    mediaEntryLoader = new OVPMediaEntryLoader({entryId: 'a', ts: 'a', redirectFromEntryId: true});
     mediaEntryLoader.response = responseDataFromBE;
     data.set('media', mediaEntryLoader);
   });

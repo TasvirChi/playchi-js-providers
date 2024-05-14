@@ -2,7 +2,7 @@ const mediaConfig = {
   session: {
     isAnonymous: false,
     partnerId: 2452771,
-    ks:
+    ts:
       'djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
   },
   sources: {
@@ -10,19 +10,19 @@ const mediaConfig = {
       {
         id: '1_5w23wdlc_13942,applehttp',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       },
       {
         id: '1_5w23wdlc_13952,applehttp',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       },
       {
         id: '1_5w23wdlc_21633,applehttp',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       }
     ],
@@ -30,13 +30,13 @@ const mediaConfig = {
       {
         id: '1_5w23wdlc_4662,mpegdash',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
         mimetype: 'application/dash+xml'
       },
       {
         id: '1_5w23wdlc_12972,mpegdash',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
         mimetype: 'application/dash+xml'
       }
     ],
@@ -44,7 +44,7 @@ const mediaConfig = {
       {
         id: '1_ww66hsaf5642,url',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ww66hsaf/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ww66hsaf/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 475136,
         width: 640,
@@ -54,7 +54,7 @@ const mediaConfig = {
       {
         id: '1_rrq1jzct5642,url',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rrq1jzct/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rrq1jzct/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 644096,
         width: 640,
@@ -64,7 +64,7 @@ const mediaConfig = {
       {
         id: '1_fspz1moi5642,url',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_fspz1moi/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_fspz1moi/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 886784,
         width: 640,
@@ -74,7 +74,7 @@ const mediaConfig = {
       {
         id: '1_ujuxekvc5642,url',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ujuxekvc/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ujuxekvc/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 1404928,
         width: 1280,
@@ -84,7 +84,7 @@ const mediaConfig = {
       {
         id: '1_82qidu4d5642,url',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_82qidu4d/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_82qidu4d/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 2379776,
         width: 1280,
@@ -94,7 +94,7 @@ const mediaConfig = {
       {
         id: '1_rul8tydo5642,url',
         url:
-          'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 3714048,
         width: 1920,
@@ -107,11 +107,11 @@ const mediaConfig = {
     id: '1_5w23wdlc',
     duration: 206,
     type: 'Vod',
-    poster: 'https://cfvod.kaltura.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
+    poster: 'https://cfvod.tasvirchi.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
     dvr: false,
     vr: null,
     metadata: {
-      name: 'Tips & Tricks for Better Videos - API Fallback',
+      name: 'Tips & Tricts for Better Videos - API Fallback',
       description: 'In this video we discuss how to wrap up your video with some simple post production tips.',
       tags:
         'data administration, accessibility, video, search marketing, caption complete, cameras, music, video tips, video solutions, metadata, data classification, national institute for health and care excellence, data structures, presentation applications, effects, training videos, keywords (marketing), video tutorials, artistic expressions and media, video training, video editing, software',
@@ -124,7 +124,7 @@ const mediaConfig = {
         language: 'en',
         label: 'English',
         url:
-          'https://cfvod.kaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt?ks=djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
+          'https://cfvod.tasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt?ts=djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
       }
     ]
   },
@@ -138,23 +138,23 @@ const responseDataFromBE = [
       objects: [
         {
           mediaType: 1,
-          dataUrl: 'https://cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/format/url/protocol/https',
+          dataUrl: 'https://cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/format/url/protocol/https',
           flavorParamsIds: '0,487041,487051,487061,487071,487081,487091',
           duration: 206,
           msDuration: 206000,
           id: '1_5w23wdlc',
-          name: 'Tips & Tricks for Better Videos - API Fallback',
+          name: 'Tips & Tricts for Better Videos - API Fallback',
           description: 'In this video we discuss how to wrap up your video with some simple post production tips.',
           tags:
             'data administration, accessibility, video, search marketing, caption complete, cameras, music, video tips, video solutions, metadata, data classification, national institute for health and care excellence, data structures, presentation applications, effects, training videos, keywords (marketing), video tutorials, artistic expressions and media, video training, video editing, software',
           status: 2,
           type: 1,
-          thumbnailUrl: 'https://cfvod.kaltura.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
-          objectType: 'KalturaMediaEntry'
+          thumbnailUrl: 'https://cfvod.tasvirchi.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
+          objectType: 'TasvirchiMediaEntry'
         }
       ],
       totalCount: 1,
-      objectType: 'KalturaBaseEntryListResponse'
+      objectType: 'TasvirchiBaseEntryListResponse'
     }
   },
   {
@@ -167,9 +167,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5642/protocol/https/format/url/name/a.mp4',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5642/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 3382,
@@ -177,9 +177,9 @@ const responseDataFromBE = [
           protocols: 'https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/3382/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/3382/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 4662,
@@ -187,9 +187,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/4662/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/4662/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 72,
@@ -197,9 +197,9 @@ const responseDataFromBE = [
           protocols: 'http',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'http://cdnapi.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/72/protocol/http/format/url/name/a.mp4',
+            'http://cdnapi.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/72/protocol/http/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 92,
@@ -207,9 +207,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/92/protocol/https/format/url/name/a.mp4',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/92/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 102,
@@ -217,9 +217,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/102/protocol/https/format/hdnetwork/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/102/protocol/https/format/hdnetwork/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 13942,
@@ -227,9 +227,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/13942/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/13942/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 122,
@@ -237,9 +237,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/122/protocol/https/format/rtsp/name/a.3gp',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/122/protocol/https/format/rtsp/name/a.3gp',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 13952,
@@ -247,9 +247,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/13952/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/13952/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 21633,
@@ -257,9 +257,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/21633/protocol/https/format/applehttp/a.m3u8',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/21633/protocol/https/format/applehttp/a.m3u8',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 132,
@@ -267,9 +267,9 @@ const responseDataFromBE = [
           protocols: 'http',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'http://cdnapi.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/132/protocol/http/format/hdnetworkmanifest/manifest.f4m',
+            'http://cdnapi.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/132/protocol/http/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 152,
@@ -277,9 +277,9 @@ const responseDataFromBE = [
           protocols: 'rtmp,rtmpe,rtmpt,rtmpte',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'http://cdnapi.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/152/protocol/http/format/rtmp/a.f4m',
+            'http://cdnapi.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/152/protocol/http/format/rtmp/a.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 162,
@@ -287,9 +287,9 @@ const responseDataFromBE = [
           protocols: 'rtmp,rtmpe,rtmpt,rtmpte',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'http://cdnapi.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/162/protocol/http/format/rtmp/a.f4m',
+            'http://cdnapi.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/162/protocol/http/format/rtmp/a.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 12972,
@@ -297,9 +297,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/12972/protocol/https/format/mpegdash/manifest.mpd',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/12972/protocol/https/format/mpegdash/manifest.mpd',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 5552,
@@ -307,9 +307,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5552/protocol/https/format/url/name/a.mp4',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5552/protocol/https/format/url/name/a.mp4',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 5612,
@@ -317,9 +317,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5612/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5612/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         },
         {
           deliveryProfileId: 5622,
@@ -327,9 +327,9 @@ const responseDataFromBE = [
           protocols: 'http,https',
           flavorIds: '1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo',
           url:
-            'https://cdnapisec.kaltura.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5622/protocol/https/format/hdnetworkmanifest/manifest.f4m',
+            'https://cdnapisec.tasvirchi.com/p/2452771/sp/2452771/playManifest/entryId/1_5w23wdlc/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/deliveryProfileId/5622/protocol/https/format/hdnetworkmanifest/manifest.f4m',
           drm: [],
-          objectType: 'KalturaPlaybackSource'
+          objectType: 'TasvirchiPlaybackSource'
         }
       ],
       playbackCaptions: [
@@ -338,11 +338,11 @@ const responseDataFromBE = [
           format: '2',
           language: 'English',
           webVttUrl:
-            'https://cfvod.kaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt',
-          url: 'https://cfvod.kaltura.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/1_6jfbcdz9/v/11',
+            'https://cfvod.tasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt',
+          url: 'https://cfvod.tasvirchi.com/api_v3/index.php/service/caption_captionAsset/action/serve/captionAssetId/1_6jfbcdz9/v/11',
           isDefault: true,
           languageCode: 'en',
-          objectType: 'KalturaCaptionPlaybackPluginData'
+          objectType: 'TasvirchiCaptionPlaybackPluginData'
         }
       ],
       flavorAssets: [
@@ -370,7 +370,7 @@ const responseDataFromBE = [
           updatedAt: 1543337882,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487051,
@@ -396,7 +396,7 @@ const responseDataFromBE = [
           updatedAt: 1543337882,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487061,
@@ -422,7 +422,7 @@ const responseDataFromBE = [
           updatedAt: 1543337882,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487071,
@@ -448,7 +448,7 @@ const responseDataFromBE = [
           updatedAt: 1543337882,
           description: '',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487081,
@@ -474,7 +474,7 @@ const responseDataFromBE = [
           updatedAt: 1543337883,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         },
         {
           flavorParamsId: 487091,
@@ -500,22 +500,22 @@ const responseDataFromBE = [
           updatedAt: 1543337883,
           description: 'audio warnings: 2106,#Redundant bitrate.\n',
           sizeInBytes: 0,
-          objectType: 'KalturaFlavorAsset'
+          objectType: 'TasvirchiFlavorAsset'
         }
       ],
       actions: [
         {
           pattern: '^(https?):\\/\\/([^\\/]+)(\\/)?',
-          replacement: '$1://kesdev2.ecdn.kaltura.io/kAPI/$2',
+          replacement: '$1://tesdev2.ecdn.tasvirchi.io/tAPI/$2',
           replacmenServerNodeId: 31042,
           checkAliveTimeoutMs: 3000,
           type: 7,
-          objectType: 'KalturaAccessControlModifyRequestHostRegexAction'
+          objectType: 'TasvirchiAccessControlModifyRequestHostRegexAction'
         }
       ],
       messages: [],
       bumperData: [],
-      objectType: 'KalturaPlaybackContext'
+      objectType: 'TasvirchiPlaybackContext'
     }
   },
   {
@@ -523,7 +523,7 @@ const responseDataFromBE = [
     data: {
       objects: [],
       totalCount: 0,
-      objectType: 'KalturaMetadataListResponse'
+      objectType: 'TasvirchiMetadataListResponse'
     }
   }
 ];
@@ -532,7 +532,7 @@ const finalMediaConfigAllSourcesModified = {
   session: {
     isAnonymous: false,
     partnerId: 2452771,
-    ks:
+    ts:
       'djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
   },
   sources: {
@@ -540,19 +540,19 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_5w23wdlc_13942,applehttp',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       },
       {
         id: '1_5w23wdlc_13952,applehttp',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       },
       {
         id: '1_5w23wdlc_21633,applehttp',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       }
     ],
@@ -560,13 +560,13 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_5w23wdlc_4662,mpegdash',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
         mimetype: 'application/dash+xml'
       },
       {
         id: '1_5w23wdlc_12972,mpegdash',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
         mimetype: 'application/dash+xml'
       }
     ],
@@ -574,7 +574,7 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_ww66hsaf5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ww66hsaf/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ww66hsaf/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 475136,
         width: 640,
@@ -584,7 +584,7 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_rrq1jzct5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rrq1jzct/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rrq1jzct/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 644096,
         width: 640,
@@ -594,7 +594,7 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_fspz1moi5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_fspz1moi/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_fspz1moi/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 886784,
         width: 640,
@@ -604,7 +604,7 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_ujuxekvc5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ujuxekvc/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ujuxekvc/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 1404928,
         width: 1280,
@@ -614,7 +614,7 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_82qidu4d5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_82qidu4d/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_82qidu4d/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 2379776,
         width: 1280,
@@ -624,7 +624,7 @@ const finalMediaConfigAllSourcesModified = {
       {
         id: '1_rul8tydo5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 3714048,
         width: 1920,
@@ -637,11 +637,11 @@ const finalMediaConfigAllSourcesModified = {
     id: '1_5w23wdlc',
     duration: 206,
     type: 'Vod',
-    poster: 'https://kesdev2.ecdn.kaltura.io/kAPI/cfvod.kaltura.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
+    poster: 'https://tesdev2.ecdn.tasvirchi.io/tAPI/cfvod.tasvirchi.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
     dvr: false,
     vr: null,
     metadata: {
-      name: 'Tips & Tricks for Better Videos - API Fallback',
+      name: 'Tips & Tricts for Better Videos - API Fallback',
       description: 'In this video we discuss how to wrap up your video with some simple post production tips.',
       tags:
         'data administration, accessibility, video, search marketing, caption complete, cameras, music, video tips, video solutions, metadata, data classification, national institute for health and care excellence, data structures, presentation applications, effects, training videos, keywords (marketing), video tutorials, artistic expressions and media, video training, video editing, software',
@@ -654,7 +654,7 @@ const finalMediaConfigAllSourcesModified = {
         language: 'en',
         label: 'English',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cfvod.kaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt?ks=djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cfvod.tasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt?ts=djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
       }
     ]
   },
@@ -665,7 +665,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
   session: {
     isAnonymous: false,
     partnerId: 2452771,
-    ks:
+    ts:
       'djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
   },
   sources: {
@@ -673,19 +673,19 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_5w23wdlc_13942,applehttp',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       },
       {
         id: '1_5w23wdlc_13952,applehttp',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       },
       {
         id: '1_5w23wdlc_21633,applehttp',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/applehttp/flavorIds/1_ww66hsaf,1_rrq1jzct,1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.m3u8',
         mimetype: 'application/x-mpegURL'
       }
     ],
@@ -693,13 +693,13 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_5w23wdlc_4662,mpegdash',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
         mimetype: 'application/dash+xml'
       },
       {
         id: '1_5w23wdlc_12972,mpegdash',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/mpegdash/flavorIds/1_fspz1moi,1_ujuxekvc,1_82qidu4d,1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mpd',
         mimetype: 'application/dash+xml'
       }
     ],
@@ -707,7 +707,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_ww66hsaf5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ww66hsaf/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ww66hsaf/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 475136,
         width: 640,
@@ -717,7 +717,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_rrq1jzct5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rrq1jzct/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rrq1jzct/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 644096,
         width: 640,
@@ -727,7 +727,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_fspz1moi5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_fspz1moi/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_fspz1moi/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 886784,
         width: 640,
@@ -737,7 +737,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_ujuxekvc5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ujuxekvc/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_ujuxekvc/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 1404928,
         width: 1280,
@@ -747,7 +747,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_82qidu4d5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_82qidu4d/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_82qidu4d/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 2379776,
         width: 1280,
@@ -757,7 +757,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
       {
         id: '1_rul8tydo5642,url',
         url:
-          'https://kesdev2.ecdn.kaltura.io/kAPI/cdnapisec.kaltura.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rul8tydo/ks/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
+          'https://tesdev2.ecdn.tasvirchi.io/tAPI/cdnapisec.tasvirchi.com/p/2452771/sp/245277100/playManifest/entryId/1_5w23wdlc/protocol/https/format/url/flavorIds/1_rul8tydo/ts/djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye/a.mp4',
         mimetype: 'video/mp4',
         bandwidth: 3714048,
         width: 1920,
@@ -770,11 +770,11 @@ const finalMediaConfigPlayManifestSourcesModified = {
     id: '1_5w23wdlc',
     duration: 206,
     type: 'Vod',
-    poster: 'https://cfvod.kaltura.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
+    poster: 'https://cfvod.tasvirchi.com/p/2452771/sp/245277100/thumbnail/entry_id/1_5w23wdlc/version/100011',
     dvr: false,
     vr: null,
     metadata: {
-      name: 'Tips & Tricks for Better Videos - API Fallback',
+      name: 'Tips & Tricts for Better Videos - API Fallback',
       description: 'In this video we discuss how to wrap up your video with some simple post production tips.',
       tags:
         'data administration, accessibility, video, search marketing, caption complete, cameras, music, video tips, video solutions, metadata, data classification, national institute for health and care excellence, data structures, presentation applications, effects, training videos, keywords (marketing), video tutorials, artistic expressions and media, video training, video editing, software',
@@ -787,7 +787,7 @@ const finalMediaConfigPlayManifestSourcesModified = {
         language: 'en',
         label: 'English',
         url:
-          'https://cfvod.kaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt?ks=djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
+          'https://cfvod.tasvirchi.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_6jfbcdz9/segmentIndex/-1/version/11/captions.vtt?ts=djJ8MjQ1Mjc3MXyhyOLSgHHw2TboKYTpuv4_GBK5Gb6ZgvSVdp9-NmPMXqVHgjKMWt18mqV5Uf5L4-zZyvLaFn-4WLcHnP-jmCF9X0Ak9sQlBRYLRXGigdGfgsdJgwWWrbcDtUe848Zpm-9Rw8qWgaNXh_rvhKQvy1Ye'
       }
     ]
   },
