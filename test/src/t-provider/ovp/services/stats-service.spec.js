@@ -1,6 +1,6 @@
-import OVPStatsService from '../../../../../src/k-provider/ovp/services/stats/stats-service';
+import OVPStatsService from '../../../../../src/t-provider/ovp/services/stats/stats-service';
 import RequestBuilder from '../../../../../src/util/request-builder';
-import OVPConfiguration from '../../../../../src/k-provider/ovp/config';
+import OVPConfiguration from '../../../../../src/t-provider/ovp/config';
 import {param} from '../../../../../src/util/param';
 
 describe('stats service - collect', function () {

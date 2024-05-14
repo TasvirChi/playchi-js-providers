@@ -1,6 +1,6 @@
-import OTTBookmarkService from '../../../../../src/k-provider/ott/services/bookmark/bookmark-service';
+import OTTBookmarkService from '../../../../../src/t-provider/ott/services/bookmark/bookmark-service';
 import RequestBuilder from '../../../../../src/util/request-builder';
-import OTTConfiguration from '../../../../../src/k-provider/ott/config';
+import OTTConfiguration from '../../../../../src/t-provider/ott/config';
 
 describe('bookmark service - add', function () {
   const ottParams = OTTConfiguration.get();

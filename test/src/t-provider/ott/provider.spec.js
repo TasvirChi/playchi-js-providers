@@ -1,13 +1,13 @@
-import OTTProvider from '../../../../src/k-provider/ott/provider';
+import OTTProvider from '../../../../src/t-provider/ott/provider';
 import * as BE_DATA from './be-data';
 import * as MEDIA_CONFIG_DATA from './media-config-data';
-import {MultiRequestResult} from '../../../../src/k-provider/common/multi-request-builder';
-import MultiRequestBuilder from '../../../../src/k-provider/common/multi-request-builder';
-import TasvirchiAsset from '../../../../src/k-provider/ott/response-types/tasvirchi-asset';
-import TasvirchiPlaybackContext from '../../../../src/k-provider/ott/response-types/tasvirchi-playback-context';
-import OTTAssetLoader from '../../../../src/k-provider/ott/loaders/asset-loader';
+import {MultiRequestResult} from '../../../../src/t-provider/common/multi-request-builder';
+import MultiRequestBuilder from '../../../../src/t-provider/common/multi-request-builder';
+import TasvirchiAsset from '../../../../src/t-provider/ott/response-types/tasvirchi-asset';
+import TasvirchiPlaybackContext from '../../../../src/t-provider/ott/response-types/tasvirchi-playback-context';
+import OTTAssetLoader from '../../../../src/t-provider/ott/loaders/asset-loader';
 import Error from '../../../../src/util/error/error';
-import OTTConfiguration from '../../../../src/k-provider/ott/config';
+import OTTConfiguration from '../../../../src/t-provider/ott/config';
 
 const partnerId = 198;
 const playerVersion = '1.2.3';

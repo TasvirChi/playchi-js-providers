@@ -1,4 +1,4 @@
-import TasvirchiAsset from '../../../../src/k-provider/ott/response-types/tasvirchi-asset';
+import TasvirchiAsset from '../../../../src/t-provider/ott/response-types/tasvirchi-asset';
 
 const mediaTypeConf = TasvirchiAsset.Type.MEDIA;
 

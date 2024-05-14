@@ -1,4 +1,4 @@
-import OTTProviderParser from '../../../../src/k-provider/ott/provider-parser';
+import OTTProviderParser from '../../../../src/t-provider/ott/provider-parser';
 import {MediaLiveAssetData} from './be-data';
 
 describe('provider parser', function () {

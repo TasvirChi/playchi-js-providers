@@ -1,12 +1,12 @@
-import OVPProvider from '../../../../src/k-provider/ovp/provider';
+import OVPProvider from '../../../../src/t-provider/ovp/provider';
 import * as BE_DATA from './be-data';
 import * as MEDIA_CONFIG_DATA from './media-config-data';
-import {MultiRequestResult} from '../../../../src/k-provider/common/multi-request-builder';
-import MultiRequestBuilder from '../../../../src/k-provider/common/multi-request-builder';
+import {MultiRequestResult} from '../../../../src/t-provider/common/multi-request-builder';
+import MultiRequestBuilder from '../../../../src/t-provider/common/multi-request-builder';
 import Error from '../../../../src/util/error/error';
-import OVPConfiguration from '../../../../src/k-provider/ovp/config';
-import OVPMediaEntryLoader from '../../../../src/k-provider/ovp/loaders/media-entry-loader';
-import OVPSessionLoader from '../../../../src/k-provider/ovp/loaders/session-loader';
+import OVPConfiguration from '../../../../src/t-provider/ovp/config';
+import OVPMediaEntryLoader from '../../../../src/t-provider/ovp/loaders/media-entry-loader';
+import OVPSessionLoader from '../../../../src/t-provider/ovp/loaders/session-loader';
 
 describe('default configuration', () => {
   const partnerId = 1082342;

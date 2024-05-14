@@ -12,11 +12,11 @@ const plugins = [
 module.exports = (env, {mode}) => {
   return {
     entry: {
-      ovp: './src/k-provider/ovp/index.ts',
-      ott: './src/k-provider/ott/index.ts',
-      analytics: './src/k-provider/ovp/services/analytics/index.ts',
-      bookmark: './src/k-provider/ott/services/bookmark/index.ts',
-      stats: './src/k-provider/ovp/services/stats/index.ts'
+      ovp: './src/t-provider/ovp/index.ts',
+      ott: './src/t-provider/ott/index.ts',
+      analytics: './src/t-provider/ovp/services/analytics/index.ts',
+      bookmark: './src/t-provider/ott/services/bookmark/index.ts',
+      stats: './src/t-provider/ovp/services/stats/index.ts'
     },
     output: {
       path: path.resolve(__dirname, 'dist'),

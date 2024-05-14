@@ -4,9 +4,9 @@ import {
   mediaConfig,
   responseDataFromBE
 } from './regex-action-handler-data';
-import RegexActionHandler from '../../../../src/k-provider/ovp/regex-action-handler';
-import OVPMediaEntryLoader from '../../../../src/k-provider/ovp/loaders/media-entry-loader';
-import OVPConfiguration from '../../../../src/k-provider/ovp/config';
+import RegexActionHandler from '../../../../src/t-provider/ovp/regex-action-handler';
+import OVPMediaEntryLoader from '../../../../src/t-provider/ovp/loaders/media-entry-loader';
+import OVPConfiguration from '../../../../src/t-provider/ovp/config';
 
 describe('handleRegexAction', ()=> {
   const data = new Map();

@@ -1,5 +1,5 @@
-import OVPProviderParser from '../../../../src/k-provider/ovp/provider-parser';
-import {TasvirchiPlaybackContext} from '../../../../src/k-provider/ovp/response-types/tasvirchi-playback-context';
+import OVPProviderParser from '../../../../src/t-provider/ovp/provider-parser';
+import {TasvirchiPlaybackContext} from '../../../../src/t-provider/ovp/response-types/tasvirchi-playback-context';
 import {
   tasvirchiDashSource,
   tasvirchiProgressiveSourceNotSecured,

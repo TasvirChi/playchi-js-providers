@@ -1,4 +1,4 @@
-import {TasvirchiPlaybackSource} from '../../../../src/k-provider/ovp/response-types/tasvirchi-playback-source';
+import {TasvirchiPlaybackSource} from '../../../../src/t-provider/ovp/response-types/tasvirchi-playback-source';
 
 export const tasvirchiSourceProtocolMismatch = new TasvirchiPlaybackSource({
   format: 'applehttp',
